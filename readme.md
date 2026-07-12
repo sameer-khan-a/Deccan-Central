@@ -98,31 +98,31 @@ npm run build
 
 ### 🏠 Home
 
-![](./screenshots/home.png)
+![](./public/home.png)
 
 ---
 
 ### 🏛️ State Page
 
-![](./screenshots/state.png)
+![](./public/state.png)
 
 ---
 
 ### 🕰️ Historical Timeline
 
-![](./screenshots/timeline.png)
+![](./public/timeline.png)
 
 ---
 
 ### 🔍 Smart Search
 
-![](./screenshots/search.png)
+![](./public/smart-search.png)
 
 ---
 
 ### 🖼️ Gallery
 
-![](./screenshots/gallery.png)
+![](./public/gallery.png)
 
 ---
 
