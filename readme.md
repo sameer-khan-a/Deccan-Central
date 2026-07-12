@@ -3,7 +3,7 @@
 > An immersive platform exploring the history, architecture, culture, wildlife, cuisine, and living heritage of South India.
 
 <p align="center">
-  <img src="./screenshots/home.png" alt="Deccan Central Hero">
+  <img src="./home.png" alt="Deccan Central Hero">
 </p>
 
 ---
