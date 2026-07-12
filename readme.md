@@ -3,16 +3,16 @@
 > An immersive platform exploring the history, architecture, culture, wildlife, cuisine, and living heritage of South India.
 
 <p align="center">
-  <img src="./screenshots/home.png" alt="Deccan Central Hero" width="100%">
+  <img src="./screenshots/home.png" alt="Deccan Central Hero">
 </p>
 
 ---
 
 ## 🏛️ Overview
 
-Deccan Central is a cinematic web application built to document and celebrate the rich heritage of South India. Rather than functioning as a travel guide, it presents the Deccan as a living civilization through immersive storytelling, historical timelines, curated galleries, and modern web experiences.
+Deccan Central is a cinematic web application built to document and celebrate the rich heritage of South India. Rather than functioning as a travel guide, it presents the Deccan as a living civilization through immersive storytelling, historical timelines, curated galleries, and interactive experiences.
 
-The platform brings together the history, architecture, wildlife, cuisine, kingdoms, monuments, and cultural traditions of **Karnataka, Kerala, Tamil Nadu, Telangana, and Andhra Pradesh** in one unified experience.
+The platform brings together the history, architecture, wildlife, cuisine, kingdoms, monuments, and cultural traditions of **Karnataka, Kerala, Tamil Nadu, Telangana, and Andhra Pradesh** into a single modern web experience.
 
 ---
 
@@ -26,8 +26,8 @@ The platform brings together the history, architecture, wildlife, cuisine, kingd
 - 🍛 Regional cuisine and traditions
 - 🖼️ Curated image galleries
 - 🔍 Smart search across states and categories
-- 📱 Fully responsive experience
-- 🎬 Smooth animations and immersive UI
+- 📱 Fully responsive design
+- 🎨 Cinematic UI powered by React Bits and Motion
 
 ---
 
@@ -38,6 +38,7 @@ The platform brings together the history, architecture, wildlife, cuisine, kingd
 | Frontend | React, Vite |
 | Routing | React Router |
 | Styling | CSS3 |
+| UI Components | React Bits |
 | Animation | Motion |
 | Icons | Lucide React |
 | Language | JavaScript (ES6+) |
@@ -52,39 +53,40 @@ src
 ├── components
 ├── data
 ├── pages
-├── styles
-└── App.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
 ```
 
 ---
 
 ## ⚡ Getting Started
 
-Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/sameer-khan-a/Deccan-Central.git
 ```
 
-Move into the project
+### Navigate into the project
 
 ```bash
 cd Deccan-Central
 ```
 
-Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-Start the development server
+### Start the development server
 
 ```bash
 npm run dev
 ```
 
-Create a production build
+### Build for production
 
 ```bash
 npm run build
@@ -94,25 +96,31 @@ npm run build
 
 ## 📸 Screenshots
 
-### Home
+### 🏠 Home
 
 ![](./screenshots/home.png)
 
 ---
 
-### State Page
+### 🏛️ State Page
 
 ![](./screenshots/state.png)
 
 ---
 
-### Historical Timeline
+### 🕰️ Historical Timeline
 
 ![](./screenshots/timeline.png)
 
 ---
 
-### Gallery
+### 🔍 Smart Search
+
+![](./screenshots/search.png)
+
+---
+
+### 🖼️ Gallery
 
 ![](./screenshots/gallery.png)
 
@@ -124,7 +132,7 @@ npm run build
 - [x] State pages
 - [x] Category pages
 - [x] Responsive design
-- [x] Search functionality
+- [x] Smart search
 - [ ] Live deployment
 - [ ] Interactive heritage maps
 - [ ] Personalized bookmarks
@@ -135,20 +143,20 @@ npm run build
 
 ## 💡 Why Deccan Central?
 
-Most websites focus primarily on tourism.
+While many platforms focus primarily on tourism, **Deccan Central** explores South India through its history, architecture, kingdoms, wildlife, cuisine, and cultural evolution.
 
-Deccan Central takes a broader approach by presenting South India through its history, architecture, wildlife, kingdoms, cuisine, and cultural evolution. The goal is to create a modern digital archive that encourages exploration, learning, and appreciation of one of the world's richest civilizations.
+The goal is to create a modern digital archive that encourages exploration, learning, and appreciation of one of the world's richest and most diverse civilizations.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, suggestions, and improvements are always welcome.
+Contributions, suggestions, and improvements are welcome.
 
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Open a Pull Request
+1. Fork the repository.
+2. Create a new feature branch.
+3. Commit your changes.
+4. Open a Pull Request.
 
 ---
 
@@ -162,4 +170,4 @@ This project is licensed under the **MIT License**.
 
 **Sameer Khan**
 
-If you enjoyed this project, consider giving it a ⭐ to support its development.
+If you found this project interesting, consider giving it a ⭐ to support its development.
