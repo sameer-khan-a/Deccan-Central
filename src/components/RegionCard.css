@@ -1,0 +1,135 @@
+.region-card {
+  position: relative;
+
+  height: 620px;
+
+  border-radius: 28px;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+
+  cursor: pointer;
+
+  transition: transform 0.4s ease;
+
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.region-card::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.95) 0%,
+    rgba(0, 0, 0, 0.65) 40%,
+    rgba(0, 0, 0, 0.15) 100%
+  );
+
+  z-index: 1;
+
+  transition: 0.4s ease;
+}
+
+.region-card:hover {
+  transform: translateY(-8px);
+}
+
+.region-card:hover::before {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.55) 40%,
+    rgba(0, 0, 0, 0.05) 100%
+  );
+}
+
+.region-overlay {
+  position: relative;
+  z-index: 2;
+
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 2rem;
+}
+
+.region-badge {
+  display: inline-block;
+
+  width: fit-content;
+
+  padding: 8px 14px;
+
+  border-radius: 999px;
+
+  backdrop-filter: blur(12px);
+
+  background: rgba(255, 255, 255, 0.15);
+
+  color: white;
+
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  letter-spacing: 1px;
+}
+
+.region-content h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+
+  color: white;
+
+  margin-bottom: 1rem;
+}
+
+.region-content p {
+  color: rgba(255, 255, 255, 0.85);
+
+  font-size: 1rem;
+
+  line-height: 1.7;
+
+  max-width: 320px;
+
+  margin-bottom: 1.5rem;
+}
+
+.region-link {
+  color: #fbbf24;
+
+  font-weight: 700;
+
+  font-size: 1rem;
+
+  transition: transform 0.3s ease;
+}
+
+.region-card:hover .region-link {
+  transform: translateX(6px);
+}
+@media (max-width: 768px) {
+  .region-card {
+    min-height: 550px;
+  }
+
+  .region-overlay {
+    padding: 2rem;
+  }
+
+  .region-content h2 {
+    font-size: 2.8rem;
+  }
+
+  .region-content p {
+    max-width: 100%;
+  }
+}

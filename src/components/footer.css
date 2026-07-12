@@ -1,0 +1,372 @@
+.footer{
+    position:relative;
+
+    overflow:hidden;
+
+    padding:5rem 8% 2rem;
+
+    background:#06090f;
+
+    border-top:1px solid rgba(255,255,255,.06);
+}
+
+.footer::before{
+    content:"";
+
+    position:absolute;
+    inset:0;
+
+    pointer-events:none;
+
+    background:
+    radial-gradient(
+        circle at top,
+        rgba(212,160,23,.06),
+        transparent 70%
+    );
+}
+
+.footer-container{
+    position:relative;
+    z-index:2;
+
+    width:min(1300px,100%);
+    margin:auto;
+}
+
+/* ==========================
+        Back To Top
+========================== */
+
+.back-to-top{
+    display:inline-flex;
+    align-items:center;
+    gap:.35rem;
+
+    padding:0;
+
+    border:none;
+    background:none;
+
+    color:rgba(255,255,255,.75);
+
+    font:inherit;
+    font-size:.95rem;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:
+        color .25s ease,
+        transform .25s ease;
+}
+
+.back-to-top::before{
+    content:"↑";
+
+    font-size:1rem;
+
+    transition:transform .25s ease;
+}
+
+.back-to-top:hover{
+    color:#d4a017;
+}
+
+.back-to-top:hover::before{
+    transform:translateY(-4px);
+}
+
+/* ==========================
+        Main
+========================== */
+
+.footer-main{
+    display:grid;
+
+    grid-template-columns:1.7fr 1fr;
+
+    gap:5rem;
+
+    align-items:start;
+
+    padding-bottom:4rem;
+}
+
+.footer-brand{
+    max-width:560px;
+}
+
+.footer-tag{
+    margin-bottom:1rem;
+
+    color:#d4a017;
+
+    font-size:.8rem;
+    font-weight:600;
+
+    letter-spacing:5px;
+}
+
+.footer-logo{
+    font-size:clamp(2.4rem,5vw,4rem);
+
+    font-weight:800;
+
+    line-height:1;
+
+    color:#fff;
+}
+
+.footer-logo span{
+    color:#d4a017;
+}
+
+.footer-description{
+    max-width:520px;
+
+    margin-top:1.6rem;
+
+    color:#9ca3af;
+
+    line-height:1.9;
+}
+
+/* ==========================
+        Navigation
+========================== */
+
+.footer-nav{
+    display:grid;
+
+    grid-template-columns:repeat(2,minmax(150px,1fr));
+
+    gap:3rem;
+}
+
+.footer-column h3{
+    margin-bottom:1.4rem;
+
+    color:#fff;
+
+    font-size:1.05rem;
+}
+
+.footer-column a{
+    display:block;
+
+    width:fit-content;
+
+    margin-bottom:.9rem;
+
+    color:#9ca3af;
+
+    text-decoration:none;
+
+    transition:
+        color .25s ease,
+        transform .25s ease;
+}
+
+.footer-column a:hover{
+    color:#fff;
+
+    transform:translateX(5px);
+}
+
+/* ==========================
+        Divider
+========================== */
+
+.footer-line{
+    height:1px;
+
+    background:rgba(255,255,255,.08);
+}
+
+/* ==========================
+        Bottom
+========================== */
+
+.footer-bottom{
+    display:flex;
+
+    justify-content:space-between;
+    align-items:center;
+
+    gap:2rem;
+
+    padding-top:2rem;
+}
+
+.footer-bottom p{
+    color:#6b7280;
+
+    font-size:.9rem;
+}
+
+.footer-bottom-links{
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:1.75rem;
+}
+
+.footer-bottom-links a{
+    color:#6b7280;
+
+    text-decoration:none;
+
+    transition:color .25s ease;
+}
+
+.footer-bottom-links a:hover{
+    color:#fff;
+}
+
+/* ==========================
+        Large Tablets
+========================== */
+
+@media (max-width:1024px){
+
+    .footer{
+        padding:4.5rem 5% 2rem;
+    }
+
+    .footer-main{
+        gap:3.5rem;
+
+        grid-template-columns:1.3fr 1fr;
+    }
+
+}
+
+/* ==========================
+        Tablets
+========================== */
+
+@media (max-width:900px){
+
+    .footer{
+        padding:4rem 5% 2rem;
+    }
+
+    .footer-main{
+        grid-template-columns:1fr;
+
+        gap:3rem;
+    }
+
+    .footer-brand{
+        max-width:100%;
+
+        text-align:center;
+    }
+
+    .footer-description{
+        margin-inline:auto;
+    }
+
+    .footer-nav{
+        justify-content:center;
+
+        grid-template-columns:repeat(2,220px);
+
+        text-align:center;
+    }
+
+    .footer-column a{
+        width:100%;
+    }
+
+    .footer-column a:hover{
+        transform:none;
+    }
+
+    .footer-bottom{
+        flex-direction:column;
+
+        text-align:center;
+
+        gap:1.4rem;
+    }
+
+    .footer-bottom-links{
+        justify-content:center;
+    }
+
+}
+
+/* ==========================
+        Mobile
+========================== */
+
+@media (max-width:600px){
+
+    .footer{
+        padding:3.2rem 1.5rem 2rem;
+    }
+
+    .footer-tag{
+        letter-spacing:3px;
+
+        font-size:.75rem;
+    }
+
+    .footer-logo{
+        font-size:2.2rem;
+    }
+
+    .footer-description{
+        font-size:.95rem;
+
+        line-height:1.8;
+    }
+
+    .footer-nav{
+        grid-template-columns:1fr;
+
+        gap:2rem;
+    }
+
+    .footer-column{
+        text-align:center;
+    }
+
+    .footer-bottom-links{
+        gap:1.25rem;
+    }
+
+}
+
+/* ==========================
+        Small Phones
+========================== */
+
+@media (max-width:420px){
+
+    .footer{
+        padding:3rem 1.2rem 1.8rem;
+    }
+
+    .footer-logo{
+        font-size:2rem;
+    }
+
+    .footer-description{
+        font-size:.9rem;
+    }
+
+    .footer-bottom p{
+        font-size:.82rem;
+    }
+
+    .footer-bottom-links{
+        flex-direction:column;
+
+        gap:.8rem;
+    }
+
+}

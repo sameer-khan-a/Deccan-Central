@@ -1,0 +1,314 @@
+/* ==========================
+   CONTAINER
+========================== */
+
+.outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.step-circle-container {
+  width: 100%;
+  max-width: 980px;
+
+  border-radius: 28px;
+
+  background: rgba(255,255,255,.035);
+
+  border: 1px solid rgba(255,255,255,.08);
+
+  backdrop-filter: blur(18px);
+
+  box-shadow:
+    0 30px 80px rgba(0,0,0,.35);
+
+  overflow: hidden;
+}
+
+/* ==========================
+   HEADER
+========================== */
+
+.step-indicator-row {
+  display: flex;
+  align-items: center;
+
+  padding: 2.5rem;
+}
+
+/* ==========================
+   CONTENT
+========================== */
+
+.step-content-default {
+  position: relative;
+  overflow: hidden;
+}
+
+.step-default {
+  padding: 0 2.5rem;
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+.footer-container {
+  padding: 2rem 2.5rem 2.5rem;
+}
+
+.footer-nav {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.footer-nav.spread {
+  justify-content: space-between;
+}
+
+.footer-nav.end {
+  justify-content: flex-end;
+}
+
+/* ==========================
+   BUTTONS
+========================== */
+
+.back-button {
+  padding: .9rem 1.8rem;
+
+  border-radius: 999px;
+
+  border: 1px solid rgba(255,255,255,.08);
+
+  background: rgba(255,255,255,.04);
+
+  color: #d8d8d8;
+
+  font-weight: 600;
+
+  transition: .35s;
+
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background: rgba(255,255,255,.08);
+  border-color: rgba(212,160,23,.35);
+}
+
+.back-button.inactive {
+  opacity: .35;
+  pointer-events: none;
+}
+
+.next-button {
+  padding: .9rem 2rem;
+
+  border-radius: 999px;
+
+  border: none;
+
+  background: linear-gradient(
+    135deg,
+    #d4a017,
+    #e7bc43
+  );
+
+  color: #0b0f19;
+
+  font-weight: 700;
+
+  transition:
+    transform .3s,
+    box-shadow .3s,
+    filter .3s;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 10px 25px rgba(212,160,23,.25);
+}
+
+.next-button:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 18px 40px rgba(212,160,23,.4);
+
+  filter: brightness(1.05);
+}
+
+.next-button:active {
+  transform: translateY(0);
+}
+
+/* ==========================
+   STEP INDICATORS
+========================== */
+
+.step-indicator {
+  position: relative;
+  cursor: pointer;
+}
+
+.step-indicator-inner {
+  display: flex;
+
+  width: 58px;
+  height: 58px;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: rgba(255,255,255,.04);
+
+  border: 2px solid rgba(255,255,255,.08);
+
+  color: #d5d5d5;
+
+  font-weight: 700;
+
+  transition: .35s;
+}
+
+.step-indicator:hover .step-indicator-inner {
+  border-color: rgba(212,160,23,.45);
+
+  transform: scale(1.05);
+}
+
+/* Active */
+
+.step-indicator.active .step-indicator-inner {
+  background: #d4a017;
+
+  color: #0b0f19;
+
+  border-color: #d4a017;
+
+  box-shadow:
+    0 0 25px rgba(212,160,23,.4);
+}
+
+/* Completed */
+
+.step-indicator.completed .step-indicator-inner {
+  background: rgba(212,160,23,.18);
+
+  border-color: rgba(212,160,23,.45);
+
+  color: #d4a017;
+}
+
+/* ==========================
+   ACTIVE DOT
+========================== */
+
+.active-dot {
+  width: 12px;
+  height: 12px;
+
+  border-radius: 50%;
+
+  background: #0b0f19;
+}
+
+/* ==========================
+   STEP NUMBER
+========================== */
+
+.step-number {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* ==========================
+   CONNECTOR
+========================== */
+
+.step-connector {
+  position: relative;
+
+  flex: 1;
+
+  height: 4px;
+
+  margin: 0 1rem;
+
+  border-radius: 999px;
+
+  overflow: hidden;
+
+  background: rgba(255,255,255,.08);
+}
+
+.step-connector-inner {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    to right,
+    #d4a017,
+    #f0cf62
+  );
+}
+
+/* ==========================
+   CHECK ICON
+========================== */
+
+.check-icon {
+  width: 18px;
+  height: 18px;
+
+  color: #d4a017;
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:768px){
+
+  .step-indicator-row{
+    padding:2rem 1.5rem;
+  }
+
+  .step-default{
+    padding:0 1.5rem;
+  }
+
+  .footer-container{
+    padding:1.5rem;
+  }
+
+  .step-indicator-inner{
+    width:46px;
+    height:46px;
+  }
+
+}
+
+@media(max-width:520px){
+
+  .step-indicator-row{
+    gap:.35rem;
+  }
+
+  .step-indicator-inner{
+    width:38px;
+    height:38px;
+  }
+
+  .step-number{
+    font-size:.9rem;
+  }
+
+}

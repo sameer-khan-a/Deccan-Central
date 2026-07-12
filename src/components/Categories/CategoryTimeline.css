@@ -1,0 +1,247 @@
+.timeline-section{
+    background:#0f1624;
+    color:#fff;
+    padding:5rem 6%;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.timeline-header{
+    max-width:1400px;
+    width:100%;
+    margin:0 auto 2.5rem;
+}
+
+.timeline-tag{
+    display:inline-block;
+    color:#d4a017;
+    text-transform:uppercase;
+    letter-spacing:4px;
+    font-size:.8rem;
+    font-weight:700;
+    margin-bottom:.8rem;
+}
+
+.timeline-header h2{
+    color:#fff;
+    font-size:clamp(2.7rem,4.5vw,4.6rem);
+    line-height:1.05;
+    font-weight:800;
+}
+
+.timeline-stage{
+    width:min(1200px,100%);
+    margin:auto;
+    background:#1b263e80;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:28px;
+    overflow:hidden;
+    box-shadow:0 24px 70px rgba(0,0,0,.35);
+
+    /* keeps the card from growing/shrinking */
+    height:800px;
+
+    display:flex;
+    flex-direction:column;
+}
+
+.timeline-content{
+    flex:1;
+
+    display:grid;
+    grid-template-columns:380px 1fr;
+    gap:3rem;
+    align-items:center;
+
+    padding:2.5rem 3rem;
+}
+
+.timeline-left{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.timeline-image{
+    width:100%;
+    max-width:380px;
+    aspect-ratio:4/3;
+    object-fit:cover;
+    border-radius:20px;
+    display:block;
+    box-shadow:0 18px 45px rgba(0,0,0,.4);
+}
+
+.timeline-right{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height:100%;
+}
+
+.timeline-year{
+    font-size:clamp(3.2rem,6vw,5.3rem);
+    color:#d4a017;
+    font-weight:800;
+    line-height:1;
+    margin-bottom:.6rem;
+}
+
+.timeline-right h3{
+    color:#fff;
+    font-size:clamp(2rem,3vw,3.2rem);
+    line-height:1.08;
+    margin-bottom:.9rem;
+}
+
+.timeline-right p{
+    color:#d1d5db;
+    font-size:1rem;
+    line-height:1.8;
+    max-width:60ch;
+
+    /* prevents text from making the card taller */
+    min-height:145px;
+}
+
+.timeline-location{
+    display:flex;
+    gap:.5rem;
+    align-items:center;
+    margin-top:1.25rem;
+    color:#d4a017;
+    font-weight:500;
+}
+
+.timeline-filmstrip{
+    padding:1.8rem 3rem;
+    border-top:1px solid rgba(255,255,255,.08);
+}
+
+.timeline-slider{
+    width:100%;
+    height:6px;
+    appearance:none;
+    -webkit-appearance:none;
+    border-radius:999px;
+    outline:none;
+    cursor:pointer;
+    background:#2c3748;
+}
+
+.timeline-slider::-webkit-slider-runnable-track{
+    height:6px;
+    border-radius:999px;
+    background:transparent;
+}
+
+.timeline-slider::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    appearance:none;
+    width:18px;
+    height:18px;
+    margin-top:-6px;
+    border-radius:50%;
+    background:#d4a017;
+    border:3px solid #fff;
+    box-shadow:0 0 18px rgba(212,160,23,.5);
+    cursor:pointer;
+}
+
+.timeline-slider::-moz-range-track{
+    height:6px;
+    background:transparent;
+}
+
+.timeline-slider::-moz-range-thumb{
+    width:18px;
+    height:18px;
+    border:none;
+    border-radius:50%;
+    background:#d4a017;
+    box-shadow:0 0 18px rgba(212,160,23,.5);
+    cursor:pointer;
+}
+
+.timeline-years{
+    display:flex;
+    justify-content:space-between;
+    gap:.5rem;
+    margin-top:1rem;
+}
+
+.timeline-year-label{
+    flex:1;
+    background:none;
+    border:none;
+    color:#94a3b8;
+    padding:.35rem 0;
+    cursor:pointer;
+    transition:.25s;
+    font-size:.92rem;
+}
+
+.timeline-year-label:hover{
+    color:#fff;
+}
+
+.timeline-year-label.active{
+    color:#d4a017;
+    font-weight:700;
+}
+
+@media(max-width:1000px){
+
+.timeline-section{
+    min-height:auto;
+    padding:4rem 5%;
+}
+
+.timeline-stage{
+    height:auto;
+}
+
+.timeline-content{
+    grid-template-columns:1fr;
+    padding:2rem;
+    gap:2rem;
+}
+
+.timeline-left{
+    order:1;
+}
+
+.timeline-right{
+    order:2;
+    text-align:center;
+}
+
+.timeline-right p{
+    min-height:auto;
+}
+
+.timeline-location{
+    justify-content:center;
+}
+
+.timeline-filmstrip{
+    padding:1.5rem;
+}
+
+.timeline-years{
+    overflow-x:auto;
+    justify-content:flex-start;
+    scrollbar-width:none;
+}
+
+.timeline-years::-webkit-scrollbar{
+    display:none;
+}
+
+.timeline-year-label{
+    min-width:110px;
+    flex:none;
+}
+}

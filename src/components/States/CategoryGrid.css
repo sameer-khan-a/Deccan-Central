@@ -1,0 +1,140 @@
+.category-section {
+  padding: 7rem 8%;
+  background: #101625;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+/* ==========================
+   Category Card
+========================== */
+
+.category-card {
+  width: 100%;
+  border-radius: 22px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.35s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Default image */
+
+.category-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Hover image */
+
+.category-overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.category-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: inherit;
+  background-size: cover;
+  background-position: center;
+
+  transition:
+    transform 0.45s ease,
+    filter 0.45s ease;
+}
+
+.category-card:hover .category-overlay::before {
+  transform: scale(1.08);
+  filter: blur(5px);
+}
+
+/* Dark overlay */
+
+.category-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.45);
+
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.category-card:hover .category-overlay::after {
+  opacity: 1;
+}
+
+/* Center title */
+
+.overlay-content {
+  position: absolute;
+  inset: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 2;
+
+  opacity: 0;
+  transform: scale(0.95);
+
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease;
+}
+
+.category-card:hover .overlay-content {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.overlay-content h3 {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 0 8px 24px rgba(0, 0, 0, 0.7);
+}
+
+/* Hide unused elements */
+
+.overlay-content span,
+.overlay-content p {
+  display: none;
+}
+
+/* ==========================
+   Responsive
+========================== */
+
+@media (max-width: 768px) {
+
+  .category-section {
+    padding: 5rem 1.5rem;
+  }
+
+  .overlay-content h3 {
+    font-size: 1.8rem;
+  }
+
+}

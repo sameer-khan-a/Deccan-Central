@@ -1,0 +1,152 @@
+.tilted-card-figure {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
+  perspective: 1200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tilted-card-mobile-alert {
+  display: none;
+}
+
+.tilted-card-inner {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
+  transform-style: preserve-3d;
+}
+
+.tilted-card-img {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  /* Better positioning for portrait images */
+  object-position: center center;
+
+  border-radius: 24px;
+
+  border: 2px solid #d4a017;
+
+  will-change: transform;
+
+  box-shadow:
+    0 25px 60px rgba(0, 0, 0, 0.35),
+    0 0 0 1px rgba(212, 160, 23, 0.4);
+
+  transition: transform .45s ease;
+}
+
+.tilted-card-overlay {
+  position: absolute;
+  inset: 0;
+
+  z-index: 2;
+
+  display: flex;
+  align-items: flex-end;
+
+  padding: 2rem;
+
+  border-radius: 24px;
+
+  background:
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.92) 0%,
+      rgba(0, 0, 0, 0.55) 35%,
+      rgba(0, 0, 0, 0.05) 100%
+    );
+
+  transform: translateZ(40px);
+
+  will-change: transform;
+}
+
+.tilted-card-caption {
+  display: none;
+}
+
+.card-content {
+  color: white;
+}
+
+.card-content h3 {
+  font-size: 2.3rem;
+  font-weight: 800;
+
+  margin-bottom: 0.75rem;
+
+  color: white;
+
+  text-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card-content p {
+  color: rgba(255, 255, 255, 0.85);
+
+  font-size: 1rem;
+
+  line-height: 1.7;
+
+  max-width: 280px;
+}
+
+/* Discover the Deccan button hover */
+.tilted-card-overlay .btn,
+.tilted-card-overlay button,
+.tilted-card-overlay a {
+  transition:
+    transform .3s ease,
+    box-shadow .3s ease,
+    background-color .3s ease;
+}
+
+.tilted-card-overlay .btn:hover,
+.tilted-card-overlay button:hover,
+.tilted-card-overlay a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(212,160,23,.35);
+}
+
+/* Medium screens */
+@media (max-width: 1024px) {
+  .tilted-card-img {
+    object-position: center 20%;
+  }
+}
+
+/* Tablets */
+@media (max-width: 900px) {
+  .tilted-card-img {
+    object-position: center 15%;
+  }
+
+  .card-content h3 {
+    font-size: 1.9rem;
+  }
+
+  .card-content p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Phones */
+@media (max-width: 768px) {
+  .tilted-card-img {
+    object-position: center top;
+  }
+}

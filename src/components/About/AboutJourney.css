@@ -1,0 +1,318 @@
+/* ==========================
+   ABOUT JOURNEY
+========================== */
+
+.about-journey {
+  position: relative;
+  padding: 120px 8%;
+  background: #0f1523;
+  overflow: hidden;
+}
+
+.about-journey::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    radial-gradient(
+      circle at left center,
+      rgba(212,160,23,.08),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at right bottom,
+      rgba(255,255,255,.025),
+      transparent 40%
+    );
+
+  pointer-events: none;
+}
+
+/* ==========================
+   CONTAINER
+========================== */
+
+.journey-container {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ==========================
+   HEADER
+========================== */
+
+.journey-header {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 5rem;
+}
+
+.journey-header h2 {
+  margin-top: 1.4rem;
+  color: #fff;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  line-height: 1.15;
+}
+
+.journey-header p {
+  margin-top: 1.6rem;
+  color: #bdbdbd;
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
+/* ==========================
+   TIMELINE
+========================== */
+
+.journey-timeline {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.journey-timeline::before {
+  content: "";
+  position: absolute;
+
+  left: 34px;
+
+  /* Start and end at the marker centres */
+  top: 35px;
+  bottom: 35px;
+
+  width: 2px;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(212,160,23,.9),
+    rgba(212,160,23,.15)
+  );
+}
+
+/* ==========================
+   STEP
+========================== */
+
+.journey-step {
+  position: relative;
+
+  display: flex;
+  align-items: flex-start;
+
+  width: 100%;
+
+  gap: 2rem;
+  margin-bottom: 3.5rem;
+}
+
+.journey-step:last-child {
+  margin-bottom: 0;
+}
+
+/* ==========================
+   MARKER
+========================== */
+
+.journey-marker {
+  position: relative;
+  z-index: 3;
+
+  width: 70px;
+  height: 70px;
+  min-width: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #d4a017;
+  color: #0b0f19;
+
+  font-size: 1.15rem;
+  font-weight: 800;
+
+  box-shadow: 0 0 30px rgba(212,160,23,.35);
+
+  transition:
+    transform .4s ease,
+    box-shadow .4s ease;
+}
+
+/* ==========================
+   CARD
+========================== */
+
+.journey-card {
+  width: calc(100% - 102px);
+  flex: none;
+
+  position: relative;
+
+  padding: 2rem;
+
+  border-radius: 22px;
+
+  background: rgba(255,255,255,.035);
+  border: 1px solid rgba(255,255,255,.08);
+
+  backdrop-filter: blur(12px);
+  overflow: hidden;
+
+  transition:
+    transform .4s ease,
+    border-color .4s ease,
+    background .4s ease,
+    box-shadow .4s ease;
+}
+
+.journey-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    135deg,
+    rgba(212,160,23,.12),
+    transparent 65%
+  );
+
+  opacity: 0;
+  transition: opacity .4s ease;
+}
+
+/* ==========================
+   NUMBER
+========================== */
+
+.journey-count {
+  display: inline-block;
+
+  margin-bottom: .8rem;
+
+  color: rgba(212,160,23,.8);
+
+  font-size: .85rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+/* ==========================
+   TITLE
+========================== */
+
+.journey-card h3 {
+  color: #fff;
+
+  margin-bottom: 1rem;
+
+  font-size: 1.5rem;
+}
+
+/* ==========================
+   TEXT
+========================== */
+
+.journey-card p {
+  color: #bdbdbd;
+
+  font-size: .98rem;
+  line-height: 1.8;
+}
+
+/* ==========================
+   HOVER
+========================== */
+
+.journey-step:hover .journey-marker {
+  transform: scale(1.08);
+
+  box-shadow: 0 0 45px rgba(212,160,23,.5);
+}
+
+.journey-card:hover {
+  transform: translateX(12px);
+
+  border-color: rgba(212,160,23,.35);
+  background: rgba(255,255,255,.05);
+
+  box-shadow: 0 25px 60px rgba(0,0,0,.35);
+}
+
+.journey-card:hover::before {
+  opacity: 1;
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media (max-width: 768px) {
+
+  .about-journey {
+    padding: 90px 6%;
+  }
+
+  .journey-header {
+    margin-bottom: 3rem;
+  }
+
+  .journey-timeline::before {
+    left: 25px;
+    top: 25px;
+    bottom: 25px;
+  }
+
+  .journey-marker {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+
+    font-size: 1rem;
+  }
+
+  .journey-step {
+    gap: 1.2rem;
+  }
+
+  .journey-card {
+    width: calc(100% - 62px);
+    padding: 1.6rem;
+  }
+
+  .journey-card h3 {
+    font-size: 1.25rem;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .journey-step {
+    flex-direction: column;
+    padding-left: 1rem;
+  }
+
+  .journey-timeline::before {
+    display: none;
+  }
+
+  .journey-marker {
+    margin-bottom: 1rem;
+  }
+
+  .journey-card {
+    width: 100%;
+  }
+
+  .journey-card:hover {
+    transform: none;
+  }
+
+}
