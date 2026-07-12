@@ -1,58 +1,64 @@
-# 🏛️ Deccan Central
+# Deccan Central
 
-> Discover the kingdoms, cultures, architecture, wildlife, cuisine, and timeless heritage of South India.
+> An immersive platform exploring the history, culture, architecture, wildlife, cuisine, and heritage of South India.
 
-Deccan Central is a modern React application dedicated to showcasing the rich history and diversity of the Deccan region through an immersive and cinematic experience. The project combines historical storytelling with elegant UI design, allowing users to explore the five southern Indian states through carefully curated categories and interactive visuals.
+![Hero Screenshot](./screenshots/home.png)
 
----
-
-## ✨ Features
-
-- 🌏 Explore all five South Indian states
-  - Karnataka
-  - Telangana
-  - Andhra Pradesh
-  - Tamil Nadu
-  - Kerala
-
-- 🏰 Browse historical kingdoms and dynasties
-
-- 🛕 Discover monuments, temples, forts and architecture
-
-- 🦚 Explore wildlife and biodiversity
-
-- 🎭 Learn about culture, traditions and performing arts
-
-- 🍛 Discover regional cuisine
-
-- 📜 Interactive historical timelines
-
-- 🖼️ Cinematic galleries
-
-- 🔍 Search across places, kingdoms, monuments and categories
-
-- 🎬 Animated landing page with immersive hero experience
+**Live Demo:** Coming Soon
 
 ---
 
-## 🛠️ Built With
+## Overview
 
-- React
-- React Router
-- Vite
-- Motion
-- CSS3
-- JavaScript (ES6+)
+Deccan Central is a modern web experience dedicated to showcasing the five states of South India through history, culture, architecture, wildlife, cuisine, monuments, and timelines.
+
+Rather than functioning as a travel guide, the platform aims to present the Deccan as a living civilization through carefully curated content and cinematic presentation.
 
 ---
 
-## 📸 Preview
+## Features
 
-*(Add screenshots or GIFs here after deployment.)*
+- Explore all five South Indian states
+- Historical kingdoms and dynasties
+- Architecture and monuments
+- Wildlife and biodiversity
+- Cuisine and regional traditions
+- Interactive timelines
+- Curated image galleries
+- Search across states and categories
+- Fully responsive design
+- Modern animations and immersive UI
 
 ---
 
-## 🚀 Getting Started
+## Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Frontend | React, Vite |
+| Routing | React Router |
+| Styling | CSS3 |
+| Animation | Motion |
+| Icons | Lucide React |
+| Language | JavaScript (ES6+) |
+
+---
+
+## Project Structure
+
+```
+src
+├── assets
+├── components
+├── data
+├── pages
+├── styles
+└── App.jsx
+```
+
+---
+
+## Getting Started
 
 Clone the repository
 
@@ -66,7 +72,7 @@ Install dependencies
 npm install
 ```
 
-Run the development server
+Start the development server
 
 ```bash
 npm run dev
@@ -80,47 +86,53 @@ npm run build
 
 ---
 
-## 📂 Project Structure
+## Screenshots
 
-```
-src/
- ├── assets/
- ├── components/
- ├── data/
- ├── pages/
- ├── styles/
- └── App.jsx
-```
+| Home | State |
+|------|-------|
+| ![](./screenshots/home.png) | ![](./screenshots/state.png) |
+
+| Timeline | Gallery |
+|----------|---------|
+| ![](./screenshots/timeline.png) | ![](./screenshots/gallery.png) |
 
 ---
 
-## 🎯 Vision
+## Roadmap
 
-Deccan Central aims to become a comprehensive digital archive celebrating the history, culture, architecture, landscapes, wildlife, and living traditions of South India through a modern and engaging web experience.
-
----
-
-## 🤝 Contributing
-
-Contributions, suggestions, and improvements are always welcome.
-
-If you'd like to contribute:
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Open a Pull Request
+- [x] Home page
+- [x] State pages
+- [x] Category pages
+- [x] Responsive layout
+- [x] Search functionality
+- [ ] Live deployment
+- [ ] Interactive maps
+- [ ] Bookmark system
+- [ ] Multilingual support
 
 ---
 
-## 📜 License
+## Contributing
+
+Contributions are welcome.
+
+If you'd like to improve Deccan Central:
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes.
+4. Open a Pull Request.
+
+---
+
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Sameer Khan**
 
-If you found this project interesting, consider giving it a ⭐ on GitHub.
+If you found this project useful or interesting, consider giving it a ⭐.
