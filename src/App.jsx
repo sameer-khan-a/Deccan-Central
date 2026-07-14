@@ -13,45 +13,44 @@ import AndhraPradesh from "./pages/AndhraPradesh";
 import TamilNadu from "./pages/TamilNadu";
 
 // Karnataka
-import KarnatakaArchitecture from "./pages/categories/karnataka/Architecture";
-import KarnatakaCuisine from "./pages/categories/karnataka/Cuisine";
-import KarnatakaCulture from "./pages/categories/karnataka/Culture";
-import KarnatakaKingdoms from "./pages/categories/karnataka/Kingdoms";
-import KarnatakaPlaces from "./pages/categories/karnataka/Places";
-import KarnatakaWildlife from "./pages/categories/karnataka/Wildlife";
+import KarnatakaArchitecture from "./pages/Categories/Karnataka/Architecture";
+import KarnatakaCuisine from "./pages/Categories/Karnataka/Cuisine";
+import KarnatakaCulture from "./pages/Categories/Karnataka/Culture";
+import KarnatakaKingdoms from "./pages/Categories/Karnataka/Kingdoms";
+import KarnatakaPlaces from "./pages/Categories/Karnataka/Places";
+import KarnatakaWildlife from "./pages/Categories/Karnataka/Wildlife";
 
 // Kerala
-import KeralaArchitecture from "./pages/categories/kerala/Architecture";
-import KeralaCuisine from "./pages/categories/kerala/Cuisine";
-import KeralaCulture from "./pages/categories/kerala/Culture";
-import KeralaKingdoms from "./pages/categories/kerala/Kingdoms";
-import KeralaPlaces from "./pages/categories/kerala/Places";
-import KeralaWildlife from "./pages/categories/kerala/Wildlife";
+import KeralaArchitecture from "./pages/Categories/Kerala/Architecture";
+import KeralaCuisine from "./pages/Categories/Kerala/Cuisine";
+import KeralaCulture from "./pages/Categories/Kerala/Culture";
+import KeralaKingdoms from "./pages/Categories/Kerala/Kingdoms";
+import KeralaPlaces from "./pages/Categories/Kerala/Places";
+import KeralaWildlife from "./pages/Categories/Kerala/Wildlife";
 
 // Andhra Pradesh
-import AndhraArchitecture from "./pages/categories/Andhrapradesh/Architecture";
-import AndhraCuisine from "./pages/categories/Andhrapradesh/Cuisine";
-import AndhraCulture from "./pages/categories/Andhrapradesh/Culture";
-import AndhraKingdoms from "./pages/categories/Andhrapradesh/Kingdoms";
-import AndhraPlaces from "./pages/categories/Andhrapradesh/Places";
-import AndhraWildlife from "./pages/categories/Andhrapradesh/Wildlife";
+import AndhraArchitecture from "./pages/Categories/Andhrapradesh/Architecture";
+import AndhraCuisine from "./pages/Categories/Andhrapradesh/Cuisine";
+import AndhraCulture from "./pages/Categories/Andhrapradesh/Culture";
+import AndhraKingdoms from "./pages/Categories/Andhrapradesh/Kingdoms";
+import AndhraPlaces from "./pages/Categories/Andhrapradesh/Places";
+import AndhraWildlife from "./pages/Categories/Andhrapradesh/Wildlife";
 
 // Tamil Nadu
-import TamilNaduArchitecture from "./pages/categories/TamilNadu/Architecture";
-import TamilNaduCuisine from "./pages/categories/TamilNadu/Cuisine";
-import TamilNaduCulture from "./pages/categories/TamilNadu/Culture";
-import TamilNaduKingdoms from "./pages/categories/TamilNadu/Kingdoms";
-import TamilNaduPlaces from "./pages/categories/TamilNadu/Places";
-import TamilNaduWildlife from "./pages/categories/TamilNadu/Wildlife";
+import TamilNaduArchitecture from "./pages/Categories/Tamilnadu/Architecture";
+import TamilNaduCuisine from "./pages/Categories/Tamilnadu/Cuisine";
+import TamilNaduCulture from "./pages/Categories/Tamilnadu/Culture";
+import TamilNaduKingdoms from "./pages/Categories/Tamilnadu/Kingdoms";
+import TamilNaduPlaces from "./pages/Categories/Tamilnadu/Places";
+import TamilNaduWildlife from "./pages/Categories/Tamilnadu/Wildlife";
 
 // Telangana
-import TelanganaArchitecture from "./pages/categories/Telangana/Architecture";
-import TelanganaCuisine from "./pages/categories/Telangana/Cuisine";
-import TelanganaCulture from "./pages/categories/Telangana/Culture";
-import TelanganaKingdoms from "./pages/categories/Telangana/Kingdoms";
-import TelanganaPlaces from "./pages/categories/Telangana/Places";
-import TelanganaWildlife from "./pages/categories/Telangana/Wildlife";
-
+import TelanganaArchitecture from "./pages/Categories/Telangana/Architecture";
+import TelanganaCuisine from "./pages/Categories/Telangana/Cuisine";
+import TelanganaCulture from "./pages/Categories/Telangana/Culture";
+import TelanganaKingdoms from "./pages/Categories/Telangana/Kingdoms";
+import TelanganaPlaces from "./pages/Categories/Telangana/Places";
+import TelanganaWildlife from "./pages/Categories/Telangana/Wildlife";
 function App() {
   return (
     <BrowserRouter>
