@@ -1,13 +1,13 @@
 import papikondaImg from "../../assets/states/andhrapradesh/categories/wildlife/papikonda.webp";
 import sriVenkateswaraImg from "../../assets/states/andhrapradesh/categories/wildlife/sri-venkateshwara.jpeg";
 import coringaImg from "../../assets/states/andhrapradesh/categories/wildlife/coringa.jpg";
-import rollapaduImg from "../../assets/states/andhrapradesh/categories/wildlife/rollapadu.webp";
+import rollapaduImg from "../../assets/states/andhrapradesh/categories/wildlife/rollapadu.jpeg";
 
 import bengalTigerImg from "../../assets/states/andhrapradesh/categories/wildlife/bengal-tiger.jpg";
 import indianLeopardImg from "../../assets/states/andhrapradesh/categories/wildlife/indian-leopard.jpg";
 import slothBearImg from "../../assets/states/andhrapradesh/categories/wildlife/sloth-bear.jpg";
 import blackbuckImg from "../../assets/states/andhrapradesh/categories/wildlife/blackbuck.jpg";
-import fishingCatImg from "../../assets/states/andhrapradesh/categories/wildlife/fishing-cat.jpeg";
+import fishingCatImg from "../../assets/states/andhrapradesh/categories/wildlife/fishing-cat.jpg";
 import flamingoImg from "../../assets/states/andhrapradesh/categories/wildlife/flamingo.jpg";
 
 export const items = [

@@ -1,140 +1,324 @@
-.category-section {
-  padding: 7rem 8%;
-  background: #101625;
+.category-section{
+  padding:7rem 8%;
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(var(--glow), .10),
+      transparent 35%
+    ),
+    linear-gradient(
+      180deg,
+      var(--surface-light),
+      var(--surface)
+    );
 }
 
-.category-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  margin-top: 4rem;
+.category-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(280px,1fr));
+  justify-items:center;
+  align-items:stretch;
+  gap:2.5rem;
+  margin:4rem auto 0;
+  width:100%;
 }
 
 /* ==========================
    Category Card
 ========================== */
 
-.category-card {
-  width: 100%;
-  border-radius: 22px;
-  overflow: hidden;
-  cursor: pointer;
-  transition: transform 0.35s ease;
-}
+.category-card{
+  position:relative;
+  width:100%;
+  aspect-ratio:9/14;
 
-.category-card:hover {
-  transform: translateY(-8px);
-}
+  border-radius:26px;
+  overflow:hidden;
+  cursor:pointer;
 
-/* Default image */
+  border:1px solid rgba(var(--glow), .14);
 
-.category-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-/* Hover image */
-
-.category-overlay {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-}
-
-.category-overlay::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-
-  background-image: inherit;
-  background-size: cover;
-  background-position: center;
+  background:
+    linear-gradient(
+      145deg,
+      rgba(var(--glow), .08),
+      var(--surface)
+    );
 
   transition:
-    transform 0.45s ease,
-    filter 0.45s ease;
+    transform .45s cubic-bezier(.22,.61,.36,1),
+    border-color .45s ease,
+    box-shadow .45s ease,
+    background .45s ease;
 }
 
-.category-card:hover .category-overlay::before {
-  transform: scale(1.08);
-  filter: blur(5px);
-}
+.category-card:hover{
+  transform:translateY(-10px);
 
-/* Dark overlay */
+  border-color:var(--accent);
 
-.category-overlay::after {
-  content: "";
-  position: absolute;
-  inset: 0;
+  background:
+    linear-gradient(
+      145deg,
+      rgba(var(--glow), .18),
+      var(--surface-light)
+    );
 
-  background: rgba(0, 0, 0, 0.45);
-
-  opacity: 0;
-  transition: opacity 0.35s ease;
-}
-
-.category-card:hover .category-overlay::after {
-  opacity: 1;
-}
-
-/* Center title */
-
-.overlay-content {
-  position: absolute;
-  inset: 0;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  z-index: 2;
-
-  opacity: 0;
-  transform: scale(0.95);
-
-  transition:
-    opacity 0.35s ease,
-    transform 0.35s ease;
-}
-
-.category-card:hover .overlay-content {
-  opacity: 1;
-  transform: scale(1);
-}
-
-.overlay-content h3 {
-  color: white;
-  font-size: 2.2rem;
-  font-weight: 800;
-  letter-spacing: 1px;
-  text-align: center;
-  text-shadow: 0 8px 24px rgba(0, 0, 0, 0.7);
-}
-
-/* Hide unused elements */
-
-.overlay-content span,
-.overlay-content p {
-  display: none;
+  box-shadow:
+    0 28px 60px rgba(var(--glow), .24);
 }
 
 /* ==========================
-   Responsive
+   Images
 ========================== */
 
-@media (max-width: 768px) {
+.category-image,
+.category-overlay{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+}
 
-  .category-section {
-    padding: 5rem 1.5rem;
+.category-image{
+  object-fit:cover;
+  display:block;
+
+  transition:
+    opacity .45s ease,
+    transform .45s ease;
+}
+
+.category-card:hover .category-image{
+  opacity:0;
+  transform:scale(1.05);
+}
+
+.category-overlay{
+  background-size:cover;
+  background-position:center;
+  overflow:hidden;
+}
+
+.category-overlay::before{
+  content:"";
+  position:absolute;
+  inset:0;
+
+  background-image:inherit;
+  background-size:cover;
+  background-position:center;
+
+  transition:
+    transform .5s ease,
+    filter .5s ease;
+}
+
+.category-card:hover .category-overlay::before{
+  transform:scale(1.12);
+  filter:blur(4px);
+}
+
+/* ==========================
+   Overlay
+========================== */
+
+.category-overlay::after{
+  content:"";
+  position:absolute;
+  inset:0;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(0,0,0,.08) 0%,
+      rgba(0,0,0,.42) 45%,
+      rgba(0,0,0,.82) 100%
+    );
+
+  opacity:0;
+  transition:opacity .4s ease;
+}
+
+.category-card:hover .category-overlay::after{
+  opacity:1;
+}
+
+/* ==========================
+   Overlay Content
+========================== */
+
+.overlay-content{
+  position:absolute;
+  inset:0;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  padding:1.75rem;
+
+  text-align:center;
+
+  z-index:2;
+
+  opacity:0;
+  transform:scale(.94);
+
+  transition:
+    opacity .35s ease,
+    transform .35s ease;
+}
+
+.category-card:hover .overlay-content{
+  opacity:1;
+  transform:scale(1);
+}
+
+.overlay-content h3{
+  background:
+    linear-gradient(
+      90deg,
+      #fff,
+      var(--accent-light)
+    );
+
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+
+  font-size:clamp(1.45rem,1rem + .8vw,2.4rem);
+
+  line-height:1.1;
+  font-weight:800;
+  letter-spacing:.7px;
+
+  max-width:85%;
+  margin:0 auto;
+
+  overflow-wrap:anywhere;
+  word-break:break-word;
+  hyphens:auto;
+
+  text-shadow:
+    0 10px 28px rgba(0,0,0,.75),
+    0 0 18px rgba(var(--glow), .4);
+}
+
+.overlay-content span,
+.overlay-content p{
+  display:none;
+}
+
+/* ==========================
+   Section Header
+========================== */
+
+.section-tag{
+  color:var(--accent);
+  text-shadow:0 0 15px rgba(var(--glow), .25);
+}
+
+.section-header h2{
+  color:#fff;
+}
+
+.section-header p{
+  color:rgba(255,255,255,.75);
+}
+
+/* ==========================
+   Large Desktop
+========================== */
+
+@media (min-width:1700px){
+
+  .category-section{
+    padding-inline:10%;
   }
 
-  .overlay-content h3 {
-    font-size: 1.8rem;
+  .category-grid{
+    grid-template-columns:repeat(3,minmax(0,420px));
+    justify-content:center;
+    gap:3rem;
+  }
+
+}
+
+/* ==========================
+   Desktop
+========================== */
+
+@media (max-width:1200px){
+
+  .category-grid{
+    grid-template-columns:repeat(3,1fr);
+    gap:2rem;
+  }
+
+}
+
+/* ==========================
+   Laptop
+========================== */
+
+@media (max-width:992px){
+
+  .category-grid{
+    grid-template-columns:repeat(2,1fr);
+    gap:1.8rem;
+  }
+
+  .overlay-content h3{
+    font-size:clamp(1.35rem,2vw,2rem);
+  }
+
+}
+
+/* ==========================
+   Mobile
+========================== */
+
+@media (max-width:768px){
+
+  .category-section{
+    padding:5rem 1.5rem;
+  }
+
+  .category-grid{
+    grid-template-columns:repeat(2,1fr);
+    gap:1.4rem;
+    margin-top:3rem;
+  }
+
+  .overlay-content{
+    padding:1rem;
+  }
+
+  .overlay-content h3{
+    font-size:clamp(1.2rem,5vw,1.7rem);
+    max-width:92%;
+  }
+
+}
+
+/* ==========================
+   Small Phones
+========================== */
+
+@media (max-width:560px){
+
+  .category-grid{
+    grid-template-columns:1fr;
+    gap:1.4rem;
+  }
+
+  .category-card{
+    aspect-ratio:2/3;
+  }
+
+  .overlay-content h3{
+    font-size:1.5rem;
   }
 
 }

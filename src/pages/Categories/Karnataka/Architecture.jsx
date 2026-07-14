@@ -20,50 +20,50 @@ import { items, gallery } from "../../../data/karnataka/architecture";
 function Architecture() {
   const timeline = [
     {
-      year: "4th - 6th Century",
+      year: "345-540 CE",
       title: "The Kadamba Foundations",
       description:
-        "The Kadambas established some of Karnataka's earliest structural temples, introducing the distinctive Kadamba Shikhara and laying the foundations of the region's architectural tradition.",
+        "The Kadambas laid the foundations of Karnataka's architectural tradition by constructing some of the region's earliest structural temples. Their distinctive Kadamba Shikhara and elegant stone craftsmanship influenced generations of temple builders across the Deccan.",
       image: kadambaImg,
       location: "Banavasi",
     },
     {
-      year: "6th - 8th Century",
+      year: "543-753 CE",
       title: "The Chalukya Revolution",
       description:
-        "The Badami Chalukyas pioneered rock-cut caves and structural temples at Badami, Aihole and Pattadakal, shaping the evolution of Deccan and South Indian architecture.",
+        "The Badami Chalukyas transformed temple architecture through remarkable experimentation with rock-cut caves and structural shrines. Their monuments at Badami, Aihole and Pattadakal established principles that shaped South Indian architecture for centuries.",
       image: chalukyaImg,
       location: "Badami • Aihole • Pattadakal",
     },
     {
-      year: "8th - 10th Century",
+      year: "753-982 CE",
       title: "The Rashtrakuta Legacy",
       description:
-        "The Rashtrakutas expanded the architectural vision of the Deccan through magnificent temples, Jain monuments and remarkable feats of engineering that reflected imperial ambition.",
+        "The Rashtrakutas expanded Karnataka's architectural achievements by commissioning monumental temples, rock-cut monuments and Jain sanctuaries. Their patronage celebrated imperial power while elevating artistic craftsmanship throughout the Deccan.",
       image: rashtrakutaImg,
       location: "Manyakheta",
     },
     {
-      year: "11th - 14th Century",
+      year: "1026-1343 CE",
       title: "The Hoysala Golden Age",
       description:
-        "The Hoysalas perfected soapstone architecture, creating intricately carved star-shaped temples whose artistic detail ranks among the finest achievements of Indian sculpture.",
+        "The Hoysalas perfected soapstone temple architecture through exquisitely carved star-shaped temples filled with intricate sculptures and decorative detail. Their monuments remain among India's greatest artistic achievements, admired for precision, elegance and extraordinary craftsmanship.",
       image: hoysalaImg,
       location: "Belur • Halebidu • Somanathapura",
     },
     {
-      year: "14th - 16th Century",
+      year: "1336-1646 CE",
       title: "The Vijayanagara Empire",
       description:
-        "The rulers of Vijayanagara transformed Hampi into one of the world's greatest medieval cities, building monumental temples, royal enclosures, bustling bazaars and ingenious water systems.",
+        "The rulers of Vijayanagara transformed Hampi into one of the world's greatest medieval capitals. Magnificent temples, royal enclosures, bustling bazaars and advanced water systems reflected immense wealth, engineering brilliance and enduring imperial ambition.",
       image: vijayanagaraImg,
       location: "Hampi",
     },
     {
-      year: "17th - 21st Century",
+      year: "1610-1947",
       title: "The Wadiyar Legacy",
       description:
-        "The Wadiyars blended traditional Indian architecture with Indo-Saracenic and European influences, leaving behind magnificent palaces, public buildings and cultural landmarks that define modern Karnataka.",
+        "The Wadiyars blended traditional Indian craftsmanship with Indo-Saracenic and European influences to create magnificent palaces, public buildings and cultural landmarks. Their architectural vision continues to define Mysuru while preserving Karnataka's rich royal heritage.",
       image: wadiyarImg,
       location: "Mysuru",
     },
@@ -76,14 +76,14 @@ function Architecture() {
       <CategoryHero
         title="Architecture of Karnataka"
         subtitle="Stone, Art & Empire"
-        description="From ancient cave sanctuaries and Hoysala masterpieces to the imperial grandeur of Hampi and the royal palaces of Mysuru, Karnataka preserves nearly two thousand years of architectural excellence."
+        description="From ancient cave sanctuaries and experimental temples to the imperial grandeur of Hampi and the royal elegance of Mysuru, Karnataka preserves nearly two thousand years of architectural innovation, artistic excellence and enduring cultural achievement."
         image={heroImg}
       />
 
       <CategoryOverview
         heading="A Legacy Carved in Stone"
-        text1="For nearly two millennia, Karnataka has stood at the forefront of Indian architecture. Successive dynasties including the Kadambas, Chalukyas, Rashtrakutas, Hoysalas, Vijayanagara rulers and the Wadiyars transformed stone into timeless works of art."
-        text2="Across the state, magnificent temples, forts, palaces, cave sanctuaries and sacred monuments reflect extraordinary engineering, artistic excellence and cultural vision, making Karnataka one of India's greatest architectural landscapes."
+        text1="For nearly two thousand years, Karnataka has stood at the forefront of Indian architecture. Dynasties including the Kadambas, Chalukyas, Rashtrakutas, Hoysalas, Vijayanagara rulers and the Wadiyars transformed stone into enduring monuments that continue to inspire admiration across the world."
+        text2="From cave sanctuaries and intricately carved temples to mighty forts, royal palaces and sacred monuments, every era contributed distinctive styles and innovations, making Karnataka one of India's richest and most diverse architectural landscapes."
       />
 
       <CategoryTimeline
@@ -99,7 +99,7 @@ function Architecture() {
       <Gallery
         tag="ARCHITECTURAL SHOWCASE"
         title="Beyond the Iconic Landmarks"
-        description="Beyond its famous monuments, Karnataka is home to countless architectural treasures spanning ancient temple experiments, UNESCO World Heritage Sites, sacred monuments, royal palaces and masterpieces of medieval craftsmanship."
+        description="Beyond its celebrated monuments, Karnataka is home to countless architectural treasures ranging from experimental temple complexes and UNESCO World Heritage Sites to forgotten forts, sacred shrines and remarkable masterpieces that reveal the state's extraordinary artistic legacy."
         images={gallery}
       />
 

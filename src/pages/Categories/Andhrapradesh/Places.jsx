@@ -20,42 +20,42 @@ import { items, gallery } from "../../../data/andhrapradesh/places";
 function Places() {
   const timeline = [
     {
-      year: "Ancient Andhra",
-      title: "Sacred Landscapes & Early Settlements",
+      year: "300 BCE-900 CE",
+      title: "Sacred Lands & Early Settlements",
       description:
-        "Pilgrimage centres, Buddhist sites and settlements along the Krishna and Godavari rivers became the earliest destinations, drawing devotees, traders and scholars from across the subcontinent.",
+        "Pilgrimage centres, Buddhist monuments and thriving settlements along the Krishna and Godavari rivers became Andhra's earliest destinations. These sacred landscapes attracted devotees, merchants and scholars from across the Indian subcontinent for centuries.",
       image: timeline1,
       location: "Srisailam • Amaravati • Nagarjunakonda",
     },
     {
-      year: "Medieval Era",
-      title: "Temple Towns & Heritage Villages",
+      year: "900-1300 CE",
+      title: "Temple Towns & Sacred Centres",
       description:
-        "Magnificent temples, fortified towns and artistic villages flourished across Andhra, leaving behind enduring cultural landmarks that continue to attract visitors today.",
+        "Magnificent temples, pilgrimage towns and artistic settlements flourished under powerful Telugu dynasties. Their remarkable architecture, spiritual traditions and enduring cultural heritage transformed these centres into celebrated destinations that continue inspiring visitors today.",
       image: timeline2,
       location: "Lepakshi • Srikalahasti",
     },
     {
-      year: "Historic Frontiers",
-      title: "Forts, Canyons & Royal Centres",
+      year: "1300-1700 CE",
+      title: "Forts, Capitals & Royal Landscapes",
       description:
-        "Hill forts, dramatic river gorges and royal capitals emerged as symbols of Andhra's strategic importance, blending natural beauty with centuries of history.",
+        "Imperial capitals, mighty hill forts and dramatic river valleys reflected Andhra Pradesh's growing importance across the Deccan. Together, these remarkable landscapes blended military strength, royal ambition and extraordinary natural beauty into enduring historical landmarks.",
       image: timeline3,
       location: "Gandikota • Chandragiri",
     },
     {
-      year: "Natural Wonders",
+      year: "1950-2000 CE",
       title: "Discovering the Eastern Ghats",
       description:
-        "Hill stations, limestone caves, coffee plantations and forest landscapes transformed Andhra into a destination for nature lovers and adventure seekers.",
+        "Growing tourism revealed the spectacular beauty of Andhra's hill stations, limestone caves, coffee plantations and forest landscapes. These scenic destinations introduced travellers to the remarkable biodiversity and natural wonders of the Eastern Ghats.",
       image: timeline4,
       location: "Araku Valley • Borra Caves • Lambasingi",
     },
     {
-      year: "Present Day",
+      year: "2000-Present",
       title: "A Diverse Travel Destination",
       description:
-        "Today, Andhra Pradesh offers an extraordinary mix of beaches, wildlife, sacred temples, caves, hill stations and heritage monuments, making it one of South India's most varied travel experiences.",
+        "Today, Andhra Pradesh offers an extraordinary blend of beaches, wildlife reserves, sacred temples, hill stations, caves and heritage monuments. Together, these remarkable destinations create one of South India's most rewarding travel experiences.",
       image: timeline5,
       location: "Rushikonda • Pulicat Lake • Across Andhra Pradesh",
     },
@@ -68,14 +68,14 @@ function Places() {
       <CategoryHero
         title="Places to Visit in Andhra Pradesh"
         subtitle="Where Mountains Meet the Sea"
-        description="From sacred temples and dramatic canyons to misty valleys, limestone caves and pristine beaches, Andhra Pradesh offers one of South India's most diverse travel experiences."
+        description="From sacred temples and dramatic canyons to misty valleys, limestone caves and pristine beaches, Andhra Pradesh offers an unforgettable journey through history, nature and the diverse landscapes of the Telugu heartland."
         image={heroImg}
       />
 
       <CategoryOverview
         heading="Journey Across the Telugu Heartland"
-        text1="Over centuries, Andhra Pradesh has evolved into a destination where ancient pilgrimage centres, royal monuments and breathtaking natural landscapes exist side by side. Every region offers a unique chapter in the story of the Telugu heartland."
-        text2="Whether wandering through the coffee estates of Araku, exploring the rugged cliffs of Gandikota, relaxing on the shores of Rushikonda or discovering hidden cave systems, every journey reveals a different face of Andhra Pradesh."
+        text1="Over centuries, Andhra Pradesh has evolved into a destination where ancient pilgrimage centres, royal monuments and breathtaking natural landscapes exist together. Every region reveals a remarkable blend of history, culture, architecture and scenic beauty."
+        text2="Whether exploring the coffee estates of Araku, the rugged cliffs of Gandikota, the golden shores of Rushikonda or the depths of ancient cave systems, every journey reveals another chapter of Andhra Pradesh's remarkable story."
       />
 
       <CategoryTimeline
@@ -91,7 +91,7 @@ function Places() {
       <Gallery
         tag="TRAVEL SHOWCASE"
         title="Beyond the Famous Landmarks"
-        description="Beyond its iconic attractions, Andhra Pradesh invites travellers to discover misty hill stations, ancient cave systems, sacred temple towns, scenic coastlines, tranquil wetlands and hidden heritage gems spread across the Telugu landscape."
+        description="Beyond its iconic attractions, Andhra Pradesh reveals misty hill stations, ancient cave systems, sacred temple towns, scenic coastlines, tranquil wetlands and hidden heritage treasures that celebrate the beauty of the Telugu landscape."
         images={gallery}
       />
 

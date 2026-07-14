@@ -19,42 +19,42 @@ import { items, gallery } from "../../../data/karnataka/culture";
 function Culture() {
   const timeline = [
     {
-      year: "Ancient Karnataka",
+      year: "450-900 CE",
       title: "The Kannada Identity",
       description:
-        "Early Kannada-speaking communities laid the foundations of Karnataka's cultural identity through language, literature, local traditions and sacred practices that continue to shape the state today.",
+        "Early Kannada-speaking communities established the foundations of Karnataka's cultural identity through language, literature, local traditions and religious practices. Their enduring legacy continues to shape the customs, values and artistic expression of the state today.",
       image: languageImg,
       location: "Across Karnataka",
     },
     {
-      year: "Medieval Period",
+      year: "900-1400 CE",
       title: "Bhakti & Literary Traditions",
       description:
-        "The rise of the Bhakti movement, Vachana literature and Jain scholarship transformed Karnataka into a centre of philosophy, devotion and literary excellence, leaving a lasting impact on society.",
+        "The Bhakti movement, Vachana literature and Jain scholarship transformed Karnataka into a centre of philosophy, devotion and intellectual achievement. These movements inspired social reform while enriching the region's literary and spiritual heritage for centuries.",
       image: bhaktiImg,
       location: "Basavakalyan • Shravanabelagola",
     },
     {
-      year: "Classical Era",
+      year: "1400-1800 CE",
       title: "Music, Dance & Performing Arts",
       description:
-        "Classical music, Yakshagana, Dollu Kunitha and other performing arts flourished alongside temple traditions, enriching Karnataka's artistic and cultural landscape.",
+        "Yakshagana, Dollu Kunitha, Carnatic music and classical dance traditions flourished alongside temple traditions and royal patronage. These vibrant artistic forms strengthened Karnataka's cultural identity while preserving stories, rituals and community celebrations across generations.",
       image: artsImg,
       location: "Udupi • Hampi • Mysuru",
     },
     {
-      year: "19th - 20th Century",
+      year: "1800-1956 CE",
       title: "Preserving a Shared Heritage",
       description:
-        "Museums, educational institutions, cultural festivals and royal patronage helped preserve Karnataka's literature, crafts, architecture and performing arts for future generations.",
+        "Royal patronage, museums, educational institutions and cultural festivals helped preserve Karnataka's literature, architecture, performing arts and traditional crafts. Their collective efforts ensured these remarkable traditions endured for future generations.",
       image: heritageImg,
       location: "Mysuru • Bengaluru",
     },
     {
-      year: "Present Day",
+      year: "1956-Present",
       title: "A Living Cultural Legacy",
       description:
-        "Today, Karnataka celebrates a vibrant blend of classical and folk traditions, colourful festivals, regional cuisines, cinema, literature and modern creativity while remaining deeply connected to its heritage.",
+        "Modern Karnataka celebrates a dynamic blend of classical traditions, folk arts, regional cuisines, literature, cinema and contemporary creativity. While embracing progress, the state continues to preserve the cultural heritage that defines its unique identity.",
       image: modernImg,
       location: "Across Karnataka",
     },
@@ -67,14 +67,14 @@ function Culture() {
       <CategoryHero
         title="Culture of Karnataka"
         subtitle="Traditions That Endure"
-        description="From the origins of the Kannada language to vibrant festivals, music, theatre, literature and living traditions, Karnataka's culture reflects centuries of creativity, diversity and heritage."
+        description="From the emergence of the Kannada language to vibrant festivals, literature, music, theatre and living cultural traditions, Karnataka preserves a cultural legacy shaped by centuries of creativity, diversity and enduring heritage."
         image={heroImg}
       />
 
       <CategoryOverview
         heading="A Heritage Shaped by People & Tradition"
-        text1="Karnataka is home to one of India's richest cultural landscapes, where language, literature, philosophy, music, dance and craftsmanship have evolved together for over fifteen centuries."
-        text2="From ancient inscriptions and the Bhakti movement to Yakshagana performances and modern cinema, every generation has added a new chapter to Karnataka's remarkable cultural story."
+        text1="Karnataka is home to one of India's richest cultural landscapes, where language, literature, philosophy, music, dance and craftsmanship have flourished together for more than fifteen centuries, creating a legacy admired across the nation."
+        text2="From ancient inscriptions and the Bhakti movement to Yakshagana performances, royal patronage and modern cinema, every generation has enriched Karnataka's cultural legacy while preserving the traditions that continue to define the state today."
       />
 
       <CategoryTimeline
@@ -90,7 +90,7 @@ function Culture() {
       <Gallery
         tag="CULTURAL SHOWCASE"
         title="Beyond the Cultural Icons"
-        description="Beyond its famous festivals and literary traditions, Karnataka's identity thrives through vibrant folk arts, sacred customs, timeless craftsmanship, regional cuisines, classical music and performing arts that continue to shape everyday life."
+        description="Beyond its celebrated festivals and literary achievements, Karnataka's identity thrives through vibrant folk traditions, sacred customs, timeless craftsmanship, regional traditions, classical music and performing arts that continue to enrich everyday life."
         images={gallery}
       />
 

@@ -8,12 +8,35 @@ function InfoSection({
   text1,
   text2,
   stats = [],
+
+  accent = "#d4a017",
+  accentLight = "#f9c74f",
+  accentDark = "#7a1b1b",
+
+  surface = "#171212",
+  surfaceLight = "#241818",
+
+  glow = "212,160,23",
 }) {
   return (
-    <section className="info-section">
+    <section
+      className="info-section"
+      style={{
+        "--accent": accent,
+        "--accent-light": accentLight,
+        "--accent-dark": accentDark,
+
+        "--surface": surface,
+        "--surface-light": surfaceLight,
+
+        "--glow": glow,
+      }}
+    >
       <div className="info-container">
         <div className="info-left">
-          <p className="info-tag">OVERVIEW</p>
+          <p className="info-tag">
+            OVERVIEW
+          </p>
 
           <h2>{heading}</h2>
         </div>
@@ -30,16 +53,19 @@ function InfoSection({
             key={item.label}
             className="stat-card"
           >
-          <h3 className="stat-number">
-  <CountUp
-    end={item.value}
-    duration={2.5}
-    separator=","
-    enableScrollSpy
-    scrollSpyOnce
-  />
-  <span className="stat-suffix"> {item.suffix || ""}</span>
-</h3>
+            <h3 className="stat-number">
+              <CountUp
+                end={item.value}
+                duration={2.5}
+                separator=","
+                enableScrollSpy
+                scrollSpyOnce
+              />
+              <span className="stat-suffix">
+                {" "}
+                {item.suffix || ""}
+              </span>
+            </h3>
 
             <span>{item.label}</span>
           </div>

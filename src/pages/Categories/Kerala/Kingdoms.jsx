@@ -20,15 +20,15 @@ import { items, gallery } from "../../../data/kerala/kingdoms";
 function Kingdoms() {
   const timeline = [
     {
-      year: "3rd Century BCE - 12th Century CE",
+      year: "300 BCE-12th CE",
       title: "The Chera Kingdom",
       description:
-        "The Cheras established one of South India's earliest great kingdoms, controlling the spice-rich Malabar Coast and building prosperous maritime connections with Rome, Arabia and the wider Indian Ocean.",
+        "The Cheras established one of South India's earliest great kingdoms, controlling the spice-rich Malabar Coast and building prosperous maritime connections with Rome, Arabia, China and the wider Indian Ocean.",
       image: timeline1,
       location: "Kodungallur • Central Kerala",
     },
     {
-      year: "12th - 15th Century",
+      year: "1124-1498 CE",
       title: "Rise of Regional Kingdoms",
       description:
         "Following the decline of the Cheras, powerful kingdoms such as Kolathunadu, Venad and Valluvanad emerged, each shaping Kerala's regional politics, trade and cultural identity.",
@@ -36,15 +36,15 @@ function Kingdoms() {
       location: "North & Central Kerala",
     },
     {
-      year: "13th - 18th Century",
+      year: "1498-1766 CE",
       title: "The Zamorins of Kozhikode",
       description:
-        "The Zamorins transformed Kozhikode into one of the world's greatest spice ports, welcoming merchants from Arabia, China and Europe while dominating Indian Ocean commerce.",
+        "The Zamorins transformed Kozhikode into one of the world's greatest spice ports, welcoming merchants from Arabia, China and later Europe while dominating Indian Ocean commerce.",
       image: timeline3,
       location: "Kozhikode (Calicut)",
     },
     {
-      year: "18th Century",
+      year: "1729-1949 CE",
       title: "The Rise of Travancore",
       description:
         "Under Marthanda Varma, Travancore unified much of southern Kerala through military reforms, efficient administration and lasting patronage of temples, education and public works.",
@@ -52,10 +52,10 @@ function Kingdoms() {
       location: "Thiruvananthapuram",
     },
     {
-      year: "Modern Legacy",
+      year: "1949-Present",
       title: "Kingdoms That Shaped Kerala",
       description:
-        "Although the princely states eventually became part of modern Kerala, their forts, palaces, temples, ports and cultural traditions continue to define the state's historical identity.",
+        "Although the princely states eventually became part of the modern state of Kerala, their forts, palaces, temples, ports and cultural traditions continue to define the state's historical identity.",
       image: timeline5,
       location: "Across Kerala",
     },

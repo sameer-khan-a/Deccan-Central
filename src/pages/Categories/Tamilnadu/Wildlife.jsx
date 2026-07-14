@@ -21,7 +21,7 @@ function Wildlife() {
 
   const timeline = [
     {
-      year: "Ancient Tamilakam",
+      year: "Before 1800 CE",
       title: "Living Alongside Nature",
       description:
         "For centuries, Tamil communities shared the forests, mountains, wetlands and coastlines with wildlife. Animals featured prominently in literature, folklore, temple traditions and everyday life.",
@@ -29,15 +29,15 @@ function Wildlife() {
       location: "Western Ghats • Eastern Ghats",
     },
     {
-      year: "Early Conservation",
+      year: "1855-1972 CE",
       title: "Protecting Forest Landscapes",
       description:
-        "Growing awareness of habitat loss led to the protection of key forests, ensuring safe refuges for elephants, tigers, leopards and countless other native species.",
+        "Growing awareness of habitat loss encouraged the protection of key forests, ensuring safe refuges for elephants, tigers, leopards and countless other native species.",
       image: timeline2,
       location: "Mudumalai • Nilgiri Biosphere",
     },
     {
-      year: "Wetlands & Sanctuaries",
+      year: "1936-1980 CE",
       title: "Guardians of Migratory Birds",
       description:
         "Tamil Nadu became a pioneer in bird conservation as wetlands and lakes were preserved, providing seasonal refuge for thousands of migratory birds from across Asia.",
@@ -45,7 +45,7 @@ function Wildlife() {
       location: "Vedanthangal • Point Calimere",
     },
     {
-      year: "Forests to the Sea",
+      year: "1980-2000 CE",
       title: "Protecting Marine Life",
       description:
         "Conservation expanded beyond forests to include coral reefs, seagrass meadows and coastal ecosystems, safeguarding dugongs, sea turtles, dolphins and countless marine species.",
@@ -53,7 +53,7 @@ function Wildlife() {
       location: "Gulf of Mannar",
     },
     {
-      year: "Present Day",
+      year: "2000-Present",
       title: "A Shared Future",
       description:
         "Today, wildlife conservation combines scientific research, eco-tourism and community participation to protect Tamil Nadu's extraordinary biodiversity for generations to come.",

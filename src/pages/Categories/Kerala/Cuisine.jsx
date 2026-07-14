@@ -21,7 +21,7 @@ function Cuisine() {
 
   const timeline = [
     {
-      year: "Ancient Kerala",
+      year: "Before 9th CE",
       title: "The Spice Coast",
       description:
         "Kerala's fertile landscape nurtured rice, coconut, pepper, cardamom and countless spices, creating the foundations of one of the world's oldest and most distinctive culinary traditions.",
@@ -29,15 +29,15 @@ function Cuisine() {
       location: "Across Kerala",
     },
     {
-      year: "Indian Ocean Trade",
+      year: "9th-16th CE",
       title: "A Meeting of Culinary Worlds",
       description:
-        "Centuries of trade with Arabs, Romans, Chinese and later Europeans introduced new ingredients, cooking techniques and flavours that blended naturally with Kerala's indigenous cuisine.",
+        "Centuries of trade with Romans, Arabs, Chinese and later Europeans introduced new ingredients, cooking techniques and flavours that blended naturally with Kerala's indigenous cuisine.",
       image: timeline2,
       location: "Kochi • Kozhikode • Kollam",
     },
     {
-      year: "Regional Traditions",
+      year: "16th-19th CE",
       title: "The Rise of Malabar Cuisine",
       description:
         "Distinct regional food cultures emerged across Kerala, with the Malabar Coast becoming renowned for aromatic biryanis, pathiri and richly spiced seafood influenced by maritime trade.",
@@ -45,7 +45,7 @@ function Cuisine() {
       location: "Kozhikode • Thalassery • Malabar",
     },
     {
-      year: "Coast and Backwaters",
+      year: "19th-20th CE",
       title: "Nature Shapes Every Meal",
       description:
         "Fresh seafood, pearl spot fish, coconut milk and locally grown spices came to define Kerala's cuisine, reflecting the state's close relationship with its rivers, backwaters and Arabian Sea coastline.",
@@ -53,7 +53,7 @@ function Cuisine() {
       location: "Alappuzha • Kumarakom • Kochi",
     },
     {
-      year: "Present Day",
+      year: "1947-Present",
       title: "A Timeless Culinary Legacy",
       description:
         "Today, Kerala celebrates its diverse food heritage through festive Sadya feasts, traditional breakfasts, seafood delicacies and regional specialties that continue to delight people around the world.",

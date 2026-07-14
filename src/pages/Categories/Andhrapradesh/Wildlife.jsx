@@ -12,7 +12,7 @@ import heroImg from "../../../assets/states/andhrapradesh/categories/wildlife/he
 import timeline1 from "../../../assets/states/andhrapradesh/categories/wildlife/papikonda.webp";
 import timeline2 from "../../../assets/states/andhrapradesh/categories/wildlife/sri-venkateshwara.jpeg";
 import timeline3 from "../../../assets/states/andhrapradesh/categories/wildlife/coringa.jpg";
-import timeline4 from "../../../assets/states/andhrapradesh/categories/wildlife/rollapadu.webp";
+import timeline4 from "../../../assets/states/andhrapradesh/categories/wildlife/rollapadu.jpeg";
 import timeline5 from "../../../assets/states/andhrapradesh/categories/wildlife/bengal-tiger.jpg";
 
 import { items, gallery } from "../../../data/andhrapradesh/wildlife";
@@ -20,42 +20,42 @@ import { items, gallery } from "../../../data/andhrapradesh/wildlife";
 function Wildlife() {
   const timeline = [
     {
-      year: "Ancient Andhra",
+      year: "300 BCE-900 CE",
       title: "Living with the Wild",
       description:
-        "For centuries, the forests, rivers and coastal wetlands of Andhra Pradesh sustained local communities. Wildlife was deeply woven into daily life, spiritual traditions and the rhythms of the Eastern Ghats and the Telugu coast.",
+        "For centuries, the forests, rivers and coastal wetlands of Andhra Pradesh sustained local communities across the Telugu region. Wildlife remained closely woven into daily life, spiritual traditions and the natural rhythms of the Eastern Ghats.",
       image: timeline1,
       location: "Papikonda • Godavari Valley",
     },
     {
-      year: "Traditional Coexistence",
+      year: "900-1700 CE",
       title: "Forests, Hills & Sacred Landscapes",
       description:
-        "Communities, particularly in the Eastern Ghats, lived alongside wildlife while respecting sacred forests and natural habitats that sheltered leopards, sloth bears, deer and countless bird species.",
+        "Communities throughout the Eastern Ghats lived alongside thriving forests while protecting sacred groves and natural habitats. These remarkable landscapes sheltered leopards, sloth bears, deer, native birds and countless other species for centuries.",
       image: timeline2,
       location: "Sri Venkateswara • Eastern Ghats",
     },
     {
-      year: "Conservation Begins",
+      year: "1900-1970 CE",
       title: "Protecting Fragile Ecosystems",
       description:
-        "Growing awareness of habitat loss led to the creation of protected forests, mangrove reserves and wildlife sanctuaries, safeguarding unique ecosystems and endangered species.",
+        "Growing awareness of habitat loss and environmental change encouraged the creation of protected forests, mangrove reserves and wildlife sanctuaries. These conservation efforts safeguarded Andhra Pradesh's unique ecosystems and vulnerable native wildlife.",
       image: timeline3,
       location: "Coringa • Godavari Delta",
     },
     {
-      year: "Modern Conservation",
+      year: "1970-2000 CE",
       title: "Saving Species & Habitats",
       description:
-        "National parks, grassland reserves and scientific conservation programmes now protect iconic wildlife including blackbuck, fishing cats, migratory birds and many other native species.",
+        "National parks, grassland reserves and scientific conservation programmes strengthened efforts to protect endangered wildlife and restore natural habitats. These initiatives secured important refuges for blackbuck, fishing cats, migratory birds and many native species.",
       image: timeline4,
       location: "Rollapadu • Across Andhra Pradesh",
     },
     {
-      year: "Present Day",
+      year: "2000-Present",
       title: "A Shared Future",
       description:
-        "Today, eco-tourism, wildlife research and community participation are helping preserve Andhra Pradesh's forests, wetlands and coastlines, ensuring future generations can continue to experience the state's remarkable biodiversity.",
+        "Today, eco-tourism, wildlife research and community participation continue preserving Andhra Pradesh's forests, wetlands and coastlines. Together, these initiatives protect extraordinary biodiversity while promoting responsible conservation for future generations across the state.",
       image: timeline5,
       location: "Across Andhra Pradesh",
     },
@@ -68,14 +68,14 @@ function Wildlife() {
       <CategoryHero
         title="Wildlife of Andhra Pradesh"
         subtitle="Where Forests Meet the Sea"
-        description="From the rugged Eastern Ghats and the mighty Godavari Valley to sprawling mangrove forests and coastal wetlands, Andhra Pradesh protects one of India's richest and most diverse natural landscapes."
+        description="From the rugged Eastern Ghats and the mighty Godavari Valley to sprawling mangrove forests and coastal wetlands, Andhra Pradesh protects one of India's richest landscapes for wildlife, biodiversity and ecological diversity."
         image={heroImg}
       />
 
       <CategoryOverview
         heading="A Journey Through Andhra's Wild Landscapes"
-        text1="Andhra Pradesh's relationship with wildlife has evolved over centuries, from communities living in harmony with forests and rivers to modern conservation efforts protecting fragile ecosystems across the Eastern Ghats and the Bay of Bengal coast."
-        text2="Today, national parks, wildlife sanctuaries and mangrove forests safeguard tigers, leopards, blackbuck, fishing cats, migratory birds and countless other species, preserving one of the most diverse natural environments in southern India."
+        text1="Andhra Pradesh's relationship with wildlife has evolved through centuries of coexistence, conservation and ecological change. Today, forests, river valleys, grasslands and mangrove ecosystems continue supporting one of southern India's richest concentrations of biodiversity."
+        text2="From the tiger habitats of Papikonda and Sri Venkateswara to the mangroves of Coringa and the grasslands of Rollapadu, protected landscapes preserve remarkable wildlife while encouraging responsible tourism and scientific conservation."
       />
 
       <CategoryTimeline
@@ -91,7 +91,7 @@ function Wildlife() {
       <Gallery
         tag="WILDLIFE SHOWCASE"
         title="Into the Wild"
-        description="Discover Andhra Pradesh's remarkable biodiversity through lush forests, mangrove ecosystems, sprawling grasslands, elusive predators, graceful antelopes and spectacular migratory birdlife that together define the state's extraordinary natural heritage."
+        description="Beyond its celebrated reserves, Andhra Pradesh's natural heritage thrives through lush forests, mangrove ecosystems, sprawling grasslands, elusive predators, graceful antelopes, vibrant wetlands and spectacular migratory birdlife across the Telugu landscape."
         images={gallery}
       />
 

@@ -21,7 +21,7 @@ function Places() {
 
   const timeline = [
     {
-      year: "Ancient Kerala",
+      year: "300 BCE-15th CE",
       title: "Ports, Pilgrimage & Early Settlements",
       description:
         "Kerala's earliest destinations grew around thriving ports, sacred temples and trading centres that connected the Malabar Coast with Arabia, Africa and the Mediterranean world.",
@@ -29,7 +29,7 @@ function Places() {
       location: "Malabar Coast • Bekal",
     },
     {
-      year: "Colonial Era",
+      year: "1498-1947 CE",
       title: "Heritage Towns Emerge",
       description:
         "European merchants transformed coastal settlements into bustling colonial towns, leaving behind forts, churches, synagogues and distinctive urban landscapes that remain popular destinations today.",
@@ -37,15 +37,15 @@ function Places() {
       location: "Fort Kochi",
     },
     {
-      year: "Backwater Discovery",
+      year: "19th-20th CE",
       title: "Life Along the Waterways",
       description:
-        "Kerala's vast network of lakes, canals and lagoons evolved from trade routes into iconic travel destinations, with houseboats showcasing the state's unique backwater lifestyle.",
+        "Long used as trade routes, Kerala's lakes, canals and lagoons later evolved into iconic travel destinations, with houseboats showcasing the state's unique backwater lifestyle.",
       image: timeline3,
       location: "Alappuzha",
     },
     {
-      year: "Hill Station Era",
+      year: "19th-20th CE",
       title: "The Western Ghats Beckon",
       description:
         "Tea plantations, spice estates and cool mountain climates transformed Kerala's highlands into celebrated hill stations, attracting travellers seeking nature and tranquillity.",
@@ -53,7 +53,7 @@ function Places() {
       location: "Munnar • Idukki",
     },
     {
-      year: "Present Day",
+      year: "1989-Present",
       title: "God's Own Country",
       description:
         "Today, Kerala offers an extraordinary blend of heritage towns, backwaters, beaches, forests, waterfalls and wildlife, making it one of India's most diverse travel destinations.",
@@ -77,7 +77,6 @@ function Places() {
         heading="A Journey Across God's Own Country"
         text1="Kerala's destinations have evolved over centuries, from ancient trading ports and sacred pilgrimage centres to colonial towns, peaceful backwaters and breathtaking hill stations. Together they create one of India's most varied travel landscapes."
         text2="Whether cruising through Alappuzha's waterways, exploring Fort Kochi's heritage streets, trekking across Wayanad's forests or relaxing amid Munnar's tea estates, every destination tells a unique chapter of Kerala's story."
-
       />
 
       <CategoryTimeline

@@ -6,6 +6,15 @@ function StateHero({
   tagline,
   description,
   image,
+
+  accent = "#d4a017",
+  accentLight = "#f9c74f",
+  accentDark = "#7a1b1b",
+
+  surface = "#171212",
+  surfaceLight = "#241818",
+
+  glow = "212,160,23",
 }) {
   const handleExplore = () => {
     document
@@ -20,6 +29,15 @@ function StateHero({
       className="state-hero"
       style={{
         backgroundImage: `url(${image})`,
+
+        "--accent": accent,
+        "--accent-light": accentLight,
+        "--accent-dark": accentDark,
+
+        "--surface": surface,
+        "--surface-light": surfaceLight,
+
+        "--glow": glow,
       }}
     >
       <div className="state-overlay" />

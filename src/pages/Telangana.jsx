@@ -4,6 +4,8 @@ import InfoSection from "../components/States/InfoSection";
 import CategoryGrid from "../components/States/CategoryGrid";
 import Footer from "../components/Footer";
 
+import { themes } from "../data/themes";
+
 import heroImg from "../assets/states/telangana/hero.jpg";
 
 import kingdomsImg from "../assets/categories/telangana/kingdoms.jpg";
@@ -14,12 +16,15 @@ import wildlifeImg from "../assets/categories/telangana/wildlife.jpg";
 import placesImg from "../assets/categories/telangana/places.webp";
 
 function Telangana() {
+
+  const theme = themes.telangana;
+
   const categories = [
     {
       title: "Kingdoms",
       count: "9 Great Dynasties",
       description:
-        "Discover the Satavahanas, Kakatiyas, Bahmanis, Qutb Shahis, Asaf Jahis and the rulers who shaped the Deccan.",
+        "Discover the Satavahanas, Kakatiyas, Bahmanis, Qutb Shahis and the rulers who shaped the Deccan.",
       image: kingdomsImg,
       link: "/telangana/kingdoms",
     },
@@ -70,14 +75,15 @@ function Telangana() {
       <Navbar heroSelector=".state-hero" />
 
       <StateHero
+        {...theme}
         title="Telangana"
         tagline="THE HEART OF THE DECCAN"
         description="From the legendary Kakatiya strongholds and the grandeur of Hyderabad to the forests of Amrabad and the Godavari basin, Telangana embodies the spirit of the Deccan. Forged by powerful dynasties, Indo-Persian heritage and enduring traditions, it is a land where history and modern ambition thrive together."
         image={heroImg}
-        exploreTarget="#telangana-categories"
       />
 
       <InfoSection
+        {...theme}
         heading="The Crossroads of the Deccan"
         text1="For over two thousand years, Telangana has stood at the crossroads of the Deccan's history. The Satavahanas, Kakatiyas, Bahmanis, Qutb Shahis and the Asaf Jahi Nizams transformed the region into a centre of political power, architecture, commerce and culture. Their legacy lives on through majestic forts, intricately carved temples, grand mosques, royal palaces and one of India's richest urban traditions."
         text2="Beyond Hyderabad lies a landscape of tiger reserves, dense forests, waterfalls, reservoirs and sacred temple towns. From the UNESCO World Heritage-listed Ramappa Temple and the imposing Warangal Fort to the forests of Amrabad and the mighty Godavari River, every corner of Telangana reveals another chapter in the enduring story of the Deccan."
@@ -103,7 +109,10 @@ function Telangana() {
       />
 
       <div id="telangana-categories">
-        <CategoryGrid categories={categories} />
+        <CategoryGrid
+          {...theme}
+          categories={categories}
+        />
       </div>
 
       <Footer />

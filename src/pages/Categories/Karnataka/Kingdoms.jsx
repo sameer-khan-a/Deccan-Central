@@ -22,7 +22,7 @@ function Kingdoms() {
       year: "345 CE",
       title: "Kadamba Dynasty",
       description:
-        "Founded by Mayurasharma, the Kadambas established the first major native Kannada kingdom from Banavasi, laying the foundations of Karnataka's political identity while encouraging Kannada literature, administration and early temple architecture.",
+        "Founded by Mayurasharma, the Kadambas established the first major native Kannada kingdom at Banavasi, shaping Karnataka's political identity while advancing Kannada administration and architecture.",
       image: kadambaImg,
       location: "Banavasi",
     },
@@ -30,7 +30,7 @@ function Kingdoms() {
       year: "543 CE",
       title: "Badami Chalukyas",
       description:
-        "The Chalukyas transformed the Deccan into a dominant regional power. Their monuments at Badami, Aihole and Pattadakal pioneered a new architectural style that shaped South Indian temple design for centuries.",
+        "The Chalukyas of Badami transformed the Deccan into a major regional power, pioneering rock-cut architecture and temple design at Badami, Aihole and Pattadakal that influenced South India for centuries.",
       image: chalukyaImg,
       location: "Badami • Aihole • Pattadakal",
     },
@@ -38,7 +38,7 @@ function Kingdoms() {
       year: "753 CE",
       title: "Rashtrakuta Empire",
       description:
-        "Among medieval India's greatest imperial dynasties, the Rashtrakutas ruled vast territories while promoting literature, trade and engineering. Their legacy includes the monumental Kailasanatha Temple at Ellora.",
+        "Among medieval India's greatest imperial dynasties, the Rashtrakutas ruled vast territories while promoting literature, trade and engineering. Their legacy includes the monumental Kailasa Temple at Ellora.",
       image: rashtrakutaImg,
       location: "Manyakheta",
     },
@@ -46,7 +46,7 @@ function Kingdoms() {
       year: "1000 CE",
       title: "Hoysala Empire",
       description:
-        "The Hoysalas ushered in a golden age of sculpture and craftsmanship. Temples at Belur, Halebidu and Somanathapura remain celebrated for their extraordinary detail and artistic excellence.",
+        "The Hoysalas ushered in a golden age of architecture and sculpture, creating the masterpieces of Belur, Halebidu and Somanathapura that remain among India's finest temple complexes praised worldwide.",
       image: hoysalaImg,
       location: "Belur • Halebidu • Somanathapura",
     },
@@ -54,7 +54,7 @@ function Kingdoms() {
       year: "1336 CE",
       title: "Vijayanagara Empire",
       description:
-        "Founded by Harihara I and Bukka Raya I, Vijayanagara became the last great empire of South India. Its magnificent capital at Hampi grew into one of the richest and most spectacular cities of the medieval world.",
+        "Founded by Harihara I and Bukka Raya I, Vijayanagara became South India's last great Hindu empire, with Hampi flourishing as one of the medieval world's richest and most magnificent capitals praised worldwide.",
       image: vijayanagaraImg,
       location: "Hampi",
     },

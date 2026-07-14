@@ -83,7 +83,7 @@ function ContactCTA() {
           share your passion for South India, we'd love to hear from you.
         </p>
 
-        <div className="contact-cta-buttons">
+        <div className="contact-cta-buttons gap-4">
 
           <a
             href="#contact-form"

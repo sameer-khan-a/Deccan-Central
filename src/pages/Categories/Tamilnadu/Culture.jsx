@@ -21,15 +21,15 @@ function Culture() {
 
   const timeline = [
     {
-      year: "Ancient Origins",
+      year: "300 BCE-300 CE",
       title: "The Birth of Tamil Civilization",
       description:
-        "Among the world's oldest living civilizations, Tamil society flourished through its language, Sangam literature, philosophy and enduring cultural traditions that continue to shape Tamil identity today.",
+        "Among the world's oldest living cultural traditions, Tamil society flourished through its language, Sangam literature, philosophy and enduring customs that continue to shape Tamil identity today.",
       image: timeline1,
       location: "Madurai • Kanyakumari • Across Tamil Nadu",
     },
     {
-      year: "Classical Arts",
+      year: "600-1300 CE",
       title: "The Rise of Music & Dance",
       description:
         "Tamil Nadu became a cradle of classical expression, where Bharatanatyam, devotional music and temple performances evolved into some of India's most celebrated artistic traditions.",
@@ -37,7 +37,7 @@ function Culture() {
       location: "Chidambaram • Thanjavur",
     },
     {
-      year: "Temple Culture",
+      year: "900-1600 CE",
       title: "Faith at the Heart of Society",
       description:
         "Temple towns grew into vibrant cultural centres, preserving sacred rituals, festivals, classical music, traditional instruments and community celebrations for generations.",
@@ -45,7 +45,7 @@ function Culture() {
       location: "Madurai • Srirangam • Chidambaram",
     },
     {
-      year: "Craftsmanship & Heritage",
+      year: "1500-1900 CE",
       title: "The Flourishing of Traditional Arts",
       description:
         "Master artisans perfected silk weaving, bronze casting, folk theatre and handcrafted works that became enduring symbols of Tamil craftsmanship and creativity.",
@@ -53,10 +53,10 @@ function Culture() {
       location: "Kanchipuram • Swamimalai • Thanjavur",
     },
     {
-      year: "Present Day",
+      year: "1900-Present",
       title: "A Living Classical Culture",
       description:
-        "Today, Tamil Nadu proudly celebrates its language, festivals, music, dance, cuisine and artistic traditions, preserving one of the world's oldest continuously living cultures.",
+        "Today, Tamil Nadu proudly celebrates its language, festivals, music, dance, cuisine and artistic traditions, preserving one of the world's oldest living cultural traditions.",
       image: timeline5,
       location: "Across Tamil Nadu",
     },

@@ -21,15 +21,15 @@ function Architecture() {
 
   const timeline = [
     {
-      year: "7th - 9th Century",
+      year: "600-897 CE",
       title: "The Birth of Dravidian Architecture",
       description:
-        "The Pallavas pioneered South India's transition from rock-cut shrines to magnificent structural temples, establishing the foundations of the Dravidian architectural tradition.",
+        "The Pallavas pioneered South India's transition from rock-cut shrines to magnificent structural temples, laying the foundations of the Dravidian architectural tradition.",
       image: timeline1,
       location: "Mahabalipuram • Kanchipuram",
     },
     {
-      year: "10th - 13th Century",
+      year: "848-1279 CE",
       title: "The Chola Golden Age",
       description:
         "The Cholas perfected monumental granite construction, creating soaring vimanas, masterfully sculpted temples and engineering marvels that became symbols of imperial power.",
@@ -37,15 +37,15 @@ function Architecture() {
       location: "Thanjavur • Gangaikonda Cholapuram",
     },
     {
-      year: "13th - 15th Century",
+      year: "1216-1529 CE",
       title: "Temple Cities Flourish",
       description:
-        "Sacred temple complexes expanded into vibrant urban centres, with larger mandapas, elaborate gateways and richly carved halls becoming defining features of Tamil architecture.",
+        "Sacred temple complexes evolved into vibrant urban centres, with larger mandapas, elaborate gateways and richly carved halls becoming defining features of Tamil architecture.",
       image: timeline3,
       location: "Chidambaram • Srirangam",
     },
     {
-      year: "16th - 17th Century",
+      year: "1529-1736 CE",
       title: "The Age of Towering Gopurams",
       description:
         "The Vijayanagara and Nayak rulers transformed temple skylines with colossal gopurams, thousand-pillared halls and vast corridors that remain among the world's greatest architectural achievements.",
@@ -53,10 +53,10 @@ function Architecture() {
       location: "Madurai • Rameswaram",
     },
     {
-      year: "Present Day",
+      year: "1947-Present",
       title: "A Living Architectural Legacy",
       description:
-        "UNESCO monuments, active temple cities, majestic forts and historic palaces continue to preserve Tamil Nadu's extraordinary architectural heritage while inspiring millions of visitors each year.",
+        "UNESCO monuments, active temple cities, majestic forts and historic palaces continue to preserve Tamil Nadu's extraordinary architectural heritage while inspiring visitors from around the world.",
       image: timeline5,
       location: "Across Tamil Nadu",
     },
@@ -77,7 +77,6 @@ function Architecture() {
         heading="The Evolution of Dravidian Architecture"
         text1="For more than fifteen centuries, Tamil Nadu has stood at the forefront of South Indian architecture. Master builders transformed stone into enduring works of art, continuously refining the Dravidian style through innovation, devotion and extraordinary craftsmanship."
         text2="From the rock-cut monuments of Mahabalipuram to the towering temple cities of Madurai and Rameswaram, every monument reflects a remarkable journey of engineering, artistry and spiritual expression."
-
       />
 
       <CategoryTimeline

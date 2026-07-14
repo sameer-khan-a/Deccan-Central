@@ -2,10 +2,32 @@ import "./CategoryGrid.css";
 import { Link } from "react-router-dom";
 import PixelTransition from "./PixelTransition";
 
-function CategoryGrid({ categories }) {
-  return (
-    <section className="category-section">
+function CategoryGrid({
+  categories,
 
+  accent = "#d4a017",
+  accentLight = "#f9c74f",
+  accentDark = "#7a1b1b",
+
+  surface = "#171212",
+  surfaceLight = "#241818",
+
+  glow = "212,160,23",
+}) {
+  return (
+    <section
+      className="category-section"
+      style={{
+        "--accent": accent,
+        "--accent-light": accentLight,
+        "--accent-dark": accentDark,
+
+        "--surface": surface,
+        "--surface-light": surfaceLight,
+
+        "--glow": glow,
+      }}
+    >
       <div className="section-header">
         <p className="section-tag">
           EXPLORE
@@ -22,7 +44,6 @@ function CategoryGrid({ categories }) {
       </div>
 
       <div className="category-grid">
-
         {categories.map((category) => (
           <Link
             key={category.title}
@@ -34,7 +55,7 @@ function CategoryGrid({ categories }) {
               aspectRatio="135%"
               gridSize={16}
               animationStepDuration={0.22}
-              pixelColor="#0b0f19"
+              pixelColor="var(--accent)"
               firstContent={
                 <img
                   src={category.image}
@@ -63,9 +84,7 @@ function CategoryGrid({ categories }) {
             />
           </Link>
         ))}
-
       </div>
-
     </section>
   );
 }

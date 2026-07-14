@@ -21,7 +21,7 @@ function Culture() {
 
   const timeline = [
     {
-      year: "Ancient Kerala",
+      year: "Before 9th CE",
       title: "Sacred Rituals & Folk Traditions",
       description:
         "Kerala's earliest cultural identity emerged through temple rituals, sacred performances, oral traditions and community festivals deeply connected to nature and local beliefs.",
@@ -29,7 +29,7 @@ function Culture() {
       location: "North Kerala • Malabar",
     },
     {
-      year: "Temple Civilisation",
+      year: "9th-15th CE",
       title: "The Rise of Classical Arts",
       description:
         "Temple centres became hubs of learning and performance, nurturing timeless traditions such as Koodiyattam, Chakyar Koothu and other classical theatrical forms.",
@@ -37,15 +37,15 @@ function Culture() {
       location: "Thrissur • Kerala Temple Theatres",
     },
     {
-      year: "Cultural Renaissance",
+      year: "16th-18th CE",
       title: "Dance, Drama & Storytelling",
       description:
-        "Kerala's artistic heritage flourished through expressive dance dramas, classical music and refined storytelling traditions, producing globally celebrated art forms like Kathakali and Mohiniyattam.",
+        "Kerala's artistic heritage flourished through expressive dance dramas, classical music and refined storytelling traditions, giving rise to globally celebrated art forms like Kathakali and Mohiniyattam.",
       image: timeline3,
       location: "Central Kerala",
     },
     {
-      year: "Tradition Meets Life",
+      year: "16th-20th CE",
       title: "Martial Arts & Community Heritage",
       description:
         "Martial disciplines, ritual performances, craftsmanship and local customs became an integral part of Kerala's identity, preserving centuries of knowledge across generations.",
@@ -53,7 +53,7 @@ function Culture() {
       location: "Across Kerala",
     },
     {
-      year: "Present Day",
+      year: "1947-Present",
       title: "A Living Cultural Legacy",
       description:
         "Today, Kerala proudly celebrates its vibrant festivals, performing arts, martial traditions and community customs, ensuring that one of India's richest cultural landscapes continues to thrive.",

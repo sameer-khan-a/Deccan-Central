@@ -21,23 +21,23 @@ function Kingdoms() {
 
   const timeline = [
     {
-      year: "300 BCE - 300 CE",
+      year: "300 BCE-300 CE",
       title: "The Sangam Kingdoms",
       description:
-        "The Cheras, Cholas and Pandyas emerged as the great Tamil powers, nurturing Sangam literature, maritime trade and one of the world's oldest continuous civilizations.",
+        "The Cheras, Cholas and Pandyas emerged as the great Tamil powers, nurturing Sangam literature, maritime trade and one of the world's oldest continuous cultural traditions.",
       image: timeline1,
       location: "Madurai • Karur • Korkai",
     },
     {
-      year: "4th - 9th Century",
+      year: "275-897 CE",
       title: "The Pallava Dynasty",
       description:
-        "From Kanchipuram, the Pallavas transformed the Tamil region through advances in administration, learning and the pioneering of South India's Dravidian temple architecture.",
+        "From Kanchipuram, the Pallavas transformed the Tamil region through advances in administration, learning and pioneering Dravidian temple architecture in South India.",
       image: timeline2,
       location: "Kanchipuram • Mahabalipuram",
     },
     {
-      year: "9th - 13th Century",
+      year: "848-1279 CE",
       title: "The Imperial Cholas",
       description:
         "The Cholas built one of Asia's greatest maritime empires, commanding trade across the Indian Ocean while creating monumental temples and strengthening Tamil culture.",
@@ -45,7 +45,7 @@ function Kingdoms() {
       location: "Thanjavur • Gangaikonda Cholapuram",
     },
     {
-      year: "13th - 14th Century",
+      year: "1216-1345 CE",
       title: "The Later Pandyas",
       description:
         "The Pandyas restored Madurai as a flourishing centre of trade, literature and temple patronage, extending Tamil influence across the Indian Ocean.",
@@ -53,10 +53,10 @@ function Kingdoms() {
       location: "Madurai • Rameswaram",
     },
     {
-      year: "16th - 18th Century",
+      year: "1529-1736 CE",
       title: "The Nayaks of Madurai",
       description:
-        "Following the Vijayanagara Empire, the Nayaks enriched Tamil Nadu with magnificent temple expansions, grand palaces, vibrant festivals and enduring artistic traditions.",
+        "Following the decline of the Vijayanagara Empire, the Nayaks enriched Tamil Nadu with magnificent temple expansions, grand palaces, vibrant festivals and enduring artistic traditions.",
       image: timeline5,
       location: "Madurai • Tiruchirappalli • Thanjavur",
     },
@@ -76,7 +76,7 @@ function Kingdoms() {
       <CategoryOverview
         heading="More Than Two Thousand Years of Royal Legacy"
         text1="For over two millennia, Tamil Nadu has been home to some of India's most influential kingdoms. These dynasties shaped the region through maritime trade, monumental architecture, literature, administration and enduring cultural traditions."
-        text2="Their legacy lives on through majestic temple cities, ancient capitals, royal inscriptions and artistic achievements that continue to define Tamil identity and one of the world's oldest living civilizations."
+        text2="Their legacy lives on through majestic temple cities, ancient capitals, royal inscriptions and artistic achievements that continue to define Tamil identity and one of the world's oldest living cultural traditions."
       />
 
       <CategoryTimeline

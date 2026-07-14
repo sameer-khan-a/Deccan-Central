@@ -20,42 +20,42 @@ import { items, gallery } from "../../../data/andhrapradesh/culture";
 function Culture() {
   const timeline = [
     {
-      year: "Ancient Origins",
+      year: "300 BCE-600 CE",
       title: "The Birth of Telugu Identity",
       description:
-        "The Telugu language, early literature and regional customs formed the cultural foundations of Andhra Pradesh, creating a shared identity that has endured for over two millennia.",
+        "The Telugu language, early inscriptions, regional customs and literary traditions laid the cultural foundations of Andhra Pradesh. These enduring influences shaped a distinct identity that continues defining the Telugu-speaking world across generations.",
       image: timeline1,
       location: "Across Andhra Pradesh",
     },
     {
-      year: "Arts & Storytelling",
-      title: "A Tradition of Music and Literature",
+      year: "600-1300 CE",
+      title: "Music & Literary Traditions",
       description:
-        "Poetry, devotional music, oral storytelling and classical learning flourished, preserving history, philosophy and folklore through generations of artists and scholars.",
+        "Poetry, devotional music, classical learning and oral storytelling flourished under royal patronage throughout Andhra. Scholars and poets preserved philosophy, history and folklore while enriching the remarkable cultural heritage of the Telugu region.",
       image: timeline2,
       location: "Rajamahendravaram • Tirupati",
     },
     {
-      year: "Classical Expression",
+      year: "1300-1600 CE",
       title: "The Rise of Performing Arts",
       description:
-        "Classical dance, theatre and temple traditions reached new heights, with Kuchipudi emerging as one of India's most celebrated dance forms and a symbol of Telugu culture.",
+        "Classical dance, temple theatre and devotional performances reached new heights across Andhra Pradesh. Kuchipudi emerged as one of India's foremost classical dance traditions, becoming a timeless symbol of Telugu artistic excellence and cultural pride.",
       image: timeline3,
       location: "Kuchipudi Village • Krishna District",
     },
     {
-      year: "Crafts & Community",
-      title: "The Flourishing of Traditional Crafts",
+      year: "1600-1950 CE",
+      title: "Craftsmanship Across Generations",
       description:
-        "Generations of artisans preserved exquisite crafts including Kondapalli toys, Kalamkari textiles and lacquer work, reflecting the creativity and skill of Andhra's communities.",
+        "Master artisans preserved remarkable traditions including Kondapalli toys, Kalamkari textiles and Etikoppaka lacquerware. Their exceptional craftsmanship transformed everyday objects into enduring symbols of Andhra Pradesh's artistic heritage and cultural identity.",
       image: timeline4,
       location: "Kondapalli • Srikalahasti • Etikoppaka",
     },
     {
-      year: "Present Day",
+      year: "1950-Present",
       title: "A Living Cultural Heritage",
       description:
-        "Today, Andhra Pradesh celebrates its heritage through festivals, language, music, dance, cuisine and traditional crafts, ensuring that Telugu culture continues to thrive in a modern world.",
+        "Today, Andhra Pradesh celebrates its cultural legacy through festivals, language, music, dance, cuisine and traditional craftsmanship. While embracing modern influences, the state continues preserving the rich heritage of Telugu civilization for future generations.",
       image: timeline5,
       location: "Across Andhra Pradesh",
     },
@@ -68,14 +68,14 @@ function Culture() {
       <CategoryHero
         title="Culture of Andhra Pradesh"
         subtitle="The Soul of Telugu Civilization"
-        description="From the timeless Telugu language and graceful Kuchipudi dance to vibrant festivals, sacred traditions and remarkable craftsmanship, Andhra Pradesh celebrates one of India's richest cultural legacies."
+        description="From the timeless Telugu language and graceful Kuchipudi dance to vibrant festivals, sacred traditions and remarkable craftsmanship, Andhra Pradesh preserves one of India's richest cultural legacies spanning more than two thousand years."
         image={heroImg}
       />
 
       <CategoryOverview
         heading="A Journey Through Telugu Culture"
-        text1="For more than two thousand years, Andhra Pradesh has nurtured a vibrant cultural tradition shaped by literature, music, performing arts, craftsmanship and deep-rooted community values. Every festival, dance and art form reflects the enduring spirit of Telugu civilization."
-        text2="Whether witnessing the elegance of Kuchipudi, admiring Kalamkari textiles, celebrating Ugadi or exploring centuries-old craft traditions, visitors experience a culture that honours its past while embracing the future."
+        text1="For more than two thousand years, Andhra Pradesh has nurtured a vibrant cultural tradition shaped by literature, music, performing arts, craftsmanship and enduring community values. Every generation has enriched the remarkable legacy of Telugu civilization."
+        text2="Whether witnessing the elegance of Kuchipudi, admiring Kalamkari textiles, celebrating Ugadi or exploring centuries-old craft traditions, visitors experience a living culture that proudly honours its past while embracing the future."
       />
 
       <CategoryTimeline
@@ -91,7 +91,7 @@ function Culture() {
       <Gallery
         tag="CULTURAL SHOWCASE"
         title="Beyond the Traditions"
-        description="Beyond its celebrated festivals and performing arts, Andhra Pradesh's cultural heritage flourishes through classical music, folk storytelling, sacred traditions, intricate textiles, handcrafted toys and artistic practices that continue to inspire generations."
+        description="Beyond its celebrated festivals and performing arts, Andhra Pradesh's cultural heritage thrives through classical music, folk storytelling, sacred traditions, intricate textiles, handcrafted toys and artistic practices preserved across countless generations."
         images={gallery}
       />
 

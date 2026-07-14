@@ -20,42 +20,42 @@ import { items, gallery } from "../../../data/telangana/culture";
 function Culture() {
   const timeline = [
     {
-      year: "Ancient Traditions",
+      year: "Before 900 CE",
       title: "The Roots of Telangana's Identity",
       description:
-        "Early communities developed unique customs, folk beliefs, seasonal festivals and oral storytelling traditions that formed the cultural foundation of the region.",
+        "Early communities developed distinctive customs, folk beliefs, seasonal festivals and oral storytelling traditions that formed the cultural foundations of Telangana. These enduring practices shaped regional identity while preserving generations of shared knowledge and heritage.",
       image: timeline1,
       location: "Across Telangana",
     },
     {
-      year: "Folk Heritage",
+      year: "1100-1500 CE",
       title: "Music, Dance & Storytelling",
       description:
-        "Folk dances, ballads, puppetry and community celebrations flourished, preserving local history and passing traditions from one generation to the next.",
+        "Folk dances, heroic ballads, puppetry and vibrant community celebrations flourished across Telangana for centuries. These living traditions preserved local history while passing artistic expression, cultural values and collective memory from one generation to the next.",
       image: timeline2,
       location: "Warangal • Karimnagar • Nalgonda",
     },
     {
-      year: "A Cultural Crossroads",
+      year: "1518-1700 CE",
       title: "Traditions Come Together",
       description:
-        "Centuries of cultural exchange enriched Telangana with new languages, music, crafts and artistic styles, creating the distinctive Deccani identity celebrated today.",
+        "Centuries of cultural exchange introduced new languages, music, crafts and architectural influences throughout Telangana. This remarkable fusion of traditions created the distinctive Deccani identity that continues to define the region's cultural character today.",
       image: timeline3,
       location: "Hyderabad",
     },
     {
-      year: "Festivals and Traditions",
+      year: "1724-1948 CE",
       title: "Celebrating Community",
       description:
-        "Festivals such as Bathukamma and Bonalu, alongside classical and folk arts, became enduring symbols of Telangana's vibrant cultural spirit and shared identity.",
+        "Festivals such as Bathukamma and Bonalu gained wider public prominence alongside classical and folk traditions, strengthening community bonds across Telangana. Their colourful celebrations became enduring symbols of regional pride, spirituality and shared cultural identity.",
       image: timeline4,
       location: "Hyderabad • Siddipet • Warangal",
     },
     {
-      year: "Present Day",
+      year: "1948-Present",
       title: "Preserving a Living Heritage",
       description:
-        "Today, Telangana continues to celebrate its cultural richness through festivals, literature, crafts, music, dance and community traditions while embracing a modern global outlook.",
+        "Today, Telangana proudly celebrates its cultural richness through festivals, literature, crafts, music, dance and community traditions. While embracing modern influences, the state continues to preserve the heritage that defines its unique identity.",
       image: timeline5,
       location: "Across Telangana",
     },
@@ -68,14 +68,14 @@ function Culture() {
       <CategoryHero
         title="Culture of Telangana"
         subtitle="Tradition, Festivals & the Spirit of the Deccan"
-        description="From vibrant festivals and ancient folk traditions to celebrated arts, crafts and the cosmopolitan spirit of Hyderabad, Telangana's culture is a living expression of the Deccan's rich heritage."
+        description="From vibrant festivals and ancient folk traditions to celebrated arts, crafts and the cosmopolitan spirit of Hyderabad, Telangana preserves a living cultural heritage shaped by centuries of creativity, diversity and community."
         image={heroImg}
       />
 
       <CategoryOverview
         heading="A Cultural Journey Through Telangana"
-        text1="Telangana's culture has evolved through centuries of community traditions, artistic expression and cultural exchange. Every festival, dance, craft and language reflects the resilience and creativity of its people."
-        text2="Whether experiencing Bathukamma, watching Perini Shivatandavam, listening to folk music or admiring handcrafted textiles, visitors discover a heritage that continues to thrive across the state."
+        text1="Telangana's culture has evolved through centuries of community traditions, artistic expression and cultural exchange. Every festival, dance, craft, language and ritual reflects the resilience, creativity and enduring spirit of its people."
+        text2="Whether experiencing Bathukamma, witnessing Perini Shivatandavam, listening to folk music or admiring handcrafted textiles, visitors discover a remarkable cultural heritage that continues to flourish across every region of the state."
       />
 
       <CategoryTimeline
@@ -91,7 +91,7 @@ function Culture() {
       <Gallery
         tag="CULTURAL SHOWCASE"
         title="Beyond the Celebrations"
-        description="Beyond its famous festivals, Telangana's heritage lives through folk dances, colourful handicrafts, traditional attire, storytelling, temple rituals, music, local fairs and centuries-old artistic traditions."
+        description="Beyond its celebrated festivals, Telangana's cultural heritage thrives through vibrant folk dances, colourful handicrafts, traditional attire, storytelling, temple rituals, local fairs, music and centuries-old artistic traditions preserved across generations."
         images={gallery}
       />
 

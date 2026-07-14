@@ -1,39 +1,74 @@
-.item-grid-section {
-  padding: 7rem 8%;
-  background: #101625;
+.item-grid-section{
+    padding:clamp(4rem,7vh,7rem) clamp(1.25rem,6vw,8%);
+    background:#101625;
 }
 
-.item-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  margin-top: 4rem;
+.item-grid{
+    display:flex;
+    flex-direction:column;
+    gap:clamp(1.5rem,2.5vw,2rem);
+    margin-top:clamp(2.5rem,5vw,4rem);
 }
 
 /* ==========================
-   Responsive
+   Large Tablets
 ========================== */
 
-@media (max-width: 900px) {
+@media (max-width:1200px){
 
-  .item-grid-section {
-    padding: 6rem 5%;
-  }
-
-  .item-grid {
-    gap: 1.75rem;
-  }
+.item-grid-section{
+    padding:6rem 6%;
+}
 
 }
 
-@media (max-width: 600px) {
+/* ==========================
+   Tablets
+========================== */
 
-  .item-grid-section {
-    padding: 5rem 1.5rem;
-  }
+@media (max-width:900px){
 
-  .item-grid {
-    gap: 1.5rem;
-  }
+.item-grid-section{
+    padding:5rem 1.75rem;
+}
+
+.item-grid{
+    gap:1.6rem;
+    margin-top:3rem;
+}
+
+}
+
+/* ==========================
+   Phones
+========================== */
+
+@media (max-width:600px){
+
+.item-grid-section{
+    padding:4.5rem 1.2rem;
+}
+
+.item-grid{
+    gap:1.35rem;
+    margin-top:2.5rem;
+}
+
+}
+
+/* ==========================
+   Small Phones
+========================== */
+
+@media (max-width:380px){
+
+.item-grid-section{
+    padding:4rem 1rem;
+}
+
+.item-grid{
+    gap:1.2rem;
+    margin-top:2rem;
+}
 
 }

@@ -4,6 +4,7 @@
 
 .about-quote {
   position: relative;
+
   min-height: 80vh;
 
   display: flex;
@@ -13,9 +14,11 @@
   padding: 120px 8%;
 
   background:
-    radial-gradient(circle at top,
+    radial-gradient(
+      circle at top,
       rgba(212,160,23,.08),
-      transparent 35%),
+      transparent 35%
+    ),
     linear-gradient(
       to bottom,
       #101625,
@@ -30,15 +33,39 @@
 ========================== */
 
 .quote-overlay {
-
   position: absolute;
-
   inset: 0;
 
   background:
-    radial-gradient(circle,
+    radial-gradient(
+      circle,
       rgba(255,255,255,.02),
-      transparent 60%);
+      transparent 60%
+    );
+
+  pointer-events: none;
+}
+
+/* ==========================
+   GLOW
+========================== */
+
+.quote-glow {
+  position: absolute;
+
+  width: 700px;
+  height: 700px;
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(212,160,23,.08),
+      transparent 70%
+    );
+
+  filter: blur(80px);
 
   pointer-events: none;
 }
@@ -48,9 +75,7 @@
 ========================== */
 
 .quote-container {
-
   position: relative;
-
   z-index: 2;
 
   max-width: 900px;
@@ -63,16 +88,15 @@
 ========================== */
 
 .quote-mark {
+  margin: 2rem 0 1rem;
+
+  color: rgba(212,160,23,.2);
+
+  font-family: Georgia, serif;
 
   font-size: 8rem;
 
   line-height: .6;
-
-  color: rgba(212,160,23,.2);
-
-  margin: 2rem 0 1rem;
-
-  font-family: Georgia, serif;
 }
 
 /* ==========================
@@ -80,19 +104,20 @@
 ========================== */
 
 .quote-text {
+  margin-bottom: 2rem;
+
+  color: #fff;
 
   font-size: clamp(2.8rem,6vw,5rem);
-
-  color: white;
+  font-weight: 800;
 
   line-height: 1.15;
 
-  font-weight: 800;
-
-  margin-bottom: 2rem;
+  letter-spacing: -.02em;
 
   text-shadow:
-    0 12px 30px rgba(0,0,0,.35);
+    0 12px 30px rgba(0,0,0,.35),
+    0 0 35px rgba(212,160,23,.08);
 }
 
 /* ==========================
@@ -100,122 +125,19 @@
 ========================== */
 
 .quote-description {
-
   max-width: 700px;
 
-  margin: auto;
+  margin: 0 auto;
 
-  color: #c4c4c4;
+  color: #c6c6c6;
+
+  font-size: 1.08rem;
 
   line-height: 2;
 
-  font-size: 1.08rem;
+  text-wrap: balance;
 }
 
-/* ==========================
-   BUTTON
-========================== */
-
-/* ==========================
-   GLOW
-========================== */
-
-.quote-glow {
-
-  position: absolute;
-
-  width: 700px;
-  height: 700px;
-
-  border-radius: 50%;
-
-  background:
-    radial-gradient(circle,
-      rgba(212,160,23,.08),
-      transparent 70%);
-
-  filter: blur(80px);
-
-  pointer-events: none;
-}
-
-/* ==========================
-   OPTIONAL FOOTER
-========================== */
-
-.quote-footer {
-
-  margin-top: 5rem;
-
-  color: #727272;
-
-  letter-spacing: 1px;
-
-  font-size: .9rem;
-}
-
-/* ==========================
-   RESPONSIVE
-========================== */
-
-@media(max-width:768px){
-
-.about-quote{
-
-padding:90px 6%;
-
-min-height:70vh;
-}
-
-.quote-mark{
-
-font-size:5rem;
-}
-
-.quote-text{
-
-font-size:2.6rem;
-}
-
-.quote-description{
-
-font-size:1rem;
-
-line-height:1.8;
-}
-
-.quote-button{
-
-padding:.9rem 1.7rem;
-}
-
-}
-
-@media(max-width:480px){
-
-.quote-text{
-
-font-size:2rem;
-}
-
-.quote-mark{
-
-font-size:4rem;
-}
-
-.quote-description{
-
-font-size:.95rem;
-}
-
-.quote-button{
-
-width:100%;
-
-justify-content:center;
-}
-
-}
 /* ==========================
    BUTTON
 ========================== */
@@ -237,39 +159,48 @@ justify-content:center;
 
   text-decoration: none;
 
-  font-weight: 700;
-  letter-spacing: .5px;
-  font-size: 1rem;
-
   color: #0b0f19;
 
-  background: linear-gradient(
-    135deg,
-    #d4a017,
-    #e6b422
-  );
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: .5px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #d4a017,
+      #e6b422
+    );
 
   box-shadow:
     0 12px 30px rgba(212,160,23,.22);
 
   transition:
-    transform .35s,
-    box-shadow .35s,
-    background .35s;
+    transform .35s ease,
+    box-shadow .35s ease,
+    filter .35s ease;
 }
 
 .quote-button svg {
-  font-size: 1rem;
-  transition: transform .45s ease;
+  transition:
+    transform .45s ease;
 }
-
+.section-tag {
+  color: #d4a017 !important;
+  letter-spacing: 4px;
+  font-size: 0.85rem;
+}
 .button-arrow {
   font-size: 1.2rem;
-  transition: transform .35s ease;
+
+  transition:
+    transform .35s ease;
 }
 
 .quote-button:hover {
   transform: translateY(-5px);
+
+  filter: brightness(1.03);
 
   box-shadow:
     0 20px 45px rgba(212,160,23,.35);
@@ -287,11 +218,16 @@ justify-content:center;
   transform: translateY(-1px);
 }
 
+/* ==========================
+   ICON ANIMATION
+========================== */
+
 .rolling {
   animation: diceRoll .5s linear;
 }
 
 @keyframes diceRoll {
+
   from {
     transform: rotate(0deg) scale(1);
   }
@@ -299,4 +235,76 @@ justify-content:center;
   to {
     transform: rotate(720deg) scale(1.2);
   }
+
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+.quote-footer {
+  margin-top: 5rem;
+
+  color: #727272;
+
+  font-size: .9rem;
+
+  letter-spacing: 1px;
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media (max-width:768px) {
+
+  .about-quote {
+    min-height: 70vh;
+
+    padding: 90px 6%;
+  }
+
+  .quote-glow {
+    width: 500px;
+    height: 500px;
+  }
+
+  .quote-mark {
+    font-size: 5rem;
+  }
+
+  .quote-text {
+    font-size: 2.6rem;
+  }
+
+  .quote-description {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .quote-button {
+    padding: .9rem 1.7rem;
+  }
+
+}
+
+@media (max-width:480px) {
+
+  .quote-mark {
+    font-size: 4rem;
+  }
+
+  .quote-text {
+    font-size: 2rem;
+  }
+
+  .quote-description {
+    font-size: .95rem;
+  }
+
+  .quote-button {
+    width: 100%;
+    justify-content: center;
+  }
+
 }

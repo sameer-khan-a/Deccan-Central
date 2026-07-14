@@ -21,7 +21,7 @@ function Wildlife() {
 
   const timeline = [
     {
-      year: "Ancient Kerala",
+      year: "Before 19th CE",
       title: "Living with the Forests",
       description:
         "For centuries, Kerala's communities coexisted with the rainforests of the Western Ghats. Wildlife featured in folklore, temple traditions and indigenous knowledge, fostering a deep respect for nature.",
@@ -29,15 +29,15 @@ function Wildlife() {
       location: "Western Ghats • Kerala",
     },
     {
-      year: "Early Conservation",
+      year: "1894-1972 CE",
       title: "Protecting Natural Landscapes",
       description:
-        "As forests came under increasing pressure, Kerala established protected reserves to safeguard elephants, tigers, endemic species and the fragile ecosystems of the Western Ghats.",
+        "Protected reserves were established to safeguard elephants, tigers, endemic species and the fragile ecosystems of the Western Ghats.",
       image: timeline2,
       location: "Periyar • Thekkady",
     },
     {
-      year: "Conservation Movement",
+      year: "1973-1985 CE",
       title: "Saving the Rainforests",
       description:
         "Public awareness and scientific research led to landmark conservation victories, including the protection of Silent Valley, preserving one of India's last untouched tropical rainforests.",
@@ -45,7 +45,7 @@ function Wildlife() {
       location: "Silent Valley",
     },
     {
-      year: "Expanding Protection",
+      year: "1985-2000 CE",
       title: "Safeguarding Endemic Species",
       description:
         "National parks and wildlife sanctuaries strengthened conservation efforts, protecting endangered animals such as the Nilgiri Tahr, lion-tailed macaque and countless endemic birds and reptiles.",
@@ -53,7 +53,7 @@ function Wildlife() {
       location: "Eravikulam • Wayanad",
     },
     {
-      year: "Present Day",
+      year: "2000-Present",
       title: "A Shared Future",
       description:
         "Today, Kerala combines scientific conservation, eco-tourism and community participation to protect one of the world's richest biodiversity hotspots while encouraging sustainable coexistence between people and wildlife.",

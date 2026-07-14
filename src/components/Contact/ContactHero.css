@@ -1,8 +1,16 @@
+/* ==========================
+   CONTACT HERO
+========================== */
+
 .contact-hero {
   position: relative;
-  min-height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+
+  min-height: 100svh;
+  padding: 7rem 0;
+
   overflow: hidden;
 
   background:
@@ -15,193 +23,283 @@
     url("../../assets/contact/hero.jpeg") center center / cover no-repeat;
 }
 
-.contact-hero::before{
-  content:"";
-  position:absolute;
-  inset:0;
+.contact-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
   background:
-    radial-gradient(circle at top left,
+    radial-gradient(
+      circle at top left,
       rgba(212,160,23,.18),
-      transparent 45%),
-    radial-gradient(circle at bottom right,
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at bottom right,
       rgba(212,160,23,.08),
-      transparent 55%);
-  pointer-events:none;
+      transparent 55%
+    );
 }
 
-.contact-hero::after{
-  content:"";
-  position:absolute;
-  inset:0;
+.contact-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
   box-shadow:
     inset 0 180px 140px rgba(0,0,0,.65),
     inset 0 -220px 160px rgba(0,0,0,.85),
     inset 120px 0 160px rgba(0,0,0,.45),
     inset -120px 0 160px rgba(0,0,0,.15);
-  pointer-events:none;
 }
 
 .contact-hero-content{
-  position:relative;
-  z-index:5;
+  position: relative;
+  z-index: 5;
 
-  width:min(760px,90%);
-  margin-left:8%;
-  text-align:left;
+  width: min(760px, 90%);
+  margin-left: clamp(5%, 8vw, 8%);
+
+  transform: translateY(-4rem);
+
+  text-align: left;
 }
 
-.contact-tag{
-  display:inline-flex;
-  align-items:center;
-  gap:.7rem;
+.contact-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: .7rem;
 
-  padding:.75rem 1.3rem;
+  padding: .75rem 1.3rem;
 
-  border:1px solid rgba(212,160,23,.3);
-  border-radius:999px;
+  border: 1px solid rgba(212,160,23,.3);
+  border-radius: 999px;
 
-  background:rgba(255,255,255,.05);
-  backdrop-filter:blur(16px);
+  background: rgba(255,255,255,.05);
+  backdrop-filter: blur(16px);
 
-  color:#d4a017;
+  color: #d4a017;
 
-  font-size:.8rem;
-  font-weight:700;
-  letter-spacing:.18em;
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .18em;
 }
 
-.contact-hero-content h1{
-  margin:2rem 0 0;
+.contact-hero-content h1 {
+  margin: 2rem 0 0;
 
-  font-size:clamp(3.5rem,6vw,6rem);
-  line-height:1.02;
-  letter-spacing:-.04em;
+  max-width: 700px;
 
-  color:#fff;
+  color: #fff;
 
-  max-width:700px;
+  font-size: clamp(3.3rem, 6vw, 6rem);
+  line-height: 1.05;
+  letter-spacing: -.04em;
 
-  text-wrap:balance;
+  text-wrap: balance;
 }
 
-.contact-hero-content p{
-  margin-top:2rem;
+.contact-hero-content p {
+  margin-top: 2rem;
 
-  max-width:620px;
+  max-width: 620px;
 
-  font-size:1.12rem;
-  line-height:1.95;
+  color: rgba(255,255,255,.78);
 
-  color:rgba(255,255,255,.78);
+  font-size: 1.12rem;
+  line-height: 1.9;
+
+  text-wrap: pretty;
 }
 
-.contact-hero-btn{
-  display:inline-flex;
-  align-items:center;
-  gap:.8rem;
+.contact-hero-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
 
-  margin-top:3rem;
+  margin-top: 3rem;
+  padding: 1rem 2rem;
 
-  padding:1rem 2rem;
+  border-radius: 999px;
 
-  border-radius:999px;
+  background: #d4a017;
+  color: #0b0f19;
+  text-decoration: none;
 
-  background:#d4a017;
-  color:#0b0f19;
+  font-weight: 700;
 
-  text-decoration:none;
-  font-weight:700;
-
-  transition:.35s ease;
+  transition:
+    transform .35s ease,
+    box-shadow .35s ease,
+    background .35s ease;
 }
 
-.contact-hero-btn svg{
-  transition:.35s ease;
+.contact-hero-btn svg {
+  transition: transform .35s ease;
 }
 
-.contact-hero-btn:hover{
-  transform:translateY(-5px);
-  box-shadow:0 20px 45px rgba(212,160,23,.35);
+.contact-hero-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 45px rgba(212,160,23,.35);
 }
 
-.contact-hero-btn:hover svg{
-  transform:translateX(4px) rotate(-15deg);
+.contact-hero-btn:hover svg {
+  transform: translateX(4px) rotate(-15deg);
 }
 
-.contact-scroll{
-  position:absolute;
-  left:50%;
-  bottom:35px;
-  transform:translateX(-50%);
-  z-index:5;
+.contact-scroll {
+  position: absolute;
+  left: 50%;
+  bottom: 35px;
+
+  transform: translateX(-50%);
+  z-index: 5;
 }
 
-.contact-scroll span{
-  width:2px;
-  height:65px;
-  display:block;
+.contact-scroll span {
+  display: block;
 
-  background:linear-gradient(
+  width: 2px;
+  height: 65px;
+
+  background: linear-gradient(
     transparent,
     #d4a017,
     transparent
   );
 
-  animation:scrollPulse 2s infinite;
+  animation: scrollPulse 2s infinite;
 }
 
-@keyframes scrollPulse{
+@keyframes scrollPulse {
 
-  0%,100%{
-    opacity:.3;
-    transform:scaleY(.8);
+  0%,100% {
+    opacity: .3;
+    transform: scaleY(.8);
   }
 
-  50%{
-    opacity:1;
-    transform:scaleY(1);
-  }
-
-}
-
-@media(max-width:900px){
-
-  .contact-hero{
-    justify-content:center;
-    text-align:center;
-
-    background-position:center;
-  }
-
-  .contact-hero-content{
-    margin:0;
-    width:90%;
-    text-align:center;
-  }
-
-  .contact-hero-content h1{
-    margin-inline:auto;
-  }
-
-  .contact-hero-content p{
-    margin-inline:auto;
+  50% {
+    opacity: 1;
+    transform: scaleY(1);
   }
 
 }
 
-@media(max-width:768px){
+/* ==========================
+   LAPTOPS
+========================== */
 
-  .contact-hero{
-    min-height:90vh;
-    padding-top:90px;
+@media (max-width: 1200px) {
+
+  .contact-hero-content {
+    margin-left: 6%;
   }
 
-  .contact-hero-content h1{
-    font-size:clamp(2.8rem,9vw,4rem);
+}
+
+/* ==========================
+   TABLETS
+========================== */
+
+@media (max-width: 900px) {
+
+  .contact-hero {
+    justify-content: center;
+    text-align: center;
+
+    background-position: center;
   }
 
-  .contact-scroll{
-    display:none;
+.contact-hero-content{
+  margin: 0;
+  width: min(700px, 92%);
+  text-align: center;
+  transform: translateY(-2rem);
+}
+
+  .contact-hero-content h1,
+  .contact-hero-content p {
+    margin-inline: auto;
+  }
+
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media (max-width: 768px) {
+
+  .contact-hero {
+    min-height: auto;
+    padding: 7rem 0 5rem;
+  }
+
+  .contact-tag {
+    padding: .7rem 1.1rem;
+    font-size: .72rem;
+    letter-spacing: .14em;
+  }
+
+  .contact-hero-content h1 {
+    font-size: clamp(2.6rem, 9vw, 4rem);
+    line-height: 1.12;
+  }
+
+  .contact-hero-content p {
+    margin-top: 1.6rem;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+.contact-hero-content{
+  transform: translateY(-1rem);
+}
+  .contact-hero-btn {
+    width: 100%;
+    max-width: 320px;
+    margin-top: 2.5rem;
+  }
+
+  .contact-scroll {
+    display: none;
+  }
+
+}
+
+/* ==========================
+   SMALL PHONES
+========================== */
+
+@media (max-width: 480px) {
+
+  .contact-hero {
+    padding: 6rem 0 4rem;
+  }
+
+  .contact-hero-content {
+    width: 90%;
+    transform: none;
+  }
+
+  .contact-hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .contact-hero-content p {
+    font-size: .95rem;
+  }
+
+  .contact-tag {
+    font-size: .68rem;
+    padding: .65rem 1rem;
+  }
+
+  .contact-hero-btn {
+    max-width: 100%;
+    padding: .95rem 1.3rem;
   }
 
 }

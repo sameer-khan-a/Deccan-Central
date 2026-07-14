@@ -19,42 +19,42 @@ import { items, gallery } from "../../../data/karnataka/places";
 function Places() {
   const timeline = [
     {
-      year: "Ancient Karnataka",
+      year: "Prehistory-900 CE",
       title: "Nature's First Landmarks",
       description:
-        "Long before great cities emerged, Karnataka's rivers, caves, forests and hills became sacred landscapes for early communities. These natural wonders shaped the state's earliest settlements and places of worship.",
+        "Long before great cities emerged, Karnataka's rivers, forests, caves and hills shaped the lives of early communities. These remarkable landscapes inspired early settlements and sacred traditions while laying the foundations for many of the state's earliest settlements.",
       image: ancientImg,
       location: "Western Ghats • Deccan Plateau",
     },
     {
-      year: "Early Medieval Era",
+      year: "900-1300 CE",
       title: "The Rise of Sacred Sites",
       description:
-        "Temple towns, cave sanctuaries and pilgrimage centres flourished across Karnataka, transforming places like Badami, Pattadakal and Shravanabelagola into enduring spiritual and architectural landmarks.",
+        "Temple towns, cave sanctuaries and pilgrimage centres flourished across Karnataka, transforming places like Badami, Pattadakal and Shravanabelagola into enduring landmarks celebrated for their spiritual importance and architectural brilliance.",
       image: sacredImg,
       location: "Badami • Pattadakal • Shravanabelagola",
     },
     {
-      year: "Medieval Karnataka",
+      year: "1336-1700 CE",
       title: "Cities of Stone & Heritage",
       description:
-        "Magnificent temple complexes, bustling markets and royal capitals reshaped the landscape, with Hampi emerging as one of the world's greatest medieval cities and a lasting symbol of Karnataka's heritage.",
+        "Magnificent temple complexes, thriving markets and royal capitals reshaped Karnataka's landscape during the Vijayanagara era. Hampi emerged as one of the world's greatest cities, leaving behind an extraordinary legacy of history and architecture.",
       image: heritageImg,
       location: "Hampi",
     },
     {
-      year: "19th - 20th Century",
+      year: "1800-1950 CE",
       title: "Hill Stations & Heritage Cities",
       description:
-        "The growth of Mysuru, Bengaluru and the coffee estates of Coorg and Chikkamagaluru introduced elegant palaces, botanical gardens, hill stations and scenic retreats that expanded Karnataka's tourism landscape.",
+        "The growth of Mysuru, Bengaluru and the coffee estates of Coorg and Chikkamagaluru popularised elegant palaces, botanical gardens, scenic hill stations and cultural attractions that transformed Karnataka into a celebrated travel destination.",
       image: hillImg,
       location: "Mysuru • Coorg • Chikkamagaluru • Bengaluru",
     },
     {
-      year: "Present Day",
+      year: "1950-Present",
       title: "A World of Experiences",
       description:
-        "Today, Karnataka brings together UNESCO World Heritage Sites, wildlife reserves, waterfalls, beaches, mountains, vibrant cities and living cultural destinations, making it one of India's most diverse travel experiences.",
+        "Today, Karnataka brings together UNESCO World Heritage Sites, wildlife reserves, waterfalls, beaches, mountains and vibrant cities, offering travellers an extraordinary blend of history, nature, culture and unforgettable experiences throughout the state.",
       image: modernImg,
       location: "Across Karnataka",
     },
@@ -67,14 +67,14 @@ function Places() {
       <CategoryHero
         title="Places to Visit in Karnataka"
         subtitle="Ancient Heritage, Wild Landscapes & Timeless Wonders"
-        description="From the timeless ruins of Hampi to the misty Western Ghats and the golden shores of the Arabian Sea, Karnataka offers an unforgettable journey through history, nature and culture."
+        description="From the timeless ruins of Hampi to the misty Western Ghats and the golden shores of the Arabian Sea, Karnataka offers an unforgettable journey through history, nature, culture and extraordinary landscapes."
         image={heroImg}
       />
 
       <CategoryOverview
         heading="A Journey Through Karnataka's Landmarks"
-        text1="Karnataka rewards curiosity like few places in India. Ancient temple towns, UNESCO World Heritage Sites, mist-covered coffee estates, roaring waterfalls, sacred hills and untouched beaches coexist within a single state."
-        text2="Whether exploring forgotten monuments, trekking through the Western Ghats, wandering vibrant heritage cities or relaxing along the Arabian Sea, every destination reveals another chapter of Karnataka's remarkable story."
+        text1="Karnataka rewards curiosity like few places in India. Ancient temple towns, UNESCO World Heritage Sites, mist-covered coffee estates, roaring waterfalls, sacred hills and untouched beaches together create one of the country's most diverse travel landscapes."
+        text2="Whether exploring forgotten monuments, trekking through the Western Ghats, wandering vibrant heritage cities or relaxing beside the Arabian Sea, every destination reveals another chapter in Karnataka's remarkable story and enduring legacy."
       />
 
       <CategoryTimeline
@@ -90,7 +90,7 @@ function Places() {
       <Gallery
         tag="DESTINATION SHOWCASE"
         title="Beyond the Must-Visit Places"
-        description="Beyond its iconic landmarks, Karnataka is home to hidden temples, ancient forts, charming heritage towns, pristine beaches, dense forests, misty hill stations, spectacular waterfalls and countless offbeat destinations waiting to be explored."
+        description="Beyond its iconic landmarks, Karnataka is home to hidden temples, ancient forts, charming heritage towns, pristine beaches, dense forests, misty hill stations, spectacular waterfalls and countless offbeat destinations waiting to be discovered."
         images={gallery}
       />
 

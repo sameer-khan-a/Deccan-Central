@@ -20,42 +20,42 @@ import { items, gallery } from "../../../data/telangana/architecture";
 function Architecture() {
   const timeline = [
     {
-      year: "3rd BCE - 3rd CE",
+      year: "230 BCE-624 CE",
       title: "Early Foundations",
       description:
-        "Early settlements and Buddhist centres introduced brick structures, monasteries and stupas that laid the foundation for Telangana's architectural traditions.",
+        "Early settlements and flourishing Buddhist centres developed brick temples, monasteries and stupas that established the foundations of Telangana's architectural heritage. These enduring monuments reflected the region's growing religious, cultural and artistic significance.",
       image: timeline1,
       location: "Kotilingala • Dhulikatta • Phanigiri",
     },
     {
-      year: "11th - 14th Century",
+      year: "1100-1323 CE",
       title: "The Age of Temple Architecture",
       description:
-        "Master craftsmen perfected intricately carved temples, elegant pillars, star-shaped platforms and monumental gateways, producing some of the Deccan's finest sacred architecture.",
+        "Master craftsmen perfected intricately carved temples, elegant pillars, star-shaped platforms and monumental gateways across the Kakatiya realm. Their extraordinary engineering and sculptural excellence produced some of the finest sacred architecture in the Deccan.",
       image: timeline2,
       location: "Ramappa • Hanamkonda • Warangal",
     },
     {
-      year: "16th - 17th Century",
+      year: "1518-1687 CE",
       title: "Forts & Monumental Cities",
       description:
-        "Massive hill forts, royal gateways, mosques and grand tombs transformed Telangana into a centre of Indo-Persian architecture while preserving local Deccan craftsmanship.",
+        "The Qutb Shahis transformed Telangana through magnificent hill forts, royal gateways, mosques and royal tombs. Their architecture blended Persian influences with local craftsmanship, creating a distinctive and enduring Deccan architectural tradition.",
       image: timeline3,
       location: "Golconda • Hyderabad",
     },
     {
-      year: "18th - 20th Century",
+      year: "1724-1948 CE",
       title: "Palaces & Civic Grandeur",
       description:
-        "Magnificent palaces, administrative buildings, markets and public institutions reshaped Hyderabad into one of India's most architecturally distinguished cities.",
+        "The Asaf Jahi Nizams commissioned magnificent palaces, public institutions, markets and administrative buildings that reshaped Hyderabad. Their architectural vision blended Indo-Islamic, European and local traditions into one of India's finest urban landscapes.",
       image: timeline4,
       location: "Hyderabad",
     },
     {
-      year: "Present Day",
+      year: "1948-Present",
       title: "A Living Architectural Heritage",
       description:
-        "UNESCO recognition, restoration projects and heritage conservation continue to preserve Telangana's remarkable monuments while celebrating centuries of artistic achievement.",
+        "Today, heritage conservation, UNESCO recognition and restoration initiatives continue to protect Telangana's remarkable monuments. These ongoing efforts preserve centuries of architectural achievement while celebrating the state's rich cultural and historical legacy.",
       image: timeline5,
       location: "Ramappa • Charminar • Warangal",
     },
@@ -68,14 +68,14 @@ function Architecture() {
       <CategoryHero
         title="Architecture of Telangana"
         subtitle="Stone, Forts & Royal Splendour"
-        description="From ancient Buddhist sites and intricately carved temples to mighty forts, royal palaces and Hyderabad's iconic skyline, Telangana showcases one of the Deccan's richest architectural journeys."
+        description="From ancient Buddhist monuments and intricately carved temples to mighty forts, royal palaces and Hyderabad's iconic skyline, Telangana preserves one of the Deccan's richest architectural legacies spanning more than two thousand years."
         image={heroImg}
       />
 
       <CategoryOverview
         heading="An Architectural Journey Through Telangana"
-        text1="For over two thousand years, Telangana has witnessed the rise of temples, forts, palaces and monumental cities, each reflecting changing artistic styles, engineering techniques and cultural influences."
-        text2="Today, its architectural landscape blends sacred monuments, military strongholds and royal landmarks into a timeless heritage that continues to define the identity of the Deccan."
+        text1="For more than two thousand years, Telangana has witnessed the rise of temples, forts, palaces and monumental cities, each reflecting remarkable advances in engineering, artistic expression and the cultural traditions of successive dynasties."
+        text2="Today, its architectural landscape blends sacred monuments, military strongholds, royal residences and historic urban landmarks into a remarkable heritage that continues to define Telangana's identity and its enduring place within the Deccan."
       />
 
       <CategoryTimeline
@@ -91,7 +91,7 @@ function Architecture() {
       <Gallery
         tag="ARCHITECTURAL SHOWCASE"
         title="Beyond the Landmarks"
-        description="Beyond its iconic monuments, Telangana's architectural heritage lives through intricately carved temples, ancient gateways, imposing forts, royal palaces, historic mosques, stepwells and beautifully preserved heritage precincts."
+        description="Beyond its iconic monuments, Telangana's architectural heritage thrives through intricately carved temples, ancient gateways, imposing forts, royal palaces, historic mosques, elegant stepwells and beautifully preserved heritage precincts across the state."
         images={gallery}
       />
 

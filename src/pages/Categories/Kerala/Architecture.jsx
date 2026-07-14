@@ -21,7 +21,7 @@ function Architecture() {
 
   const timeline = [
     {
-      year: "Ancient Kerala",
+      year: "Before 9th CE",
       title: "Architecture Shaped by Nature",
       description:
         "Abundant timber, laterite stone and heavy monsoon rains gave rise to Kerala's distinctive architectural style, characterized by sloping roofs, open courtyards and remarkable wooden craftsmanship.",
@@ -29,7 +29,7 @@ function Architecture() {
       location: "Across Kerala",
     },
     {
-      year: "Temple Tradition",
+      year: "9th-15th CE",
       title: "Sacred Spaces Take Shape",
       description:
         "Temple architecture evolved into a uniquely Keralan form, emphasizing harmony with nature through elegant shrines, nalambalams, copper-clad roofs and finely carved wooden structures.",
@@ -37,15 +37,15 @@ function Architecture() {
       location: "Thiruvananthapuram • Thrissur",
     },
     {
-      year: "Maritime Trade Era",
+      year: "15th-18th CE",
       title: "A Meeting of Architectural Worlds",
       description:
-        "Centuries of trade with Arabs, Chinese and Europeans introduced churches, synagogues, mosques and colonial buildings that blended seamlessly with Kerala's indigenous building traditions.",
+        "Centuries of trade introduced new churches, synagogues, mosques and colonial buildings that blended seamlessly with Kerala's indigenous building traditions.",
       image: timeline3,
       location: "Kochi • Kozhikode",
     },
     {
-      year: "Kingdoms & Fortifications",
+      year: "16th-19th CE",
       title: "Palaces, Forts & Coastal Defences",
       description:
         "Kerala's rulers expanded magnificent wooden palaces, coastal forts and administrative centres, combining local craftsmanship with influences from overseas trade and diplomacy.",
@@ -53,7 +53,7 @@ function Architecture() {
       location: "Bekal • Kannur",
     },
     {
-      year: "Present Day",
+      year: "1947-Present",
       title: "Preserving a Living Heritage",
       description:
         "Today, Kerala carefully preserves its temples, palaces, forts and colonial quarters while traditional architectural principles continue to inspire sustainable design across the state.",
@@ -77,7 +77,6 @@ function Architecture() {
         heading="Built for Rain, Crafted for Generations"
         text1="Kerala developed one of India's most distinctive architectural traditions, where climate shaped every detail. Timber construction, laterite walls, sloping tiled roofs and open courtyards created buildings perfectly suited to the tropical monsoon."
         text2="Centuries of maritime trade and cultural exchange enriched this indigenous style, producing a remarkable architectural landscape where temples, palaces, churches, mosques and synagogues coexist in harmony."
-
       />
 
       <CategoryTimeline

@@ -4,6 +4,8 @@ import InfoSection from "../components/States/InfoSection";
 import CategoryGrid from "../components/States/CategoryGrid";
 import Footer from "../components/Footer";
 
+import { themes } from "../data/themes";
+
 import heroImg from "../assets/states/andhrapradesh/hero.jpg";
 
 import kingdomsImg from "../assets/categories/andhrapradesh/kingdoms.jpg";
@@ -14,6 +16,9 @@ import wildlifeImg from "../assets/categories/andhrapradesh/wildlife.webp";
 import placesImg from "../assets/categories/andhrapradesh/places.jpg";
 
 function AndhraPradesh() {
+
+  const theme = themes.andhra;
+
   const categories = [
     {
       title: "Kingdoms",
@@ -70,14 +75,15 @@ function AndhraPradesh() {
       <Navbar heroSelector=".state-hero" />
 
       <StateHero
+        {...theme}
         title="Andhra Pradesh"
         tagline="THE LAND OF THE TELUGU LEGACY"
         description="From the sacred hills of Tirupati and the Buddhist heritage of Amaravati to the dramatic Eastern Ghats and the long Bay of Bengal coastline, Andhra Pradesh is the historic heartland of Telugu civilization. Forged by powerful kingdoms, maritime trade and timeless traditions, its landscapes preserve over two millennia of culture, faith and architectural brilliance."
         image={heroImg}
-        exploreTarget="#andhra-categories"
       />
 
       <InfoSection
+        {...theme}
         heading="The Cradle of Telugu Civilization"
         text1="For more than two thousand years, Andhra Pradesh has stood at the heart of South India's history. The Satavahanas, Eastern Chalukyas, Kakatiyas and Vijayanagara rulers transformed the region into a centre of trade, architecture, literature and religious learning. Their legacy lives on through magnificent temples, ancient Buddhist monuments, prosperous ports and one of India's richest literary traditions."
         text2="Stretching from the Bay of Bengal to the Eastern Ghats, Andhra Pradesh blends sacred pilgrimage sites, fertile river deltas, pristine beaches, lush valleys and remarkable wildlife into one extraordinary landscape. From Amaravati, Nagarjunakonda and Lepakshi to Araku Valley, Gandikota and the mangrove forests of Coringa, every region reveals another chapter in the remarkable story of the Telugu heartland."
@@ -104,7 +110,10 @@ function AndhraPradesh() {
       />
 
       <div id="andhra-categories">
-        <CategoryGrid categories={categories} />
+        <CategoryGrid
+          {...theme}
+          categories={categories}
+        />
       </div>
 
       <Footer />

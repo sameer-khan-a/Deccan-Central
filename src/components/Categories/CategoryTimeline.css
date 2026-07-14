@@ -1,17 +1,13 @@
 .timeline-section{
     background:#0f1624;
     color:#fff;
-    padding:5rem 6%;
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
+    padding:clamp(3rem,5vw,5rem) clamp(1rem,6vw,6%);
 }
 
 .timeline-header{
-    max-width:1400px;
-    width:100%;
+    width:min(1400px,100%);
     margin:0 auto 2.5rem;
+    color: white;
 }
 
 .timeline-tag{
@@ -25,37 +21,29 @@
 }
 
 .timeline-header h2{
-    color:#fff;
-    font-size:clamp(2.7rem,4.5vw,4.6rem);
+    font-size:clamp(2.2rem,5vw,4.6rem);
     line-height:1.05;
+    color: white;
     font-weight:800;
 }
 
 .timeline-stage{
-    width:min(1200px,100%);
+    width:min(1600px,100%);
     margin:auto;
+    
     background:#1b263e80;
     border:1px solid rgba(255,255,255,.08);
     border-radius:28px;
     overflow:hidden;
     box-shadow:0 24px 70px rgba(0,0,0,.35);
-
-    /* keeps the card from growing/shrinking */
-    height:800px;
-
-    display:flex;
-    flex-direction:column;
 }
 
 .timeline-content{
-    flex:1;
-
     display:grid;
-    grid-template-columns:380px 1fr;
-    gap:3rem;
+    grid-template-columns:minmax(260px,340px) minmax(0,1fr);
     align-items:center;
-
-    padding:2.5rem 3rem;
+    gap:clamp(1.5rem,3vw,3rem);
+    padding:clamp(1.5rem,3vw,3rem);
 }
 
 .timeline-left{
@@ -66,7 +54,7 @@
 
 .timeline-image{
     width:100%;
-    max-width:380px;
+    max-width:340px;
     aspect-ratio:4/3;
     object-fit:cover;
     border-radius:20px;
@@ -78,11 +66,11 @@
     display:flex;
     flex-direction:column;
     justify-content:center;
-    height:100%;
+    min-width:0;
 }
 
 .timeline-year{
-    font-size:clamp(3.2rem,6vw,5.3rem);
+    font-size:clamp(2.8rem,6vw,5.3rem);
     color:#d4a017;
     font-weight:800;
     line-height:1;
@@ -90,33 +78,29 @@
 }
 
 .timeline-right h3{
-    color:#fff;
-    font-size:clamp(2rem,3vw,3.2rem);
-    line-height:1.08;
+    font-size:clamp(1.7rem,3vw,3rem);
+    line-height:1.1;
     margin-bottom:.9rem;
 }
 
 .timeline-right p{
     color:#d1d5db;
-    font-size:1rem;
+    font-size:clamp(.95rem,1vw,1.08rem);
     line-height:1.8;
-    max-width:60ch;
-
-    /* prevents text from making the card taller */
-    min-height:145px;
+    overflow-wrap:anywhere;
 }
 
 .timeline-location{
     display:flex;
+    flex-wrap:wrap;
     gap:.5rem;
     align-items:center;
     margin-top:1.25rem;
     color:#d4a017;
-    font-weight:500;
 }
 
 .timeline-filmstrip{
-    padding:1.8rem 3rem;
+    padding:1.5rem clamp(1rem,3vw,3rem);
     border-top:1px solid rgba(255,255,255,.08);
 }
 
@@ -126,33 +110,22 @@
     appearance:none;
     -webkit-appearance:none;
     border-radius:999px;
-    outline:none;
-    cursor:pointer;
     background:#2c3748;
-}
-
-.timeline-slider::-webkit-slider-runnable-track{
-    height:6px;
-    border-radius:999px;
-    background:transparent;
+    cursor:pointer;
 }
 
 .timeline-slider::-webkit-slider-thumb{
     -webkit-appearance:none;
-    appearance:none;
     width:18px;
     height:18px;
-    margin-top:-6px;
     border-radius:50%;
     background:#d4a017;
     border:3px solid #fff;
-    box-shadow:0 0 18px rgba(212,160,23,.5);
-    cursor:pointer;
+    margin-top:-6px;
 }
 
-.timeline-slider::-moz-range-track{
+.timeline-slider::-webkit-slider-runnable-track{
     height:6px;
-    background:transparent;
 }
 
 .timeline-slider::-moz-range-thumb{
@@ -161,26 +134,25 @@
     border:none;
     border-radius:50%;
     background:#d4a017;
-    box-shadow:0 0 18px rgba(212,160,23,.5);
-    cursor:pointer;
 }
 
 .timeline-years{
     display:flex;
-    justify-content:space-between;
     gap:.5rem;
+    justify-content:space-between;
     margin-top:1rem;
 }
 
 .timeline-year-label{
     flex:1;
-    background:none;
     border:none;
+    background:none;
     color:#94a3b8;
-    padding:.35rem 0;
     cursor:pointer;
+    padding:.4rem 0;
     transition:.25s;
-    font-size:.92rem;
+    font-size:.9rem;
+    white-space:nowrap;
 }
 
 .timeline-year-label:hover{
@@ -192,48 +164,94 @@
     font-weight:700;
 }
 
-@media(max-width:1000px){
+/* laptops */
+@media (max-width:1200px){
+.timeline-content{
+    grid-template-columns:260px 1fr;
+    padding:2rem;
+}
+.timeline-image{
+    max-width:260px;
+}
+}
+@media (max-width:900px){
 
 .timeline-section{
-    min-height:auto;
-    padding:4rem 5%;
+    padding:3rem 1.5rem;
+}
+
+.timeline-header{
+    margin-bottom:1.75rem;
 }
 
 .timeline-stage{
-    height:auto;
+    border-radius:20px;
 }
 
 .timeline-content{
+    display:grid;
     grid-template-columns:1fr;
-    padding:2rem;
-    gap:2rem;
+    justify-items:center;
+    align-items:center;
+    text-align:center;
+    gap:1.25rem;
+    padding:1.5rem;
 }
 
 .timeline-left{
-    order:1;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.timeline-image{
+    width:100%;
+    max-width:320px;
+    aspect-ratio:4/3;
+    object-fit:cover;
+    border-radius:16px;
 }
 
 .timeline-right{
-    order:2;
-    text-align:center;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.timeline-year{
+    font-size:clamp(2.3rem,6vw,3rem);
+}
+
+.timeline-right h3{
+    font-size:clamp(1.4rem,4vw,2rem);
+    margin-bottom:.75rem;
 }
 
 .timeline-right p{
-    min-height:auto;
+    width:100%;
+    max-width:100%;
+    font-size:.96rem;
+    line-height:1.7;
 }
 
 .timeline-location{
     justify-content:center;
+    text-align:center;
 }
 
 .timeline-filmstrip{
-    padding:1.5rem;
+    padding:1rem 1.25rem;
 }
 
 .timeline-years{
+    display:flex;
+    justify-content:space-between;
+    gap:.5rem;
     overflow-x:auto;
-    justify-content:flex-start;
     scrollbar-width:none;
+    padding-bottom:.3rem;
 }
 
 .timeline-years::-webkit-scrollbar{
@@ -241,7 +259,65 @@
 }
 
 .timeline-year-label{
-    min-width:110px;
     flex:none;
+    min-width:90px;
+    font-size:.82rem;
+}
+
+}
+/* phones */
+@media (max-width:600px){
+.timeline-section{
+    padding:3rem 1rem;
+}
+.timeline-header{
+    margin-bottom:1.5rem;
+}
+.timeline-tag{
+    letter-spacing:3px;
+    font-size:.72rem;
+}
+.timeline-header h2{
+    font-size:2rem;
+}
+.timeline-stage{
+    border-radius:18px;
+}
+.timeline-content{
+    padding:1.2rem;
+    gap:1.2rem;
+}
+.timeline-year{
+    font-size:2.1rem;
+}
+.timeline-right h3{
+    font-size:1.35rem;
+}
+.timeline-right p{
+    font-size:.92rem;
+    line-height:1.7;
+}
+.timeline-filmstrip{
+    padding:1rem;
+}
+.timeline-year-label{
+    min-width:75px;
+    font-size:.78rem;
+}
+}
+
+/* tiny phones */
+@media (max-width:360px){
+.timeline-content{
+    padding:1rem;
+}
+.timeline-year{
+    font-size:1.8rem;
+}
+.timeline-right h3{
+    font-size:1.15rem;
+}
+.timeline-right p{
+    font-size:.88rem;
 }
 }

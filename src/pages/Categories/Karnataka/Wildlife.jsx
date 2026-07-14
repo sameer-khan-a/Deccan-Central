@@ -19,42 +19,42 @@ import { items, gallery } from "../../../data/karnataka/wildlife";
 function Wildlife() {
   const timeline = [
     {
-      year: "Ancient Karnataka",
+      year: "Prehistory-900 CE",
       title: "Living With the Wild",
       description:
-        "Dense forests, mighty rivers and the Western Ghats shaped everyday life. Wildlife was deeply woven into local beliefs, folklore and sacred traditions, with many communities living alongside elephants, big cats and countless other species.",
+        "Dense forests, mighty rivers and the Western Ghats shaped everyday life across Karnataka. Wildlife was deeply woven into local beliefs, folklore and sacred traditions, enabling many communities to coexist with elephants, big cats and countless native species.",
       image: sacredImg,
       location: "Western Ghats • Malnad",
     },
     {
-      year: "Medieval Karnataka",
+      year: "900-1800 CE",
       title: "Forests of Kingdoms & Communities",
       description:
-        "Royal hunting grounds, sacred groves and village forests coexisted across Karnataka. While forests supplied timber, medicine and food, many landscapes remained protected through religious customs and community stewardship.",
+        "Royal hunting grounds, sacred groves and village forests coexisted throughout Karnataka for centuries. While forests supplied timber, medicine and food, many forests remained protected through religious customs and strong community stewardship.",
       image: tigerImg,
       location: "Across Karnataka",
     },
     {
-      year: "19th - 20th Century",
+      year: "1800-1972 CE",
       title: "From Exploitation to Protection",
       description:
-        "Rapid deforestation, expanding settlements and commercial forestry threatened wildlife habitats, creating the need for organised conservation and the protection of Karnataka's remaining forests.",
+        "Rapid deforestation, expanding settlements and commercial forestry placed immense pressure on wildlife habitats across Karnataka. These growing environmental challenges highlighted the urgent need for organized wildlife conservation and long-term habitat protection.",
       image: ghatsImg,
       location: "Western Ghats",
     },
     {
-      year: "Modern Conservation",
+      year: "1972-2000 CE",
       title: "Protecting a Natural Heritage",
       description:
-        "National parks, tiger reserves, elephant corridors and wildlife sanctuaries were established to restore habitats and safeguard Karnataka's extraordinary biodiversity for future generations.",
+        "National parks, tiger reserves, elephant corridors and wildlife sanctuaries were established to restore fragile ecosystems. These conservation initiatives safeguarded Karnataka's extraordinary biodiversity while strengthening scientific research and environmental awareness.",
       image: conservationImg,
       location: "Bandipur • Nagarhole • Bhadra",
     },
     {
-      year: "Present Day",
+      year: "2000-Present",
       title: "A Global Biodiversity Hotspot",
       description:
-        "Today, Karnataka is recognised as one of India's premier wildlife destinations, where thriving tiger populations, elephant landscapes, endemic species and the forests of the Western Ghats continue to inspire conservation and eco-tourism.",
+        "Today, Karnataka ranks among India's premier wildlife destinations, where thriving tiger populations, elephant landscapes, endemic species and the forests of the Western Ghats continue to inspire conservation, research and responsible eco-tourism.",
       image: modernImg,
       location: "Across Karnataka",
     },
@@ -67,14 +67,14 @@ function Wildlife() {
       <CategoryHero
         title="Wildlife of Karnataka"
         subtitle="Where Nature Thrives"
-        description="From the evergreen forests of the Western Ghats to the tiger reserves of the Deccan, Karnataka is home to one of India's richest and most spectacular natural landscapes."
+        description="From the evergreen forests of the Western Ghats to the celebrated tiger reserves of the Deccan, Karnataka protects one of India's richest natural landscapes, home to extraordinary biodiversity and remarkable wildlife."
         image={heroImg}
       />
 
       <CategoryOverview
         heading="A Land Shaped by Nature"
-        text1="Stretching from the lush Western Ghats to the dry forests of the Deccan Plateau, Karnataka shelters an extraordinary variety of ecosystems that support tigers, elephants, leopards, hornbills, king cobras and thousands of other remarkable species."
-        text2="For centuries, people and wildlife have shared these landscapes. Today, national parks, wildlife sanctuaries and conservation initiatives continue to protect one of India's greatest natural treasures."
+        text1="Stretching from the lush Western Ghats to the dry forests of the Deccan Plateau, Karnataka shelters an extraordinary range of ecosystems supporting tigers, elephants, leopards, hornbills, king cobras and thousands of remarkable native species."
+        text2="For centuries, people and wildlife have coexisted across these landscapes through tradition and conservation. Today, national parks, wildlife sanctuaries and dedicated protection efforts preserve one of India's greatest natural treasures for future generations."
       />
 
       <CategoryTimeline
@@ -90,7 +90,7 @@ function Wildlife() {
       <Gallery
         tag="WILDLIFE SHOWCASE"
         title="Beyond the Famous Parks"
-        description="Beyond its celebrated tiger reserves, Karnataka is home to lush rainforests, elephant corridors, wetlands, bird sanctuaries, endemic species and hidden wildernesses that make the state one of India's greatest biodiversity hotspots."
+        description="Beyond its celebrated tiger reserves, Karnataka is home to lush rainforests, elephant corridors, bird sanctuaries, pristine wetlands, endemic wildlife and hidden wildernesses that make the state one of India's greatest biodiversity hotspots."
         images={gallery}
       />
 

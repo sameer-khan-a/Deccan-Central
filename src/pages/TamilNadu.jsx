@@ -4,6 +4,8 @@ import InfoSection from "../components/States/InfoSection";
 import CategoryGrid from "../components/States/CategoryGrid";
 import Footer from "../components/Footer";
 
+import { themes } from "../data/themes";
+
 import heroImg from "../assets/states/tamil-nadu/hero.jpg";
 
 import kingdomsImg from "../assets/categories/tamilnadu/kingdoms.jpg";
@@ -14,6 +16,9 @@ import wildlifeImg from "../assets/categories/tamilnadu/wildlife.jpg";
 import placesImg from "../assets/categories/tamilnadu/places.jpg";
 
 function TamilNadu() {
+
+  const theme = themes.tamilNadu;
+
   const categories = [
     {
       title: "Kingdoms",
@@ -70,14 +75,15 @@ function TamilNadu() {
       <Navbar heroSelector=".state-hero" />
 
       <StateHero
+        {...theme}
         title="Tamil Nadu"
         tagline="THE LAND OF LIVING TEMPLES"
         description="Home to the magnificent Chola temples, the ancient port of Mahabalipuram, the sacred city of Madurai and the Nilgiri Hills, Tamil Nadu preserves one of the world's oldest living civilizations. Its timeless architecture, classical arts and enduring traditions reflect over two millennia of history, faith and cultural brilliance."
         image={heroImg}
-        exploreTarget="#tamilnadu-categories"
       />
 
       <InfoSection
+        {...theme}
         heading="The Heart of Tamil Civilization"
         text1="For more than two thousand years, Tamil Nadu has stood as one of India's greatest centres of culture, architecture and learning. The Cheras, Cholas, Pandyas and Pallavas transformed the region into a powerhouse of temple architecture, maritime trade, literature and artistic excellence, leaving behind monuments that continue to inspire the world."
         text2="Today, Tamil Nadu blends magnificent temple cities, UNESCO World Heritage monuments, vibrant festivals, lush hill stations and remarkable wildlife into one extraordinary landscape. From Madurai, Thanjavur and Mahabalipuram to the Nilgiris, Rameswaram and the mangrove forests of Pichavaram, every region tells another chapter in the enduring story of Tamil civilization."
@@ -103,7 +109,10 @@ function TamilNadu() {
       />
 
       <div id="tamilnadu-categories">
-        <CategoryGrid categories={categories} />
+        <CategoryGrid
+          {...theme}
+          categories={categories}
+        />
       </div>
 
       <Footer />

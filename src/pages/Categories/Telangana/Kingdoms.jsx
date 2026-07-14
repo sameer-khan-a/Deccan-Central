@@ -21,42 +21,42 @@ function Kingdoms() {
 
   const timeline = [
     {
-      year: "1st BCE - 3rd CE",
+      year: "230 BCE-220 CE",
       title: "The Satavahana Empire",
       description:
-        "One of the earliest great Deccan empires, the Satavahanas promoted trade, Buddhism and urban development while establishing Telangana as a vital centre of commerce.",
+        "The Satavahanas established one of the earliest great empires of the Deccan, promoting long-distance trade, Buddhism and urban development. Their rule transformed much of the Deccan, with Telangana emerging as an important centre of regional influence.",
       image: timeline1,
       location: "Kotilingala • Dhulikatta",
     },
     {
-      year: "5th - 7th Century",
+      year: "420-624 CE",
       title: "The Vishnukundins",
       description:
-        "The Vishnukundins strengthened regional rule through temple construction, administrative reforms and the patronage of early Telugu culture across much of Telangana.",
+        "The Vishnukundins strengthened regional administration through temple construction, efficient governance and the patronage of Telugu literature and culture. Their reign helped shape Telangana's political identity while encouraging artistic and religious development.",
       image: timeline2,
       location: "Indrapalanagara • Nalgonda",
     },
     {
-      year: "12th - 14th Century",
+      year: "1163-1323 CE",
       title: "The Kakatiya Dynasty",
       description:
-        "From their capital at Warangal, the Kakatiyas unified the Telugu-speaking region and became renowned for their engineering, irrigation systems and magnificent temple architecture.",
+        "From their capital at Warangal, the Kakatiyas unified much of the Telugu-speaking region through military strength and visionary administration. Their engineering innovations, irrigation systems and remarkable temples remain enduring symbols of Telangana.",
       image: timeline3,
       location: "Warangal • Hanamkonda",
     },
     {
-      year: "16th - 17th Century",
+      year: "1518-1687 CE",
       title: "The Qutb Shahis",
       description:
-        "The rulers of Golconda founded Hyderabad and transformed it into one of the Deccan's greatest capitals, celebrated for its prosperity, architecture and cultural diversity.",
+        "The Qutb Shahis transformed Golconda into a prosperous kingdom before establishing Hyderabad as their magnificent capital. Their patronage fostered architecture, literature, commerce and cultural diversity throughout the eastern Deccan.",
       image: timeline4,
       location: "Golconda • Hyderabad",
     },
     {
-      year: "18th - 20th Century",
+      year: "1724-1948 CE",
       title: "The Asaf Jahi Dynasty",
       description:
-        "The Nizams governed one of India's largest princely states, leaving behind a lasting legacy of palaces, educational institutions, public works and Hyderabad's iconic skyline.",
+        "The Asaf Jahi Nizams governed one of India's largest princely states, presiding over an era of modernisation, education and public works. Their magnificent palaces, institutions and civic landmarks continue to define Hyderabad's historic character.",
       image: timeline5,
       location: "Hyderabad",
     },
@@ -69,15 +69,14 @@ function Kingdoms() {
       <CategoryHero
         title="Kingdoms of Telangana"
         subtitle="Empires of the Deccan"
-        description="From the ancient Satavahanas and the mighty Kakatiyas to the royal courts of Golconda and Hyderabad, Telangana's kingdoms shaped the political, cultural and architectural history of the Deccan."
+        description="From the ancient Satavahanas and the mighty Kakatiyas to the royal courts of Golconda and Hyderabad, Telangana's kingdoms shaped the political, cultural and architectural history of the Deccan for over two millennia."
         image={heroImg}
       />
 
       <CategoryOverview
         heading="The Dynasties That Shaped Telangana"
-        text1="For more than two millennia, Telangana was ruled by powerful kingdoms that controlled trade routes, built fortified capitals and fostered remarkable achievements in governance, architecture and the arts."
-        text2="Their enduring legacy lives on through ancient capitals, magnificent forts, temples, palaces and historic monuments that continue to define Telangana's identity and its place in Deccan history."
-
+        text1="For more than two thousand years, Telangana was ruled by powerful kingdoms that controlled trade routes, built fortified capitals and fostered remarkable achievements in governance, architecture, commerce and the arts across the Deccan."
+        text2="Their enduring legacy survives through ancient capitals, magnificent forts, temples, palaces and historic monuments that continue to define Telangana's identity while preserving one of the Deccan's richest royal traditions."
       />
 
       <CategoryTimeline
@@ -93,7 +92,7 @@ function Kingdoms() {
       <Gallery
         tag="ROYAL LEGACY"
         title="Beyond the Kingdoms"
-        description="From ancient capitals and hill forts to royal palaces, temples, inscriptions and enduring archaeological sites, Telangana's kingdoms left behind a remarkable legacy that continues to shape the state's cultural landscape."
+        description="From ancient capitals and hill forts to royal palaces, temples, inscriptions and remarkable archaeological sites, Telangana's kingdoms left behind an extraordinary legacy that continues to shape the state's cultural and historical landscape."
         images={gallery}
       />
 

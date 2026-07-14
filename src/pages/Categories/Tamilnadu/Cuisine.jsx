@@ -21,7 +21,7 @@ function Cuisine() {
 
   const timeline = [
     {
-      year: "Ancient Origins",
+      year: "Before 300 CE",
       title: "The Foundations of Tamil Cuisine",
       description:
         "Early Tamil communities built their cuisine around rice, millets, lentils, sesame, coconut and native spices. Agriculture along fertile river valleys created one of India's oldest continuous food traditions.",
@@ -29,7 +29,7 @@ function Cuisine() {
       location: "Kaveri Delta • Across Tamil Nadu",
     },
     {
-      year: "Temple Traditions",
+      year: "600-1300 CE",
       title: "Sacred Food & Community Feasts",
       description:
         "Temple kitchens preserved time-honoured recipes through prasadam, festive meals and banana-leaf feasts, shaping everyday cooking and strengthening Tamil culinary traditions.",
@@ -37,7 +37,7 @@ function Cuisine() {
       location: "Thanjavur • Srirangam • Madurai",
     },
     {
-      year: "Regional Flavours",
+      year: "1300-1800 CE",
       title: "The Rise of Distinctive Regional Cuisines",
       description:
         "Regions across Tamil Nadu developed their own culinary identities, from the bold spices of Chettinad and Kongunadu to the seafood traditions of the Coromandel Coast.",
@@ -45,15 +45,15 @@ function Cuisine() {
       location: "Chettinad • Kongunadu • Nagapattinam",
     },
     {
-      year: "Coffee Houses & Street Food",
+      year: "1800-1950 CE",
       title: "Everyday Tamil Classics",
       description:
-        "Filter coffee, crispy dosas, fluffy idlis, flaky parottas and bustling tiffin centres became beloved symbols of Tamil Nadu's vibrant food culture.",
+        "Coffee houses, tiffin centres and bustling eateries popularised filter coffee, crispy dosas, fluffy idlis and flaky parottas as everyday Tamil favourites.",
       image: timeline4,
       location: "Chennai • Coimbatore • Madurai",
     },
     {
-      year: "Present Day",
+      year: "1950-Present",
       title: "A Global Culinary Legacy",
       description:
         "Today, Tamil cuisine is celebrated worldwide for its balance of flavour, tradition and nutrition, while preserving centuries-old family recipes, festive dishes and regional specialities.",

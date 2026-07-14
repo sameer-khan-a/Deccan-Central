@@ -12,8 +12,8 @@
 
   padding: 0 8%;
 
-  background-size: cover;
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 
   overflow: hidden;
@@ -28,11 +28,15 @@
   inset: 0;
 
   background:
-    radial-gradient(circle at top, rgba(212, 160, 23, 0.12), transparent 45%),
+    radial-gradient(
+      circle at top,
+      rgba(212,160,23,.14),
+      transparent 42%
+    ),
     linear-gradient(
       to bottom,
-      rgba(8, 12, 20, 0.2),
-      rgba(8, 12, 20, 0.75),
+      rgba(8,12,20,.18),
+      rgba(8,12,20,.72),
       #0b0f19
     );
 
@@ -47,7 +51,11 @@
 
   height: 220px;
 
-  background: linear-gradient(to bottom, transparent, #0b0f19);
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    #0b0f19
+  );
 
   z-index: 2;
 }
@@ -60,6 +68,7 @@
   position: relative;
   z-index: 3;
 
+  width: 100%;
   max-width: 900px;
 
   text-align: center;
@@ -72,26 +81,36 @@
 .about-tag {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: .55rem;
 
-  padding: 0.55rem 1.1rem;
+  padding: .6rem 1.2rem;
 
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.75rem;
 
-  border: 1px solid rgba(212, 160, 23, 0.35);
-
+  border: 1px solid rgba(212,160,23,.35);
   border-radius: 999px;
 
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255,255,255,.04);
 
   color: #d4a017;
 
-  font-size: 0.88rem;
+  font-size: .88rem;
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
 
   backdrop-filter: blur(12px);
+
+  transition:
+    background .35s ease,
+    border-color .35s ease,
+    transform .35s ease;
+}
+
+.about-tag:hover {
+  border-color: #d4a017;
+  background: rgba(212,160,23,.08);
+  transform: translateY(-2px);
 }
 
 /* ==========================
@@ -99,17 +118,18 @@
 ========================== */
 
 .about-title {
-  font-size: clamp(3.5rem, 8vw, 6.8rem);
-
-  font-weight: 800;
-
-  line-height: 1.05;
+  margin-bottom: 1.5rem;
 
   color: #fff;
 
-  margin-bottom: 1.3rem;
+  font-size: clamp(3.5rem,8vw,6.8rem);
+  font-weight: 800;
 
-  text-shadow: 0 10px 35px rgba(0, 0, 0, 0.45);
+  line-height: 1.05;
+  letter-spacing: -.03em;
+
+  text-shadow:
+    0 12px 40px rgba(0,0,0,.45);
 }
 
 /* ==========================
@@ -125,6 +145,9 @@
   border-radius: 999px;
 
   background: #d4a017;
+
+  box-shadow:
+    0 0 20px rgba(212,160,23,.25);
 }
 
 /* ==========================
@@ -136,11 +159,12 @@
 
   margin: 0 auto;
 
-  font-size: 1.2rem;
+  color: #d6d6d6;
 
+  font-size: 1.2rem;
   line-height: 1.9;
 
-  color: #d8d8d8;
+  text-wrap: balance;
 }
 
 /* ==========================
@@ -148,18 +172,18 @@
 ========================== */
 
 .about-scroll {
-  margin-top: 4.5rem;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+
+  margin-top: 4.5rem;
 }
 
 .about-scroll span {
-  color: #a5a5a5;
+  color: #a8a8a8;
 
-  font-size: 0.95rem;
+  font-size: .95rem;
 
   letter-spacing: 1px;
 }
@@ -172,14 +196,21 @@
   width: 28px;
   height: 50px;
 
-  border: 2px solid rgba(255, 255, 255, 0.35);
-
-  border-radius: 30px;
-
   display: flex;
   justify-content: center;
 
   padding-top: 7px;
+
+  border: 2px solid rgba(255,255,255,.35);
+  border-radius: 30px;
+
+  transition:
+    border-color .35s ease,
+    transform .35s ease;
+}
+
+.about-scroll:hover .scroll-indicator {
+  border-color: rgba(212,160,23,.5);
 }
 
 .scroll-dot {
@@ -198,12 +229,13 @@
 ========================== */
 
 @keyframes scrollDot {
+
   0% {
     opacity: 0;
     transform: translateY(0);
   }
 
-  30% {
+  25% {
     opacity: 1;
   }
 
@@ -211,35 +243,31 @@
     opacity: 0;
     transform: translateY(18px);
   }
-}
 
-/* ==========================
-   HOVER
-========================== */
-
-.about-tag:hover {
-  border-color: #d4a017;
-
-  background: rgba(212, 160, 23, 0.08);
-
-  transition: 0.35s;
 }
 
 /* ==========================
    RESPONSIVE
 ========================== */
 
-@media (max-width: 992px) {
+@media (max-width:992px) {
+
+  .about-hero {
+    padding: 0 7%;
+  }
+
   .about-title {
-    font-size: 4.2rem;
+    font-size: 4.5rem;
   }
 
   .about-description {
-    font-size: 1.05rem;
+    font-size: 1.08rem;
   }
+
 }
 
-@media (max-width: 768px) {
+@media (max-width:768px) {
+
   .about-hero {
     padding: 0 6%;
   }
@@ -250,32 +278,36 @@
 
   .about-description {
     font-size: 1rem;
-
     line-height: 1.8;
   }
 
   .about-scroll {
     margin-top: 3rem;
   }
+
 }
 
-@media (max-width: 480px) {
+@media (max-width:480px) {
+
   .about-title {
-    font-size: 2.4rem;
+    font-size: 2.35rem;
   }
 
   .about-tag {
-    font-size: 0.75rem;
+    padding: .55rem 1rem;
+
+    font-size: .75rem;
 
     letter-spacing: 1px;
   }
 
   .about-description {
-    font-size: 0.95rem;
+    font-size: .95rem;
   }
 
   .scroll-indicator {
     width: 24px;
     height: 42px;
   }
+
 }

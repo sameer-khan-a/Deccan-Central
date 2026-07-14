@@ -42,29 +42,28 @@ function About() {
       icon: <Trees size={32} strokeWidth={1.8} />,
     },
   ];
-
-  const stats = [
-    {
-      value: 5,
-      suffix: "",
-      label: "Modern States",
-    },
-    {
-      value: 3000,
-      suffix: "+",
-      label: "Years of Recorded History",
-    },
-    {
-      value: 70,
-      suffix: "+",
-      label: "Major Dynasties",
-    },
-    {
-      value: 1500,
-      suffix: "+",
-      label: "Historic Monuments",
-    },
-  ];
+const stats = [
+  {
+    value: 5,
+    suffix: "",
+    label: "States",
+  },
+  {
+    value: 3000,
+    suffix: "+",
+    label: "Years of History",
+  },
+  {
+    value: 50,
+    suffix: "+",
+    label: "Major Dynasties",
+  },
+  {
+    value: 1500,
+    suffix: "+",
+    label: "Historic Monuments",
+  },
+];
 
   const steps = [
     {
