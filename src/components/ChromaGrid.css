@@ -163,6 +163,9 @@
 /* ==========================
    Overlay
 ========================== */
+/* ==========================
+   Overlay
+========================== */
 
 .chroma-overlay {
   position: absolute;
@@ -170,10 +173,7 @@
   pointer-events: none;
   z-index: 3;
 
-  backdrop-filter: grayscale(.95) brightness(.88);
-  -webkit-backdrop-filter: grayscale(.95) brightness(.88);
-
-  background: rgba(0,0,0,.001);
+  filter: grayscale(.95) brightness(.88);
 
   mask-image: radial-gradient(
     circle var(--r) at var(--x) var(--y),
@@ -202,10 +202,7 @@
   pointer-events: none;
   z-index: 4;
 
-  backdrop-filter: grayscale(.95) brightness(.88);
-  -webkit-backdrop-filter: grayscale(.95) brightness(.88);
-
-  background: rgba(0,0,0,.001);
+  filter: grayscale(.95) brightness(.88);
 
   mask-image: radial-gradient(
     circle var(--r) at var(--x) var(--y),
