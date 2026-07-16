@@ -1,14 +1,14 @@
-import theyyamImg from "../../assets/states/kerala/categories/culture/theyyam.jpeg";
-import kathakaliImg from "../../assets/states/kerala/categories/culture/kathakali.jpg";
-import mohiniyattamImg from "../../assets/states/kerala/categories/culture/mohiniyattam.jpg";
-import onamImg from "../../assets/states/kerala/categories/culture/onam.webp";
+import theyyamImg from "../../assets/states/kerala/Categories/culture/theyyam.jpeg";
+import kathakaliImg from "../../assets/states/kerala/Categories/culture/kathakali.jpg";
+import mohiniyattamImg from "../../assets/states/kerala/Categories/culture/mohiniyattam.jpg";
+import onamImg from "../../assets/states/kerala/Categories/culture/onam.webp";
 
-import koodiyattamImg from "../../assets/states/kerala/categories/culture/koodiyattam.jpg";
-import vallamkaliImg from "../../assets/states/kerala/categories/culture/vallam-kali.avif";
-import kalaripayattuImg from "../../assets/states/kerala/categories/culture/kalaripayattu.jpg";
-import chakyarImg from "../../assets/states/kerala/categories/culture/chakyar-koothu.jpg";
-import thrissurPooramImg from "../../assets/states/kerala/categories/culture/thrissur-pooram.jpeg";
-import muralImg from "../../assets/states/kerala/categories/culture/kerala-mural.jpg";
+import koodiyattamImg from "../../assets/states/kerala/Categories/culture/koodiyattam.jpg";
+import vallamkaliImg from "../../assets/states/kerala/Categories/culture/vallam-kali.avif";
+import kalaripayattuImg from "../../assets/states/kerala/Categories/culture/kalaripayattu.jpg";
+import chakyarImg from "../../assets/states/kerala/Categories/culture/chakyar-koothu.jpg";
+import thrissurPooramImg from "../../assets/states/kerala/Categories/culture/thrissur-pooram.jpeg";
+import muralImg from "../../assets/states/kerala/Categories/culture/kerala-mural.jpg";
 
 export const items = [
   {
