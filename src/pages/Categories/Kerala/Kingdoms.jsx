@@ -6,14 +6,14 @@ import ItemGrid from "../../../components/Categories/ItemGrid";
 import Gallery from "../../../components/Categories/Gallery";
 import Footer from "../../../components/Footer";
 
-import heroImg from "../../../assets/states/kerala/categories/kingdoms/hero.jpg";
+import heroImg from "../../../assets/states/kerala/Categories/kingdoms/hero.jpg";
 
 // Timeline Images
-import timeline1 from "../../../assets/states/kerala/categories/kingdoms/chera.jpg";
-import timeline2 from "../../../assets/states/kerala/categories/kingdoms/kolathunadu.jpg";
-import timeline3 from "../../../assets/states/kerala/categories/kingdoms/kozhikode.jpg";
-import timeline4 from "../../../assets/states/kerala/categories/kingdoms/travancore.jpg";
-import timeline5 from "../../../assets/states/kerala/categories/kingdoms/cochin.jpg";
+import timeline1 from "../../../assets/states/kerala/Categories/kingdoms/chera.jpg";
+import timeline2 from "../../../assets/states/kerala/Categories/kingdoms/kolathunadu.jpg";
+import timeline3 from "../../../assets/states/kerala/Categories/kingdoms/kozhikode.jpg";
+import timeline4 from "../../../assets/states/kerala/Categories/kingdoms/travancore.jpg";
+import timeline5 from "../../../assets/states/kerala/Categories/kingdoms/cochin.jpg";
 
 import { items, gallery } from "../../../data/kerala/kingdoms";
 
