@@ -29,7 +29,7 @@ function Telangana() {
       link: "/telangana/kingdoms",
     },
     {
-      title: "Architecture",
+      title: "Structures",
       count: "170+ Heritage Sites",
       description:
         "Explore magnificent forts, temples, mosques, stepwells and royal palaces spanning centuries.",
