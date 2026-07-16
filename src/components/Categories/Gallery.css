@@ -143,62 +143,50 @@
     margin-top:.9rem;
     transform:none;
 }
-
-@media (max-width:1200px){
-    .gallery-grid{
-        grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    }
-    .gallery-card{
-        min-height:280px;
-    }
-}
+/* =====================================
+   Responsive Gallery Fix
+===================================== */
 
 @media (max-width:900px){
-    .gallery-section{
-        min-height:auto;
-        padding:5rem 1.5rem;
-    }
-
-    .gallery-grid{
-        grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    }
-
-    .gallery-card{
-        min-height:250px;
-    }
-
-    .gallery-overlay{
-        padding:1.5rem;
-    }
-
-    .gallery-overlay p{
-        max-height:180px;
-        opacity:1;
-        margin-top:.8rem;
-        transform:none;
-    }
-
-    .gallery-card img{
-        filter:brightness(.75);
-        object-position:center 20%;
-    }
-}
-
-@media (max-width:600px){
-    .gallery-section{
-        padding:4.5rem 1.2rem;
-    }
 
     .gallery-grid{
         grid-template-columns:1fr;
+        gap:1.5rem;
     }
 
     .gallery-card{
-        min-height:220px;
+        min-height:380px;
+        height:auto;
     }
 
-    .gallery-card img{
-        object-position:center 12%;
+    .gallery-overlay{
+        justify-content:flex-end;
+        padding:1.4rem;
+    }
+
+    .gallery-overlay h3{
+        font-size:1.4rem;
+    }
+
+    .gallery-overlay p{
+        max-height:none;
+        opacity:1;
+        overflow:visible;
+
+        margin-top:.8rem;
+
+        transform:none;
+
+        font-size:.95rem;
+        line-height:1.65;
+    }
+
+}
+
+@media (max-width:600px){
+
+    .gallery-card{
+        min-height:340px;
     }
 
     .gallery-overlay{
@@ -206,37 +194,38 @@
     }
 
     .gallery-overlay h3{
-        font-size:1.35rem;
+        font-size:1.25rem;
     }
 
     .gallery-overlay p{
-        font-size:.92rem;
+        font-size:.9rem;
         line-height:1.6;
     }
+
 }
 
-@media (max-width:380px){
-    .gallery-section{
-        padding:4rem 1rem;
-    }
+@media (max-width:420px){
 
     .gallery-card{
-        min-height:200px;
-    }
-
-    .gallery-card img{
-        object-position:center 8%;
+        min-height:320px;
     }
 
     .gallery-overlay{
         padding:1rem;
     }
 
+    .gallery-category{
+        font-size:.65rem;
+        padding:.35rem .8rem;
+    }
+
     .gallery-overlay h3{
-        font-size:1.2rem;
+        font-size:1.1rem;
     }
 
     .gallery-overlay p{
-        font-size:.88rem;
+        font-size:.84rem;
+        line-height:1.55;
     }
+
 }
