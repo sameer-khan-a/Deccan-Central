@@ -19,7 +19,7 @@ import { items, gallery } from "../../../data/karnataka/places";
 function Places() {
   const timeline = [
     {
-      year: "Prehistory-900 CE",
+      year: "Before 900 CE",
       title: "Nature's First Landmarks",
       description:
         "Long before great cities emerged, Karnataka's rivers, forests, caves and hills shaped the lives of early communities. These remarkable landscapes inspired early settlements and sacred traditions while laying the foundations for many of the state's earliest settlements.",
