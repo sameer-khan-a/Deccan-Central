@@ -6,14 +6,14 @@ import ItemGrid from "../../../components/Categories/ItemGrid";
 import Gallery from "../../../components/Categories/Gallery";
 import Footer from "../../../components/Footer";
 
-import heroImg from "../../../assets/states/kerala/categories/architecture/hero.jpg";
+import heroImg from "../../../assets/states/kerala/Categories/architecture/hero.jpg";
 
 // Timeline Images
-import timeline1 from "../../../assets/states/kerala/categories/architecture/padmanabhapuram-palace.jpg";
-import timeline2 from "../../../assets/states/kerala/categories/architecture/sree-padmanabhaswamy-temple.jpg";
-import timeline3 from "../../../assets/states/kerala/categories/architecture/st-francis-church.jpg";
-import timeline4 from "../../../assets/states/kerala/categories/architecture/bekal-fort.jpg";
-import timeline5 from "../../../assets/states/kerala/categories/architecture/mattancherry-palace.jpg";
+import timeline1 from "../../../assets/states/kerala/Categories/architecture/padmanabhapuram-palace.jpg";
+import timeline2 from "../../../assets/states/kerala/Categories/architecture/sree-padmanabhaswamy-temple.jpg";
+import timeline3 from "../../../assets/states/kerala/Categories/architecture/st-francis-church.jpg";
+import timeline4 from "../../../assets/states/kerala/Categories/architecture/bekal-fort.jpg";
+import timeline5 from "../../../assets/states/kerala/Categories/architecture/mattancherry-palace.jpg";
 
 import { items, gallery } from "../../../data/kerala/architecture";
 
