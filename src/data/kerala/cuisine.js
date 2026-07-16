@@ -1,14 +1,14 @@
-import sadyaImg from "../../assets/states/kerala/categories/cuisine/sadya.jpg";
-import karimeenImg from "../../assets/states/kerala/categories/cuisine/karimeen-polichathu.jpg";
-import appamImg from "../../assets/states/kerala/categories/cuisine/appam-stew.jpeg";
-import malabarImg from "../../assets/states/kerala/categories/cuisine/malabar-biriyani.jpeg";
+import sadyaImg from "../../assets/states/kerala/Categories/cuisine/sadya.jpg";
+import karimeenImg from "../../assets/states/kerala/Categories/cuisine/karimeen-polichathu.jpg";
+import appamImg from "../../assets/states/kerala/Categories/cuisine/appam-stew.jpeg";
+import malabarImg from "../../assets/states/kerala/Categories/cuisine/malabar-biriyani.jpeg";
 
-import puttuImg from "../../assets/states/kerala/categories/cuisine/puttu-kadala.jpg";
-import pathiriImg from "../../assets/states/kerala/categories/cuisine/pathiri.jpg";
-import adaImg from "../../assets/states/kerala/categories/cuisine/ada-pradhaman.jpg";
-import kallummakkayaImg from "../../assets/states/kerala/categories/cuisine/kallummakkaya-fry.jpg";
-import unniyappamImg from "../../assets/states/kerala/categories/cuisine/unniyappam.jpg";
-import pazhamPoriImg from "../../assets/states/kerala/categories/cuisine/pazham-pori.jpg";
+import puttuImg from "../../assets/states/kerala/Categories/cuisine/puttu-kadala.jpg";
+import pathiriImg from "../../assets/states/kerala/Categories/cuisine/pathiri.jpg";
+import adaImg from "../../assets/states/kerala/Categories/cuisine/ada-pradhaman.jpg";
+import kallummakkayaImg from "../../assets/states/kerala/Categories/cuisine/kallummakkaya-fry.jpg";
+import unniyappamImg from "../../assets/states/kerala/Categories/cuisine/unniyappam.jpg";
+import pazhamPoriImg from "../../assets/states/kerala/Categories/cuisine/pazham-pori.jpg";
 
 export const items = [
   {
