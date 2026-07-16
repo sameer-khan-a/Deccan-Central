@@ -5,15 +5,13 @@ import "./ChromaGrid.css";
 const ChromaGrid = ({
   items = [],
   className = "",
-  radius = 300,
+  radius = 280,
   columns = 3,
   rows = 2,
-  damping = 0.45,
-  fadeOut = 0.6,
+  damping = 0.35,
   ease = "power3.out",
 }) => {
   const rootRef = useRef(null);
-  const fadeRef = useRef(null);
 
   const setX = useRef(null);
   const setY = useRef(null);
@@ -46,9 +44,7 @@ const ChromaGrid = ({
 
     window.addEventListener("resize", updateCenter);
 
-    return () => {
-      window.removeEventListener("resize", updateCenter);
-    };
+    return () => window.removeEventListener("resize", updateCenter);
   }, []);
 
   const moveTo = (x, y) => {
@@ -72,20 +68,6 @@ const ChromaGrid = ({
       e.clientX - rect.left,
       e.clientY - rect.top
     );
-
-    gsap.to(fadeRef.current, {
-      opacity: 0,
-      duration: 0.25,
-      overwrite: true,
-    });
-  };
-
-  const handlePointerLeave = () => {
-    gsap.to(fadeRef.current, {
-      opacity: 1,
-      duration: fadeOut,
-      overwrite: true,
-    });
   };
 
   const handleCardMove = (e) => {
@@ -118,12 +100,11 @@ const ChromaGrid = ({
       ref={rootRef}
       className={`chroma-grid ${className}`}
       style={{
-        "--r": `${radius}px`,
         "--cols": columns,
         "--rows": rows,
+        "--r": `${radius}px`,
       }}
       onPointerMove={handlePointerMove}
-      onPointerLeave={handlePointerLeave}
     >
       {items.map((item, index) => (
         <article
@@ -133,11 +114,7 @@ const ChromaGrid = ({
           onClick={() => handleCardClick(item.url)}
           style={{
             "--card-border":
-              item.borderColor || "transparent",
-
-            "--card-gradient":
-              item.gradient ||
-              "linear-gradient(145deg, #222, #111)",
+              item.borderColor || "#d4a017",
 
             cursor:
               item.url && item.url !== "#"
@@ -151,6 +128,8 @@ const ChromaGrid = ({
               alt={item.title}
               loading="lazy"
             />
+
+            <div className="chroma-spotlight" />
           </div>
 
           <footer className="chroma-info">
@@ -184,17 +163,6 @@ const ChromaGrid = ({
           </footer>
         </article>
       ))}
-
-      <div
-        className="chroma-overlay"
-        aria-hidden="true"
-      />
-
-      <div
-        ref={fadeRef}
-        className="chroma-fade"
-        aria-hidden="true"
-      />
     </section>
   );
 };
