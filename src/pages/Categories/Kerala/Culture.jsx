@@ -6,14 +6,14 @@ import ItemGrid from "../../../components/Categories/ItemGrid";
 import Gallery from "../../../components/Categories/Gallery";
 import Footer from "../../../components/Footer";
 
-import heroImg from "../../../assets/states/kerala/categories/culture/hero.jpg";
+import heroImg from "../../../assets/states/kerala/Categories/culture/hero.jpg";
 
 // Timeline Images
-import timeline1 from "../../../assets/states/kerala/categories/culture/theyyam.jpeg";
-import timeline2 from "../../../assets/states/kerala/categories/culture/koodiyattam.jpg";
-import timeline3 from "../../../assets/states/kerala/categories/culture/kathakali.jpg";
-import timeline4 from "../../../assets/states/kerala/categories/culture/kalaripayattu.jpg";
-import timeline5 from "../../../assets/states/kerala/categories/culture/onam.webp";
+import timeline1 from "../../../assets/states/kerala/Categories/culture/theyyam.jpeg";
+import timeline2 from "../../../assets/states/kerala/Categories/culture/koodiyattam.jpg";
+import timeline3 from "../../../assets/states/kerala/Categories/culture/kathakali.jpg";
+import timeline4 from "../../../assets/states/kerala/Categories/culture/kalaripayattu.jpg";
+import timeline5 from "../../../assets/states/kerala/Categories/culture/onam.webp";
 
 import { items, gallery } from "../../../data/kerala/culture";
 
