@@ -1,14 +1,14 @@
-import cheraImg from "../../assets/states/kerala/categories/kingdoms/chera.jpg";
-import kolathunaduImg from "../../assets/states/kerala/categories/kingdoms/kolathunadu.jpg";
-import kozhikodeImg from "../../assets/states/kerala/categories/kingdoms/kozhikode.jpg";
-import travancoreImg from "../../assets/states/kerala/categories/kingdoms/travancore.jpg";
+import cheraImg from "../../assets/states/kerala/Categories/kingdoms/chera.jpg";
+import kolathunaduImg from "../../assets/states/kerala/Categories/kingdoms/kolathunadu.jpg";
+import kozhikodeImg from "../../assets/states/kerala/Categories/kingdoms/kozhikode.jpg";
+import travancoreImg from "../../assets/states/kerala/Categories/kingdoms/travancore.jpg";
 
-import venadImg from "../../assets/states/kerala/categories/kingdoms/venad.webp";
-import cochinImg from "../../assets/states/kerala/categories/kingdoms/cochin.jpg";
-import valluvanadImg from "../../assets/states/kerala/categories/kingdoms/valluvanad.webp";
-import thekkumkurImg from "../../assets/states/kerala/categories/kingdoms/thekkumkur.webp";
-import vadakkumkurImg from "../../assets/states/kerala/categories/kingdoms/vadakkumkur.jpg";
-import arakkalImg from "../../assets/states/kerala/categories/kingdoms/arakkal.jpg";
+import venadImg from "../../assets/states/kerala/Categories/kingdoms/venad.webp";
+import cochinImg from "../../assets/states/kerala/Categories/kingdoms/cochin.jpg";
+import valluvanadImg from "../../assets/states/kerala/Categories/kingdoms/valluvanad.webp";
+import thekkumkurImg from "../../assets/states/kerala/Categories/kingdoms/thekkumkur.webp";
+import vadakkumkurImg from "../../assets/states/kerala/Categories/kingdoms/vadakkumkur.jpg";
+import arakkalImg from "../../assets/states/kerala/Categories/kingdoms/arakkal.jpg";
 
 export const items = [
   {
