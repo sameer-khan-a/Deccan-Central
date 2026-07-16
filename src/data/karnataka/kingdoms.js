@@ -1,4 +1,4 @@
-import kadambaImg from "../../assets/states/karnataka/categories/kingdoms/kadamba.jpg";
+import kadambaImg from "../../assets/states/karnataka/categories/kingdoms/kadamba.JPG";
 import chalukyaImg from "../../assets/states/karnataka/categories/kingdoms/chalukya.jpg";
 import rashtrakutaImg from "../../assets/states/karnataka/categories/kingdoms/rashtrakuta.jpg";
 import hoysalaImg from "../../assets/states/karnataka/categories/kingdoms/hoysala.webp";
