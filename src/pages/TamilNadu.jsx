@@ -29,7 +29,7 @@ function TamilNadu() {
       link: "/tamil-nadu/kingdoms",
     },
     {
-      title: "Architecture",
+      title: "Structures",
       count: "300+ Heritage Sites",
       description:
         "Towering temples, rock-cut monuments, royal capitals and UNESCO World Heritage masterpieces.",
