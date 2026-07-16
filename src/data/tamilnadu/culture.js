@@ -1,4 +1,4 @@
-import bharatanatyamImg from "../../assets/states/tamil-nadu/categories/culture/bharatanatyam.jpg";
+import bharatanatyamImg from "../../assets/states/tamil-nadu/categories/culture/bharatanatyam.JPG";
 import jallikattuImg from "../../assets/states/tamil-nadu/categories/culture/jallikattu.jpg";
 import pongalImg from "../../assets/states/tamil-nadu/categories/culture/pongal.jpg";
 import tavilImg from "../../assets/states/tamil-nadu/categories/culture/nadaswaram-tavil.jpg";
