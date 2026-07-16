@@ -12,7 +12,7 @@ import ancientImg from "../../../assets/states/karnataka/categories/places/coorg
 import sacredImg from "../../../assets/states/karnataka/categories/places/badami.jpg";
 import heritageImg from "../../../assets/states/karnataka/categories/places/hampi.jpg";
 import hillImg from "../../../assets/states/karnataka/categories/places/murudeshwar.jpg";
-import modernImg from "../../../assets/states/karnataka/categories/places/dandeli.jpg";
+import modernImg from "../../../assets/states/karnataka/categories/places/dandeli.JPG";
 
 import { items, gallery } from "../../../data/karnataka/places";
 
