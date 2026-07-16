@@ -1,11 +1,11 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-import ContactHero from "../components/contact/ContactHero";
-import ContactOptions from "../components/contact/ContactOptions";
-import ContactForm from "../components/contact/ContactForm";
-import ContactFAQ from "../components/contact/ContactFAQ";
-import ContactCTA from "../components/contact/ContactCTA";
+import ContactHero from "../components/Contact/ContactHero";
+import ContactOptions from "../components/Contact/ContactOptions";
+import ContactForm from "../components/Contact/ContactForm";
+import ContactFAQ from "../components/Contact/ContactFAQ";
+import ContactCTA from "../components/Contact/ContactCTA";
 
 function Contact() {
   return (
