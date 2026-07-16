@@ -29,7 +29,7 @@ function Karnataka() {
       link: "/karnataka/kingdoms",
     },
     {
-      title: "Architecture",
+      title: "Architectural Heritage",
       count: "180+ Heritage Sites",
       description:
         "UNESCO monuments, temples, forts and magnificent royal palaces.",
