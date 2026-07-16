@@ -71,6 +71,7 @@
             transparent 35%
         );
 }
+
 .state-tag{
     position:relative;
     overflow:hidden;
@@ -157,10 +158,12 @@
     text-shadow:
         0 2px 10px rgba(0,0,0,.35);
 }
+
 .explore-btn{
     display:inline-flex;
     align-items:center;
     justify-content:center;
+
     gap:clamp(.45rem,1vw,.75rem);
 
     margin-top:1rem;
@@ -222,6 +225,7 @@
 .explore-btn:hover .explore-icon{
     transform:translateY(5px);
 }
+
 @keyframes fadeUp{
 
     from{
@@ -247,6 +251,7 @@
     }
 
 }
+
 @media (max-width:900px){
 
     .state-hero{
@@ -272,6 +277,7 @@
     }
 
 }
+
 @media (max-width:600px){
 
     .state-hero{
@@ -310,6 +316,7 @@
     }
 
 }
+
 @media (max-width:400px){
 
     .explore-btn{
