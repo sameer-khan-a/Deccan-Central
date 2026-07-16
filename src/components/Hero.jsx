@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-import heroVideo from "../assets/homepage.mp4";
+import heroVideo from "../assets/Homepage.mp4";
 import searchData from "../data/searchData";
 import { FaDice } from "react-icons/fa";
 
