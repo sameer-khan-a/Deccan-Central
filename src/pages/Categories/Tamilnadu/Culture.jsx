@@ -10,7 +10,7 @@ import heroImg from "../../../assets/states/tamil-nadu/categories/culture/hero.j
 
 // Timeline Images
 import timeline1 from "../../../assets/states/tamil-nadu/categories/culture/tamil-literature.jpg";
-import timeline2 from "../../../assets/states/tamil-nadu/categories/culture/bharatanatyam.jpg";
+import timeline2 from "../../../assets/states/tamil-nadu/categories/culture/bharatanatyam.JPG";
 import timeline3 from "../../../assets/states/tamil-nadu/categories/culture/nadaswaram-tavil.jpg";
 import timeline4 from "../../../assets/states/tamil-nadu/categories/culture/kanchipuram-silk.jpg";
 import timeline5 from "../../../assets/states/tamil-nadu/categories/culture/pongal.jpg";
