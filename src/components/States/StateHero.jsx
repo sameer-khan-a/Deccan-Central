@@ -57,7 +57,7 @@ function StateHero({
         >
           <span>Start Exploring</span>
 
-          <ArrowDown className="explore-icon" />
+      
         </button>
       </div>
     </section>
