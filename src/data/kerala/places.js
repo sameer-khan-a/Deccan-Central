@@ -1,14 +1,14 @@
-import munnarImg from "../../assets/states/kerala/categories/places/munnar.jpg";
-import alleppeyImg from "../../assets/states/kerala/categories/places/alleppey.webp";
-import bekalImg from "../../assets/states/kerala/categories/places/bekal-fort.jpg";
-import wayanadImg from "../../assets/states/kerala/categories/places/wayanad.webp";
+import munnarImg from "../../assets/states/kerala/Categories/places/munnar.jpg";
+import alleppeyImg from "../../assets/states/kerala/Categories/places/alleppey.webp";
+import bekalImg from "../../assets/states/kerala/Categories/places/bekal-fort.jpg";
+import wayanadImg from "../../assets/states/kerala/Categories/places/wayanad.webp";
 
-import varkalaImg from "../../assets/states/kerala/categories/places/varkala.jpg";
-import kochiImg from "../../assets/states/kerala/categories/places/fort-kochi.jpg";
-import athirappillyImg from "../../assets/states/kerala/categories/places/athirappilly.jpg";
-import kovalamImg from "../../assets/states/kerala/categories/places/kovalam.jpg";
-import vagamonImg from "../../assets/states/kerala/categories/places/vagamon.jpg";
-import poovarImg from "../../assets/states/kerala/categories/places/poovar.jpg";
+import varkalaImg from "../../assets/states/kerala/Categories/places/varkala.jpg";
+import kochiImg from "../../assets/states/kerala/Categories/places/fort-kochi.jpg";
+import athirappillyImg from "../../assets/states/kerala/Categories/places/athirappilly.jpg";
+import kovalamImg from "../../assets/states/kerala/Categories/places/kovalam.jpg";
+import vagamonImg from "../../assets/states/kerala/Categories/places/vagamon.jpg";
+import poovarImg from "../../assets/states/kerala/Categories/places/poovar.jpg";
 
 export const items = [
   {
