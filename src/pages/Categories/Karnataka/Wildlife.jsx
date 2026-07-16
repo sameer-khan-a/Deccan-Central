@@ -19,7 +19,7 @@ import { items, gallery } from "../../../data/karnataka/wildlife";
 function Wildlife() {
   const timeline = [
     {
-      year: "Prehistory-900 CE",
+      year: "Before 900 CE",
       title: "Living With the Wild",
       description:
         "Dense forests, mighty rivers and the Western Ghats shaped everyday life across Karnataka. Wildlife was deeply woven into local beliefs, folklore and sacred traditions, enabling many communities to coexist with elephants, big cats and countless native species.",
