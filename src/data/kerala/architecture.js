@@ -1,14 +1,14 @@
-import padmanabhapuramImg from "../../assets/states/kerala/categories/architecture/padmanabhapuram-palace.jpg";
-import mattancherryImg from "../../assets/states/kerala/categories/architecture/mattancherry-palace.jpg";
-import sreePadmanabhaswamyImg from "../../assets/states/kerala/categories/architecture/sree-padmanabhaswamy-temple.jpg";
-import bekalImg from "../../assets/states/kerala/categories/architecture/bekal-fort.jpg";
+import padmanabhapuramImg from "../../assets/states/kerala/Categories/architecture/padmanabhapuram-palace.jpg";
+import mattancherryImg from "../../assets/states/kerala/Categories/architecture/mattancherry-palace.jpg";
+import sreePadmanabhaswamyImg from "../../assets/states/kerala/Categories/architecture/sree-padmanabhaswamy-temple.jpg";
+import bekalImg from "../../assets/states/kerala/Categories/architecture/bekal-fort.jpg";
 
-import vadakkunnathanImg from "../../assets/states/kerala/categories/architecture/vadakkunnathan-temple.jpg";
-import thalasseryFortImg from "../../assets/states/kerala/categories/architecture/thalassery-fort.webp";
-import stFrancisImg from "../../assets/states/kerala/categories/architecture/st-francis-church.jpg";
-import synagogueImg from "../../assets/states/kerala/categories/architecture/paradesi-synagogue.jpg";
-import edakkalImg from "../../assets/states/kerala/categories/architecture/edakkal-caves.webp";
-import krishnapuramImg from "../../assets/states/kerala/categories/architecture/krishnapuram-palace.webp";
+import vadakkunnathanImg from "../../assets/states/kerala/Categories/architecture/vadakkunnathan-temple.jpg";
+import thalasseryFortImg from "../../assets/states/kerala/Categories/architecture/thalassery-fort.webp";
+import stFrancisImg from "../../assets/states/kerala/Categories/architecture/st-francis-church.jpg";
+import synagogueImg from "../../assets/states/kerala/Categories/architecture/paradesi-synagogue.jpg";
+import edakkalImg from "../../assets/states/kerala/Categories/architecture/edakkal-caves.webp";
+import krishnapuramImg from "../../assets/states/kerala/Categories/architecture/krishnapuram-palace.webp";
 
 export const items = [
   {
