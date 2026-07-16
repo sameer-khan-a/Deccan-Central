@@ -51,14 +51,7 @@ function StateHero({
           {description}
         </p>
 
-        <button
-          className="explore-btn"
-          onClick={handleExplore}
-        >
-          <span>Start Exploring</span>
 
-      
-        </button>
       </div>
     </section>
   );
