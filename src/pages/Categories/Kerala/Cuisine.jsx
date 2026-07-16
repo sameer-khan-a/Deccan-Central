@@ -12,7 +12,7 @@ import heroImg from "../../../assets/states/kerala/Categories/cuisine/hero.jpg";
 import timeline1 from "../../../assets/states/kerala/Categories/cuisine/puttu-kadala.jpg";
 import timeline2 from "../../../assets/states/kerala/Categories/cuisine/appam-stew.jpeg";
 import timeline3 from "../../../assets/states/kerala/Categories/cuisine/malabar-biriyani.jpeg";
-import timeline4 from "../../../assets/states/kerala/Categories/cuisine/karimeen-polichathu.jpg";
+import timeline4 from "../../../assets/states/kerala/Categories/cuisine/karimeen-polichathu.JPG";
 import timeline5 from "../../../assets/states/kerala/Categories/cuisine/sadya.jpg";
 
 import { items, gallery } from "../../../data/kerala/cuisine";
