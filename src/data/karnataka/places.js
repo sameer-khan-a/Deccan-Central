@@ -6,7 +6,7 @@ import gokarnaImg from "../../assets/states/karnataka/categories/places/gokarna.
 import badamiImg from "../../assets/states/karnataka/categories/places/badami.jpg";
 import pattadakalImg from "../../assets/states/karnataka/categories/places/pattadakal.webp";
 import shravanabelagolaImg from "../../assets/states/karnataka/categories/places/shravanabelagola.jpg";
-import dandeliImg from "../../assets/states/karnataka/categories/places/dandeli.jpg";
+import dandeliImg from "../../assets/states/karnataka/categories/places/dandeli.JPG";
 import chikmagalurImg from "../../assets/states/karnataka/categories/places/chikmagalur.jpg";
 import murudeshwarImg from "../../assets/states/karnataka/categories/places/murudeshwar.jpg";
 
