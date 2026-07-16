@@ -9,11 +9,11 @@ import Navbar from "../components/Navbar";
 
 import { highlights } from "../data/highlights";
 
-import karImg from "../assets/karnataka.jpg";
-import telImg from "../assets/telangana.jpg";
+import karImg from "../assets/Karnataka.jpg";
+import telImg from "../assets/Telangana.jpg";
 import apImg from "../assets/andhra.jpg";
-import tnImg from "../assets/tamilnadu.jpg";
-import kerImg from "../assets/kerala.jpg";
+import tnImg from "../assets/Tamilnadu.jpg";
+import kerImg from "../assets/Kerala.jpg";
 
 import "./Home.css";
 
