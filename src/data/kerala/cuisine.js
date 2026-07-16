@@ -1,5 +1,5 @@
 import sadyaImg from "../../assets/states/kerala/Categories/cuisine/sadya.jpg";
-import karimeenImg from "../../assets/states/kerala/Categories/cuisine/karimeen-polichathu.jpg";
+import karimeenImg from "../../assets/states/kerala/Categories/cuisine/karimeen-polichathu.JPG";
 import appamImg from "../../assets/states/kerala/Categories/cuisine/appam-stew.jpeg";
 import malabarImg from "../../assets/states/kerala/Categories/cuisine/malabar-biriyani.jpeg";
 
