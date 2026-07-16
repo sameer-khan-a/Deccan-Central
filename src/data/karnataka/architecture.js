@@ -1,4 +1,4 @@
-import hampiImg from "../../assets/states/karnataka/categories/architecture/hampi.jpeg";
+import hampiImg from "../../assets/states/karnataka/categories/architecture/Hampi.jpeg";
 import belurImg from "../../assets/states/karnataka/categories/architecture/belur.jpg";
 import badamiImg from "../../assets/states/karnataka/categories/architecture/badami.jpg";
 import mysoreImg from "../../assets/states/karnataka/categories/architecture/mysore-palace.jpg";
