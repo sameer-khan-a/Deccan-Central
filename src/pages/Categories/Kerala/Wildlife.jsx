@@ -6,14 +6,14 @@ import ItemGrid from "../../../components/Categories/ItemGrid";
 import Gallery from "../../../components/Categories/Gallery";
 import Footer from "../../../components/Footer";
 
-import heroImg from "../../../assets/states/kerala/categories/wildlife/hero.jpg";
+import heroImg from "../../../assets/states/kerala/Categories/wildlife/hero.jpg";
 
 // Timeline Images
-import timeline1 from "../../../assets/states/kerala/categories/wildlife/asian-elephant.jpg";
-import timeline2 from "../../../assets/states/kerala/categories/wildlife/periyar.jpg";
-import timeline3 from "../../../assets/states/kerala/categories/wildlife/silent-valley.jpg";
-import timeline4 from "../../../assets/states/kerala/categories/wildlife/eravikulam.webp";
-import timeline5 from "../../../assets/states/kerala/categories/wildlife/great-hornbill.jpg";
+import timeline1 from "../../../assets/states/kerala/Categories/wildlife/asian-elephant.jpg";
+import timeline2 from "../../../assets/states/kerala/Categories/wildlife/periyar.jpg";
+import timeline3 from "../../../assets/states/kerala/Categories/wildlife/silent-valley.jpg";
+import timeline4 from "../../../assets/states/kerala/Categories/wildlife/eravikulam.webp";
+import timeline5 from "../../../assets/states/kerala/Categories/wildlife/great-hornbill.jpg";
 
 import { items, gallery } from "../../../data/kerala/wildlife";
 
