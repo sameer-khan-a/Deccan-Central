@@ -6,14 +6,14 @@ import ItemGrid from "../../../components/Categories/ItemGrid";
 import Gallery from "../../../components/Categories/Gallery";
 import Footer from "../../../components/Footer";
 
-import heroImg from "../../../assets/states/kerala/categories/places/hero.jpg";
+import heroImg from "../../../assets/states/kerala/Categories/places/hero.jpg";
 
 // Timeline Images
-import timeline1 from "../../../assets/states/kerala/categories/places/bekal-fort.jpg";
-import timeline2 from "../../../assets/states/kerala/categories/places/fort-kochi.jpg";
-import timeline3 from "../../../assets/states/kerala/categories/places/alleppey.webp";
-import timeline4 from "../../../assets/states/kerala/categories/places/munnar.jpg";
-import timeline5 from "../../../assets/states/kerala/categories/places/wayanad.webp";
+import timeline1 from "../../../assets/states/kerala/Categories/places/bekal-fort.jpg";
+import timeline2 from "../../../assets/states/kerala/Categories/places/fort-kochi.jpg";
+import timeline3 from "../../../assets/states/kerala/Categories/places/alleppey.webp";
+import timeline4 from "../../../assets/states/kerala/Categories/places/munnar.jpg";
+import timeline5 from "../../../assets/states/kerala/Categories/places/wayanad.webp";
 
 import { items, gallery } from "../../../data/kerala/places";
 
