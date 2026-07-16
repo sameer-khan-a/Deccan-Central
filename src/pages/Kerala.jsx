@@ -29,7 +29,7 @@ function Kerala() {
       link: "/kerala/kingdoms",
     },
     {
-      title: "Architecture",
+      title: "Structures",
       count: "140+ Heritage Sites",
       description:
         "Discover ancient temples, royal palaces, synagogues, churches and remarkable colonial landmarks.",
