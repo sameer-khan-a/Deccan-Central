@@ -1,14 +1,14 @@
-import periyarImg from "../../assets/states/kerala/categories/wildlife/periyar.jpg";
-import eravikulamImg from "../../assets/states/kerala/categories/wildlife/eravikulam.webp";
-import silentValleyImg from "../../assets/states/kerala/categories/wildlife/silent-valley.jpg";
-import wayanadImg from "../../assets/states/kerala/categories/wildlife/wayanad.jpg";
+import periyarImg from "../../assets/states/kerala/Categories/wildlife/periyar.jpg";
+import eravikulamImg from "../../assets/states/kerala/Categories/wildlife/eravikulam.webp";
+import silentValleyImg from "../../assets/states/kerala/Categories/wildlife/silent-valley.jpg";
+import wayanadImg from "../../assets/states/kerala/Categories/wildlife/wayanad.jpg";
 
-import nilgiriTahrImg from "../../assets/states/kerala/categories/wildlife/nilgiri-tahr.jpg";
-import lionTailedMacaqueImg from "../../assets/states/kerala/categories/wildlife/lion-tailed-macaque.jpg";
-import asianElephantImg from "../../assets/states/kerala/categories/wildlife/asian-elephant.jpg";
-import greatHornbillImg from "../../assets/states/kerala/categories/wildlife/great-hornbill.jpg";
-import malabarGiantSquirrelImg from "../../assets/states/kerala/categories/wildlife/malabar-giant-squirrel.jpg";
-import kingCobraImg from "../../assets/states/kerala/categories/wildlife/king-cobra.jpg";
+import nilgiriTahrImg from "../../assets/states/kerala/Categories/wildlife/nilgiri-tahr.jpg";
+import lionTailedMacaqueImg from "../../assets/states/kerala/Categories/wildlife/lion-tailed-macaque.jpg";
+import asianElephantImg from "../../assets/states/kerala/Categories/wildlife/asian-elephant.jpg";
+import greatHornbillImg from "../../assets/states/kerala/Categories/wildlife/great-hornbill.jpg";
+import malabarGiantSquirrelImg from "../../assets/states/kerala/Categories/wildlife/malabar-giant-squirrel.jpg";
+import kingCobraImg from "../../assets/states/kerala/Categories/wildlife/king-cobra.jpg";
 
 export const items = [
   {
