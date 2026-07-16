@@ -29,7 +29,7 @@ function AndhraPradesh() {
       link: "/andhra-pradesh/kingdoms",
     },
     {
-      title: "Architecture",
+      title: "Structures",
       count: "200+ Heritage Sites",
       description:
         "Explore ancient temples, Buddhist monuments, forts, cave complexes and remarkable stone architecture.",
