@@ -6,14 +6,14 @@ import ItemGrid from "../../../components/Categories/ItemGrid";
 import Gallery from "../../../components/Categories/Gallery";
 import Footer from "../../../components/Footer";
 
-import heroImg from "../../../assets/states/kerala/categories/cuisine/hero.jpg";
+import heroImg from "../../../assets/states/kerala/Categories/cuisine/hero.jpg";
 
 // Timeline Images
-import timeline1 from "../../../assets/states/kerala/categories/cuisine/puttu-kadala.jpg";
-import timeline2 from "../../../assets/states/kerala/categories/cuisine/appam-stew.jpeg";
-import timeline3 from "../../../assets/states/kerala/categories/cuisine/malabar-biriyani.jpeg";
-import timeline4 from "../../../assets/states/kerala/categories/cuisine/karimeen-polichathu.jpg";
-import timeline5 from "../../../assets/states/kerala/categories/cuisine/sadya.jpg";
+import timeline1 from "../../../assets/states/kerala/Categories/cuisine/puttu-kadala.jpg";
+import timeline2 from "../../../assets/states/kerala/Categories/cuisine/appam-stew.jpeg";
+import timeline3 from "../../../assets/states/kerala/Categories/cuisine/malabar-biriyani.jpeg";
+import timeline4 from "../../../assets/states/kerala/Categories/cuisine/karimeen-polichathu.jpg";
+import timeline5 from "../../../assets/states/kerala/Categories/cuisine/sadya.jpg";
 
 import { items, gallery } from "../../../data/kerala/cuisine";
 
