@@ -8,7 +8,7 @@ import sambarImg from "../../assets/states/tamil-nadu/categories/cuisine/sambar.
 import filterCoffeeImg from "../../assets/states/tamil-nadu/categories/cuisine/filter-coffee.jpg";
 import parottaImg from "../../assets/states/tamil-nadu/categories/cuisine/parotta.webp";
 import kozhiKulambuImg from "../../assets/states/tamil-nadu/categories/cuisine/kozhi-kulambu.webp";
-import adhirasamImg from "../../assets/states/tamil-nadu/categories/cuisine/adhirasam.jpg";
+import adhirasamImg from "../../assets/states/tamil-nadu/categories/cuisine/adhirasam.JPG";
 
 export const items = [
   {
