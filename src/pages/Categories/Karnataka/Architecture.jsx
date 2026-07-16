@@ -8,7 +8,7 @@ import Footer from "../../../components/Footer";
 
 import heroImg from "../../../assets/states/karnataka/categories/architecture/hero.jpg";
 
-import kadambaImg from "../../../assets/states/karnataka/categories/architecture/kadamba.jpg";
+import kadambaImg from "../../../assets/states/karnataka/categories/architecture/kadamba.JPG";
 import chalukyaImg from "../../../assets/states/karnataka/categories/architecture/aihole.jpg";
 import rashtrakutaImg from "../../../assets/states/karnataka/categories/kingdoms/kailasa.webp";
 import hoysalaImg from "../../../assets/states/karnataka/categories/kingdoms/hoysala.jpg";
