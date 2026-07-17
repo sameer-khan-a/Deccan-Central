@@ -19,7 +19,8 @@ export const items = [
     subtitle: "Festival of Flowers",
     description:
       "Telangana's signature floral festival celebrating nature, womanhood and community through vibrant flower arrangements and traditional songs.",
-    image: bathukammaImg
+    image: bathukammaImg,
+    link: "https://en.wikipedia.org/wiki/Bathukamma",
   },
   {
     state: "Telangana",
@@ -27,7 +28,8 @@ export const items = [
     subtitle: "Festival of Mahakali",
     description:
       "A vibrant festival honouring Goddess Mahakali with ceremonial offerings, processions, folk performances and enduring local traditions.",
-    image: bonaluImg
+    image: bonaluImg,
+    link: "https://en.wikipedia.org/wiki/Bonalu",
   },
   {
     state: "Telangana",
@@ -35,7 +37,8 @@ export const items = [
     subtitle: "Warrior Dance",
     description:
       "An ancient martial dance of the Kakatiya period, revived as one of Telangana's defining classical dance traditions.",
-    image: periniImg
+    image: periniImg,
+    link: "https://en.wikipedia.org/wiki/Perini_Shivatandavam",
   },
   {
     state: "Telangana",
@@ -43,7 +46,8 @@ export const items = [
     subtitle: "GI-Tagged Folk Art",
     description:
       "A traditional narrative scroll painting style that preserves Telangana's folklore through vivid hand-painted storytelling.",
-    image: cheriyalImg
+    image: cheriyalImg,
+    link: "https://en.wikipedia.org/wiki/Cheriyal_scroll_painting",
   }
 ];
 
@@ -54,7 +58,8 @@ export const gallery = [
     tag: "Festival",
     title: "Sammakka Saralamma Jatara",
     description:
-      "One of the world's largest tribal festivals, honouring the legendary tribal women Sammakka and Saralamma."
+      "One of the world's largest tribal festivals, honouring the legendary tribal women Sammakka and Saralamma.",
+    link: "https://en.wikipedia.org/wiki/Sammakka_Saralamma_Jatara",
   },
   {
     state: "Telangana",
@@ -62,7 +67,8 @@ export const gallery = [
     tag: "Storytelling",
     title: "Oggu Katha",
     description:
-      "A traditional storytelling performance combining music, narration and legends of regional deities."
+      "A traditional storytelling performance combining music, narration and legends of regional deities.",
+    link: "https://en.wikipedia.org/wiki/Oggu_Katha",
   },
   {
     state: "Telangana",
@@ -70,7 +76,8 @@ export const gallery = [
     tag: "Craft",
     title: "Nirmal Toys",
     description:
-      "Handcrafted wooden toys and decorative figures from Nirmal, celebrated for their vibrant colours and fine workmanship."
+      "Handcrafted wooden toys and decorative figures from Nirmal, celebrated for their vibrant colours and fine workmanship.",
+    link: "https://en.wikipedia.org/wiki/Nirmal_toys_and_craft",
   },
   {
     state: "Telangana",
@@ -78,7 +85,8 @@ export const gallery = [
     tag: "Metal Craft",
     title: "Bidriware",
     description:
-      "An elegant silver-inlaid metal craft with enduring cultural ties to the Deccan, also practiced in Hyderabad."
+      "An elegant silver-inlaid metal craft with enduring cultural ties to the Deccan, also practiced in Hyderabad.",
+    link: "https://en.wikipedia.org/wiki/Bidriware",
   },
   {
     state: "Telangana",
@@ -86,7 +94,8 @@ export const gallery = [
     tag: "Language",
     title: "Deccani Urdu",
     description:
-      "A distinctive dialect shaped by centuries of interaction between Urdu, Telugu, Persian, Marathi and Kannada."
+      "A distinctive dialect shaped by centuries of interaction between Urdu, Telugu, Persian, Marathi and Kannada.",
+    link: "https://en.wikipedia.org/wiki/Deccani_language",
   },
   {
     state: "Telangana",
@@ -94,6 +103,7 @@ export const gallery = [
     tag: "Dance",
     title: "Gussadi Dance",
     description:
-      "A vibrant tribal dance of the Gond community, performed during the Dandari festival with elaborate traditional attire."
+      "A vibrant tribal dance of the Gond community, performed during the Dandari festival with elaborate traditional attire.",
+    link: "https://en.wikipedia.org/wiki/Gussadi",
   }
 ];
