@@ -18,6 +18,7 @@ export const items = [
       "One of ancient South India's greatest kingdoms, later known as the Chera Perumal Kingdom, renowned for maritime trade, pepper exports and strong links with the Roman world.",
     image: cheraImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Chera_dynasty",
   },
   {
     title: "Kolathunadu",
@@ -26,6 +27,7 @@ export const items = [
       "Ruled by the Kolathiri dynasty, this northern Kerala kingdom controlled Kannur and key Malabar ports, becoming an important maritime power.",
     image: kolathunaduImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Kolathunadu",
   },
   {
     title: "Kingdom of Kozhikode",
@@ -34,6 +36,7 @@ export const items = [
       "Ruled by the Zamorins (Samoothiris), Kozhikode emerged as one of the Indian Ocean's greatest spice trading centres, welcoming merchants from across the world.",
     image: kozhikodeImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Zamorin_of_Calicut",
   },
   {
     title: "Kingdom of Travancore",
@@ -42,6 +45,7 @@ export const items = [
       "Transformed by Maharaja Marthanda Varma into a powerful kingdom, Travancore became renowned for efficient governance, magnificent temples and lasting cultural achievements.",
     image: travancoreImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Kingdom_of_Travancore",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "The medieval kingdom that became the direct predecessor of Travancore, shaping the political history of southern Kerala.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Venad",
   },
   {
     src: cochinImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "A prosperous coastal kingdom that flourished through international trade while maintaining close ties with the Portuguese and later European powers.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Kingdom_of_Cochin",
   },
   {
     src: valluvanadImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "A powerful inland kingdom closely associated with the historic Mamankam festival and its long rivalry with the Zamorins of Kozhikode.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Valluvanad",
   },
   {
     src: thekkumkurImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "A medieval kingdom centred around present-day Kottayam, remembered for resisting Travancore before its eventual conquest.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Thekkumkur",
   },
   {
     src: vadakkumkurImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "An influential central Kerala kingdom that retained its independence until its annexation by Travancore in the 18th century.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Vadakkumkur",
   },
   {
     src: arakkalImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "Ruled by the Arakkal Ali Rajas, India's only Muslim royal dynasty, this Kannur-based kingdom maintained extensive maritime ties across the Arabian Sea.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Arakkal_Kingdom",
   },
 ];
