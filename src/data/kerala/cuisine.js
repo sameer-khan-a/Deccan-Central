@@ -18,6 +18,7 @@ export const items = [
       "Kerala's grand vegetarian banquet served on a banana leaf with an array of dishes, traditionally enjoyed during Onam and festive celebrations.",
     image: sadyaImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Sadya",
   },
   {
     title: "Karimeen Pollichathu",
@@ -26,6 +27,7 @@ export const items = [
       "Pearl spot fish marinated in aromatic spices, wrapped in banana leaves and slow-roasted into one of Kerala's finest seafood delicacies.",
     image: karimeenImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Karimeen_pollichathu",
   },
   {
     title: "Appam & Stew",
@@ -34,6 +36,7 @@ export const items = [
       "Soft fermented rice pancakes paired with fragrant coconut milk stew prepared with vegetables, chicken or mutton.",
     image: appamImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Appam",
   },
   {
     title: "Malabar Biryani",
@@ -42,6 +45,7 @@ export const items = [
       "The celebrated Thalassery-style biryani, prepared with fragrant Jeerakasala rice and delicately spiced meat, reflecting centuries of Arab influence.",
     image: malabarImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Thalassery_biryani",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "Steamed cylinders of layered rice flour and coconut served with black chickpea curry, one of Kerala's most beloved breakfasts.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Puttu",
   },
   {
     src: pathiriImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "Soft rice flatbreads that are a hallmark of Malabar Muslim cuisine, traditionally served with rich curries.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Pathiri",
   },
   {
     src: adaImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "A rich payasam made with ada, jaggery and coconut milk, regarded as one of Kerala's finest festive desserts.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Payasam",
   },
   {
     src: kallummakkayaImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "Spiced green mussels from the Malabar Coast, prized for their rich flavour and coastal culinary heritage.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Mussel",
   },
   {
     src: unniyappamImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "Golden fried dumplings made with rice flour, jaggery, banana and cardamom, enjoyed as a traditional festive sweet.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Unni_appam",
   },
   {
     src: pazhamPoriImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "Ripe Nendran banana fritters fried until crisp outside and soft inside, Kerala's iconic tea-time snack.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Pazham_pori",
   },
 ];
