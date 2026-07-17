@@ -4,6 +4,7 @@ import "./PixelTransition.css";
 function PixelTransition({
   firstContent,
   secondContent,
+  mobileOverlay = null,
   aspectRatio = "100%",
   className = "",
   style = {}
@@ -50,6 +51,12 @@ function PixelTransition({
       <div className="pixelated-image-card__active">
         {secondContent}
       </div>
+
+      {isTouchDevice && mobileOverlay && (
+        <div className={`pixelated-image-card__mobile-title ${active ? "active" : ""}`}>
+          {mobileOverlay}
+        </div>
+      )}
     </div>
   );
 }
