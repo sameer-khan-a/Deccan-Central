@@ -18,6 +18,7 @@ export const items = [
       "One of India's premier tiger reserves and part of the Nilgiri Biosphere Reserve, renowned for Bengal tigers, Asian elephants and expansive deciduous forests.",
     image: bandipurImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Bandipur_National_Park",
   },
   {
     title: "Nagarhole National Park",
@@ -26,6 +27,7 @@ export const items = [
       "A spectacular wilderness of forests and rivers, famous for elephants, Bengal tigers, Indian leopards, gaur and exceptional birdlife.",
     image: nagarholeImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Nagarhole_National_Park",
   },
   {
     title: "Kudremukh National Park",
@@ -34,6 +36,7 @@ export const items = [
       "Rolling hills, shola forests and pristine grasslands make this Western Ghats national park one of India's richest biodiversity hotspots.",
     image: kudremukhImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Kudremukha_National_Park",
   },
   {
     title: "Bannerghatta National Park",
@@ -42,6 +45,7 @@ export const items = [
       "Located just outside Bengaluru, this protected area combines wildlife conservation, safari experiences and India's first butterfly park.",
     image: bannerghattaImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Bannerghatta_National_Park",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "Karnataka supports one of India's largest wild elephant populations, roaming forests from Bandipur and Nagarhole to the Western Ghats.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Asian_elephant",
   },
   {
     src: tigerImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "Healthy tiger populations thrive across Karnataka's protected reserves, making the state one of India's foremost tiger landscapes.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Bengal_tiger",
   },
   {
     src: leopardImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "Highly adaptable and elusive, Indian leopards inhabit forests, hills and rocky landscapes across much of Karnataka.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Indian_leopard",
   },
   {
     src: gaurImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "The world's largest wild bovine is frequently seen grazing through Karnataka's forests and grasslands.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Gaur",
   },
   {
     src: hornbillImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "One of the Western Ghats' most iconic birds, the Malabar Pied Hornbill is a vital seed disperser in rainforest ecosystems.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Malabar_pied_hornbill",
   },
   {
     src: dholeImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "Also known as the Asiatic wild dog, the endangered dhole hunts cooperatively in packs across Karnataka's protected forests.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Dhole",
   },
 ];
