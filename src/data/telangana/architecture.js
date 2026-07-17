@@ -20,6 +20,7 @@ export const items = [
     description:
       "A Kakatiya masterpiece renowned for its intricate sculptures, star-shaped platform and lightweight porous bricks used in its superstructure.",
     image: ramappaImg,
+    link: "https://whc.unesco.org/en/list/1570/",
   },
   {
     state: "Telangana",
@@ -28,6 +29,7 @@ export const items = [
     description:
       "The iconic four-minareted monument commissioned by Muhammad Quli Qutb Shah and the enduring symbol of Hyderabad.",
     image: charminarImg,
+    link: "https://en.wikipedia.org/wiki/Charminar",
   },
   {
     state: "Telangana",
@@ -36,6 +38,7 @@ export const items = [
     description:
       "A formidable citadel celebrated for its ingenious acoustic design, massive fortifications and association with the Qutb Shahi dynasty.",
     image: golcondaImg,
+    link: "https://en.wikipedia.org/wiki/Golconda",
   },
   {
     state: "Telangana",
@@ -44,6 +47,7 @@ export const items = [
     description:
       "The ceremonial seat of the Nizams of Hyderabad, distinguished by grand halls, elegant courtyards and European-influenced Deccan architecture.",
     image: chowmahallaImg,
+    link: "https://en.wikipedia.org/wiki/Chowmahalla_Palace",
   },
 ];
 
@@ -55,6 +59,7 @@ export const gallery = [
     title: "Warangal Fort",
     description:
       "The former Kakatiya capital, renowned for its monumental stone gateways and fortified remains.",
+    link: "https://en.wikipedia.org/wiki/Warangal_Fort",
   },
   {
     state: "Telangana",
@@ -63,6 +68,7 @@ export const gallery = [
     title: "Thousand Pillar Temple",
     description:
       "A celebrated 12th-century Kakatiya temple noted for its refined stone carvings and sculptural artistry.",
+    link: "https://en.wikipedia.org/wiki/Thousand_Pillar_Temple",
   },
   {
     state: "Telangana",
@@ -71,6 +77,7 @@ export const gallery = [
     title: "Qutb Shahi Tombs",
     description:
       "A remarkable necropolis where Persian, Indian and Deccan architectural traditions converge.",
+    link: "https://en.wikipedia.org/wiki/Qutb_Shahi_tombs",
   },
   {
     state: "Telangana",
@@ -79,6 +86,7 @@ export const gallery = [
     title: "Paigah Tombs",
     description:
       "Elegant mausoleums admired for their intricate lime-stucco latticework and Indo-Islamic craftsmanship.",
+    link: "https://en.wikipedia.org/wiki/Paigah_Tombs",
   },
   {
     state: "Telangana",
@@ -87,6 +95,7 @@ export const gallery = [
     title: "Bhongir Fort",
     description:
       "An imposing hilltop fortress built atop a massive granite monolith, offering commanding views of the surrounding plains.",
+    link: "https://en.wikipedia.org/wiki/Bhongir_Fort",
   },
   {
     state: "Telangana",
@@ -95,5 +104,6 @@ export const gallery = [
     title: "Elgandal Fort",
     description:
       "A historic riverside fort on the banks of the Manair River, shaped by successive Deccan dynasties.",
+    link: "https://en.wikipedia.org/wiki/Elgandal_Fort",
   },
 ];
