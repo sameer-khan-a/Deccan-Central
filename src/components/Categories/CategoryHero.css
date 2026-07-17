@@ -1,21 +1,18 @@
 .category-hero{
     position: relative;
 
-    min-height: 100vh;
-    min-height: 100svh; /* fallback for mobile */
-    min-height: 100dvh; /* modern browsers */
+    min-height: 100dvh;
 
     display: flex;
+    justify-content: flex-start;
     align-items: center;
 
     padding: 0 8%;
 
-    overflow: hidden;
-    isolation: isolate;
+    background: linear-gradient(90deg, #080c14e0 0%, #080c14a6 45%, #080c1473 100%),
+                url(/assets/hero-CafhpzJX.jpeg) center/cover no-repeat;
 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .category-hero::before{
