@@ -18,6 +18,7 @@ export const items = [
       "A vibrant dance-drama tradition of Coastal Karnataka, blending music, elaborate costumes and mythological storytelling.",
     image: yakshaganaImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Yakshagana",
   },
   {
     title: "Kannada Literature",
@@ -26,6 +27,7 @@ export const items = [
       "Rooted in one of India's Classical Languages, Karnataka's literary tradition has produced celebrated poets, philosophers and numerous Jnanpith Award winners.",
     image: kannadaImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Kannada_literature",
   },
   {
     title: "Mysore Dasara",
@@ -34,6 +36,7 @@ export const items = [
       "Karnataka's grandest festival, renowned for the magnificent Jamboo Savari procession, cultural performances and the illuminated Mysore Palace.",
     image: mysoreDasaraImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Mysore_Dasara",
   },
   {
     title: "Sandalwood",
@@ -42,6 +45,7 @@ export const items = [
       "The Kannada film industry is a vibrant force in Indian cinema, celebrating Karnataka's language, culture and storytelling traditions.",
     image: sandalwoodImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Kannada_cinema",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "A powerful drum dance of the Kuruba community, celebrated for its synchronized rhythms and energetic performances.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Dollu_Kunitha",
   },
   {
     src: veeragaseImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "A dramatic folk dance inspired by the legend of Veerabhadra, featuring vigorous movements and colourful costumes.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Veeragase",
   },
   {
     src: bidriImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "Bidar's renowned GI-tagged metal craft, distinguished by intricate silver inlay on blackened alloy surfaces.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Bidriware",
   },
   {
     src: udupiCuisineImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "A world-famous vegetarian cuisine rooted in the temple traditions of Udupi Krishna Temple, celebrated for its balance and flavour.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Udupi_cuisine",
   },
   {
     src: shravanabelagolaImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "One of the world's foremost Jain pilgrimage centres, famed for the monolithic Bahubali statue and the Mahamastakabhisheka festival.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Shravanabelagola",
   },
   {
     src: hampiUtsavImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "A vibrant cultural festival celebrating Karnataka's music, dance, art and history amid the magnificent ruins of Hampi.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Hampi_Utsav",
   },
 ];
