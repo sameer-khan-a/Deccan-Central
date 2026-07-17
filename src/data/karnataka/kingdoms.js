@@ -18,6 +18,7 @@ export const items = [
       "The first native dynasty to rule Karnataka, establishing Banavasi as its capital and pioneering the official use of Kannada in administration.",
     image: kadambaImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Kadamba_dynasty",
   },
   {
     title: "Badami Chalukyas",
@@ -26,6 +27,7 @@ export const items = [
       "The Early Chalukyas transformed Badami, Aihole and Pattadakal into legendary centres of architecture, art and political power.",
     image: chalukyaImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Chalukya_dynasty",
   },
   {
     title: "Rashtrakuta Empire",
@@ -34,6 +36,7 @@ export const items = [
       "A powerful imperial dynasty that ruled much of the Indian subcontinent while patronizing literature, trade and masterpieces such as the Kailasa Temple.",
     image: rashtrakutaImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Rashtrakuta_dynasty",
   },
   {
     title: "Hoysala Empire",
@@ -42,6 +45,7 @@ export const items = [
       "Celebrated for extraordinary temple architecture, the Hoysalas left behind UNESCO-recognised masterpieces at Belur, Halebidu and Somnathapura.",
     image: hoysalaImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Hoysala_Empire",
   },
   {
     title: "Vijayanagara Empire",
@@ -50,6 +54,7 @@ export const items = [
       "One of South India's greatest empires, whose UNESCO-listed capital at Hampi became a global centre of commerce, culture and architecture.",
     image: vijayanagaraImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Vijayanagara_Empire",
   },
 ];
 
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "The historic Kadamba capital and one of Karnataka's oldest continuously inhabited towns, famed for the ancient Madhukeshwara Temple.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Banavasi",
   },
   {
     src: pattadakalImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "A UNESCO World Heritage Site where Chalukyan architects perfected the fusion of Nagara and Dravida temple styles.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Pattadakal",
   },
   {
     src: kailasaImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "The monumental rock-cut temple at Ellora, commissioned by the Rashtrakutas and carved from a single massive rock.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Kailasa_Temple,_Ellora",
   },
   {
     src: hoysalaImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "The magnificent temples of Belur, Halebidu and Somnathapura represent the pinnacle of medieval Indian stone craftsmanship.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Sacred_Ensembles_of_the_Hoysalas",
   },
   {
     src: hampiImg,
@@ -93,6 +102,7 @@ export const gallery = [
     description:
       "The spectacular capital of the Vijayanagara Empire, preserving one of the world's greatest archaeological landscapes.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Hampi",
   },
   {
     src: kannadaImg,
@@ -101,5 +111,6 @@ export const gallery = [
     description:
       "Royal patronage nurtured literary giants such as Pampa, Ranna and Janna, helping Kannada flourish as one of India's great classical languages.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Kannada_literature",
   },
 ];
