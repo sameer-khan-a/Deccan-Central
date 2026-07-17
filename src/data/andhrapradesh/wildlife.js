@@ -18,6 +18,7 @@ export const items = [
       "A spectacular national park of dense forests and the scenic Godavari Gorge, home to Indian leopards, gaur, sambar, giant squirrels and rich birdlife.",
     image: papikondaImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Papikonda_National_Park",
   },
   {
     title: "Sri Venkateswara National Park",
@@ -26,6 +27,7 @@ export const items = [
       "A rugged landscape of forests, waterfalls and deep valleys supporting Indian leopards, sloth bears, giant squirrels and diverse endemic wildlife.",
     image: sriVenkateswaraImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Sri_Venkateswara_National_Park",
   },
   {
     title: "Coringa Wildlife Sanctuary",
@@ -34,6 +36,7 @@ export const items = [
       "One of India's largest mangrove ecosystems, protecting fishing cats, smooth-coated otters, estuarine crocodiles and migratory birds.",
     image: coringaImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Coringa_Wildlife_Sanctuary",
   },
   {
     title: "Rollapadu Wildlife Sanctuary",
@@ -42,6 +45,7 @@ export const items = [
       "A rare grassland sanctuary renowned for blackbuck, raptors and one of the last remaining habitats of the critically endangered Great Indian Bustard.",
     image: rollapaduImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Rollapadu_Wildlife_Sanctuary",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "The iconic apex predator of Andhra Pradesh's forests, symbolising the state's rich biodiversity and conservation efforts.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Bengal_tiger",
   },
   {
     src: indianLeopardImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "An elusive and highly adaptable big cat found throughout the forests and rocky hills of the Eastern Ghats.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Indian_leopard",
   },
   {
     src: slothBearImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "A distinctive shaggy-coated bear that thrives in the dry deciduous forests of the Eastern Ghats.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Sloth_bear",
   },
   {
     src: blackbuckImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "India's graceful native antelope, flourishing across the open grasslands of Rollapadu Wildlife Sanctuary.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Blackbuck",
   },
   {
     src: fishingCatImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "A rare and secretive wild cat specially adapted to the mangrove forests and wetlands of Coringa.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Fishing_cat",
   },
   {
     src: flamingoImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "Thousands of migratory greater flamingos gather in Andhra Pradesh's coastal wetlands, creating spectacular seasonal displays.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Greater_flamingo",
   },
 ];
