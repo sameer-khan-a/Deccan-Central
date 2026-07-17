@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import "./PixelTransition.css";
 
 function PixelTransition({
@@ -9,14 +9,37 @@ function PixelTransition({
   style = {}
 }) {
   const [active, setActive] = useState(false);
+  const cardRef = useRef(null);
+
+  const isTouchDevice =
+    "ontouchstart" in window ||
+    navigator.maxTouchPoints > 0 ||
+    window.matchMedia("(pointer: coarse)").matches;
+
+  useEffect(() => {
+    if (!isTouchDevice || !cardRef.current) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setActive(entry.isIntersecting);
+      },
+      {
+        threshold: 0.3,
+      }
+    );
+
+    observer.observe(cardRef.current);
+
+    return () => observer.disconnect();
+  }, [isTouchDevice]);
 
   return (
     <div
+      ref={cardRef}
       className={`pixelated-image-card ${className} ${active ? "active" : ""}`}
       style={style}
-      onMouseEnter={() => setActive(true)}
-      onMouseLeave={() => setActive(false)}
-      onTouchStart={() => setActive((prev) => !prev)}
+      onMouseEnter={!isTouchDevice ? () => setActive(true) : undefined}
+      onMouseLeave={!isTouchDevice ? () => setActive(false) : undefined}
     >
       <div style={{ paddingTop: aspectRatio }} />
 
