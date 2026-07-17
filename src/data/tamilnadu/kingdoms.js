@@ -18,6 +18,7 @@ export const items = [
       "One of India's greatest imperial powers, renowned for monumental temples, naval expeditions to Sri Lanka and Southeast Asia, and thriving maritime trade.",
     image: cholaImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Chola_dynasty",
   },
   {
     title: "Pandya Kingdom",
@@ -26,6 +27,7 @@ export const items = [
       "Among the oldest Tamil dynasties, centred on Madurai and celebrated for Sangam literature, pearl fisheries and prosperous maritime commerce.",
     image: pandyaImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Pandya_dynasty",
   },
   {
     title: "Pallava Dynasty",
@@ -34,6 +36,7 @@ export const items = [
       "Rulers of Kanchipuram who built Mahabalipuram and pioneered South India's earliest monumental rock-cut temples and structural shrines.",
     image: pallavaImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Pallava_dynasty",
   },
   {
     title: "Madurai Nayaks",
@@ -42,6 +45,7 @@ export const items = [
       "Renowned for expanding the Meenakshi Amman Temple, constructing magnificent palaces and promoting literature, music and the arts under rulers like Tirumalai Nayak.",
     image: nayakImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Madurai_Nayak_dynasty",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "The western Tamil kingdom that flourished through the spice trade and maritime links with the Roman world, spanning present-day Kerala and western Tamil Nadu.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Chera_dynasty",
   },
   {
     src: kalabhraImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "A little-understood dynasty that dominated much of the Tamil region during the enigmatic Kalabhra Interregnum.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Kalabhra_dynasty",
   },
   {
     src: vijayanagaraImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "A powerful South Indian empire whose administration and appointment of Nayak governors profoundly shaped Tamil Nadu's politics, religion and architecture.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Vijayanagara_Empire",
   },
   {
     src: marathaImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "Patrons of Carnatic music, literature and scholarship, remembered especially for Serfoji II and the renowned Saraswathi Mahal Library.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Thanjavur_Maratha_kingdom",
   },
   {
     src: arcotImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "The Carnatic Nawabs played a pivotal role in the political struggles of eighteenth-century South India during the rise of European colonial powers.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Nawab_of_the_Carnatic",
   },
   {
     src: setupatiImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "The rulers of Ramanathapuram, celebrated as guardians of the Ramanathaswamy Temple and protectors of the sacred pilgrimage route to Rameswaram.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Sethupathy",
   },
 ];
