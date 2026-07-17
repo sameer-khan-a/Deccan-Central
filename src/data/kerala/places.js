@@ -18,6 +18,7 @@ export const items = [
       "Rolling tea plantations, misty mountains and Eravikulam National Park make Munnar Kerala's most iconic hill station.",
     image: munnarImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Munnar",
   },
   {
     title: "Alappuzha (Alleppey)",
@@ -26,6 +27,7 @@ export const items = [
       "Famed for its houseboats, tranquil canals and palm-fringed waterways, Alappuzha offers Kerala's quintessential backwater experience.",
     image: alleppeyImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Alappuzha",
   },
   {
     title: "Bekal Fort",
@@ -34,6 +36,7 @@ export const items = [
       "Kerala's largest fort, dramatically overlooking the Arabian Sea and standing as one of the state's finest historic landmarks.",
     image: bekalImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Bekal_Fort",
   },
   {
     title: "Wayanad",
@@ -42,6 +45,7 @@ export const items = [
       "A spectacular landscape of waterfalls, Edakkal Caves, wildlife sanctuaries and evergreen forests nestled in the Western Ghats.",
     image: wayanadImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Wayanad_district",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "A charming colonial quarter shaped by Portuguese, Dutch and British influences, renowned for its Chinese fishing nets and heritage streets.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Fort_Kochi",
   },
   {
     src: varkalaImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "India's only major cliff-backed beach, celebrated for dramatic coastal views, the ancient Janardanaswamy Temple and vibrant cafés.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Varkala",
   },
   {
     src: athirappillyImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "Kerala's largest waterfall, where the Chalakudy River plunges dramatically through lush rainforest in the Western Ghats.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Athirappilly_Falls",
   },
   {
     src: kovalamImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "A world-famous beach destination known for its crescent-shaped shores, iconic lighthouse and water sports.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Kovalam",
   },
   {
     src: vagamonImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "A serene hill retreat of rolling meadows, tea estates, pine forests and mist-covered valleys.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Vagamon",
   },
   {
     src: poovarImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "A tranquil destination where the Neyyar River, Kerala's backwaters and the Arabian Sea meet amid scenic mangrove forests.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Poovar",
   },
 ];
