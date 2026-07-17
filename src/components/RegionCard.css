@@ -35,11 +35,13 @@
   transition: 0.4s ease;
 }
 
-.region-card:hover {
+.region-card:hover,
+.region-card.active {
   transform: translateY(-8px);
 }
 
-.region-card:hover::before {
+.region-card:hover::before,
+.region-card.active::before{
   background: linear-gradient(
     to top,
     rgba(0, 0, 0, 0.9) 0%,
@@ -113,7 +115,8 @@
   transition: transform 0.3s ease;
 }
 
-.region-card:hover .region-link {
+.region-card:hover .region-link,
+.region-card.active .region-link {
   transform: translateX(6px);
 }
 @media (max-width: 768px) {
