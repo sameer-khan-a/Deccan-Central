@@ -157,15 +157,21 @@ export default function TiltedCard({
       {showTooltip && (
         <motion.figcaption
           className="tilted-card-caption"
-          style={
-            isTouchDevice
-              ? undefined
-              : {
-                  x,
-                  y,
-                  rotate: rotateFigcaption,
-                }
-          }
+         style={
+  isTouchDevice
+    ? {
+        position: "absolute",
+        left: "50%",
+        bottom: "20px",
+        x: "-50%",
+        zIndex: 10,
+      }
+    : {
+        x,
+        y,
+        rotate: rotateFigcaption,
+      }
+}
           animate={
             isTouchDevice
               ? {
