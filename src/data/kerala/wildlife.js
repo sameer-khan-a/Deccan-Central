@@ -18,6 +18,7 @@ export const items = [
       "One of India's premier tiger reserves, renowned for Asian elephants, Bengal tigers and scenic boat safaris across Periyar Lake.",
     image: periyarImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Periyar_National_Park",
   },
   {
     title: "Eravikulam National Park",
@@ -26,6 +27,7 @@ export const items = [
       "A spectacular Western Ghats national park protecting the world's largest population of the endangered Nilgiri Tahr amid montane grasslands.",
     image: eravikulamImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Eravikulam_National_Park",
   },
   {
     title: "Silent Valley National Park",
@@ -34,6 +36,7 @@ export const items = [
       "One of the last undisturbed tropical rainforests in the Western Ghats, preserving extraordinary biodiversity and numerous endemic species.",
     image: silentValleyImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Silent_Valley_National_Park",
   },
   {
     title: "Wayanad Wildlife Sanctuary",
@@ -42,6 +45,7 @@ export const items = [
       "Part of the Nilgiri Biosphere Reserve, this rich wilderness supports elephants, tigers, leopards, gaur and remarkable birdlife.",
     image: wayanadImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Wayanad_Wildlife_Sanctuary",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "Kerala's state animal and an endemic mountain ungulate, found on the high cliffs and grasslands of the Western Ghats.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Nilgiri_tahr",
   },
   {
     src: lionTailedMacaqueImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "One of the world's rarest primates, endemic to the rainforests of the Western Ghats.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Lion-tailed_macaque",
   },
   {
     src: asianElephantImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "Kerala supports one of India's largest wild elephant populations, roaming forests across the Western Ghats.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Asian_elephant",
   },
   {
     src: greatHornbillImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "Kerala's state bird, renowned for its enormous casque, powerful flight and vital role in rainforest ecosystems.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Great_hornbill",
   },
   {
     src: malabarGiantSquirrelImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "A vividly coloured squirrel endemic to the Western Ghats, admired for its agility and striking appearance.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Indian_giant_squirrel",
   },
   {
     src: kingCobraImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "The world's longest venomous snake, thriving in Kerala's tropical forests and protected wilderness.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/King_cobra",
   },
 ];
