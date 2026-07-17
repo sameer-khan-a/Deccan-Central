@@ -358,4 +358,13 @@
     transform: none !important;
   }
 
+  .category-card,
+  .category-card *,
+  .category-image,
+  .category-overlay,
+  .overlay-content {
+    transition: none !important;
+    animation: none !important;
+  }
+
 }
