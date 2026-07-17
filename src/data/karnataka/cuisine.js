@@ -18,6 +18,7 @@ export const items = [
       "A hearty blend of rice, lentils, vegetables, tamarind and aromatic spices, regarded as one of Karnataka's signature comfort foods.",
     image: bisibelebathImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Bisi_Bele_Bath",
   },
   {
     title: "Neer Dosa",
@@ -26,6 +27,7 @@ export const items = [
       "A delicate rice crepe originating in the Tulu Nadu region, traditionally served with seafood, chicken curry or coconut chutney.",
     image: neerdosaImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Neer_dosa",
   },
   {
     title: "Mysore Pak",
@@ -34,6 +36,7 @@ export const items = [
       "Created in the royal kitchens of the Wadiyars of Mysore, this iconic sweet is crafted from gram flour, ghee and sugar.",
     image: mysorepakImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Mysore_pak",
   },
   {
     title: "Mangalorean Fish Curry",
@@ -42,6 +45,7 @@ export const items = [
       "A fragrant fish curry enriched with coconut and tamarind, showcasing the vibrant flavours of Karnataka's western coastline.",
     image: mangaloreanfishImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Mangalorean_cuisine",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "Traditional sorghum flatbread served with spicy curries and chutneys, a staple of North Karnataka cuisine.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Jolada_rotti",
   },
   {
     src: ragiMuddeImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "Nutritious finger millet dumplings traditionally paired with saaru, bassaru or hearty meat curries.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Ragi_mudde",
   },
   {
     src: maddurVadaImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "A crispy onion and semolina fritter originating from Maddur, beloved as a classic Karnataka tea-time snack.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Maddur_vada",
   },
   {
     src: mangaloreBunsImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "Soft, mildly sweet banana puris traditionally enjoyed with coconut chutney or spicy curries.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Mangalore_buns",
   },
   {
     src: obbattuImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "A festive flatbread filled with sweet lentils or coconut, prepared during celebrations across Karnataka.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Obbattu",
   },
   {
     src: filterCoffeeImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "A beloved café tradition made with beans from Karnataka's renowned coffee-growing regions, especially Coorg and Chikkamagaluru.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Indian_filter_coffee",
   },
 ];
