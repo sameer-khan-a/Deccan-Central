@@ -18,6 +18,7 @@ export const items = [
       "A tangy chutney made from sorrel leaves, celebrated as the defining flavour of Andhra Pradesh's bold culinary tradition.",
     image: gonguraImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Gongura",
   },
   {
     title: "Pesarattu",
@@ -26,6 +27,7 @@ export const items = [
       "A crisp green gram dosa, traditionally served with ginger chutney, prized for its wholesome flavour and hearty texture.",
     image: pesarattuImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Pesarattu",
   },
   {
     title: "Pulihora",
@@ -34,6 +36,7 @@ export const items = [
       "Fragrant tamarind rice seasoned with aromatic spices, prepared during festivals, temple offerings and family celebrations.",
     image: pulihoraImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Pulihora",
   },
   {
     title: "Pootharekulu",
@@ -42,6 +45,7 @@ export const items = [
       "Delicate paper-thin rice wafers layered with ghee and sugar, handcrafted in Atreyapuram for generations.",
     image: pootharekuluImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Pootharekulu",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "A lavish banana leaf feast featuring rice, curries, dal, pickles, chutneys, papad and traditional desserts.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Telugu_cuisine",
   },
   {
     src: chepalaPulusuImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "A spicy tamarind fish curry that reflects the rich culinary heritage of Andhra Pradesh's coastal communities.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Fish_curry",
   },
   {
     src: ulavacharuImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "A slow-cooked horse gram soup renowned for its deep earthy flavour and comforting richness.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Ulavacharu",
   },
   {
     src: avakayaImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "The legendary Andhra mango pickle, famed for its fiery blend of mustard, chilli and aromatic spices.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Avakaya",
   },
   {
     src: punuguluImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "Golden, crispy fritters made from fermented dosa batter, served with coconut or peanut chutney as a beloved evening snack.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Punugulu",
   },
   {
     src: bobbatluImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "Soft festive flatbreads stuffed with jaggery and lentils, enjoyed across Andhra Pradesh during celebrations and religious festivals.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Obbattu",
   },
 ];
