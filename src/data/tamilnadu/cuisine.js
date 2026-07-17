@@ -18,6 +18,7 @@ export const items = [
       "A crisp crepe made from fermented rice and urad dal batter, traditionally served with sambar and chutneys and celebrated around the world.",
     image: dosaImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Dosa",
   },
   {
     title: "Chettinad Chicken",
@@ -26,6 +27,7 @@ export const items = [
       "A legendary curry of the Chettiar community, prepared with roasted spices, black pepper and curry leaves, showcasing the richness of Chettinad cuisine.",
     image: chettinadImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Chettinad_cuisine",
   },
   {
     title: "Ven Pongal",
@@ -34,6 +36,7 @@ export const items = [
       "A savoury blend of rice, lentils, pepper, cumin and ghee, traditionally enjoyed with sambar and coconut chutney.",
     image: pongalImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Pongal_(dish)",
   },
   {
     title: "Jigarthanda",
@@ -42,6 +45,7 @@ export const items = [
       "A refreshing dessert drink originating in Madurai, made with milk, almond gum, nannari syrup and ice cream.",
     image: jigarthandaImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Jigarthanda",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "Soft steamed rice cakes served with chutney and sambar, forming the cornerstone of Tamil Nadu's breakfast tradition.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Idli",
   },
   {
     src: sambarImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "A hearty lentil and tamarind stew with vegetables, served daily alongside rice, idli, dosa and other Tamil favourites.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Sambar_(dish)",
   },
   {
     src: filterCoffeeImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "Rich, aromatic coffee brewed through a traditional metal filter and served frothy in the iconic davara-tumbler.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Indian_filter_coffee",
   },
   {
     src: parottaImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "A flaky layered flatbread traditionally paired with spicy salna, beloved in eateries across Tamil Nadu.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Parotta",
   },
   {
     src: kozhiKulambuImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "A deeply flavoured village-style chicken curry prepared with freshly ground spices and slow-cooked to perfection.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Tamil_cuisine",
   },
   {
     src: adhirasamImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "A traditional sweet made from rice flour and jaggery, cherished for centuries during Deepavali, temple festivals and family celebrations.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Adhirasam",
   },
 ];
