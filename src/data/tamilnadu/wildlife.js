@@ -18,6 +18,7 @@ export const items = [
       "A globally significant wildlife reserve within the Nilgiri Biosphere Reserve, forming a vital corridor for elephants, Bengal tigers, leopards and gaur.",
     image: mudumalaiImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Mudumalai_National_Park",
   },
   {
     title: "Anamalai Tiger Reserve",
@@ -26,6 +27,7 @@ export const items = [
       "A spectacular Western Ghats tiger reserve protecting elephants, Bengal tigers, lion-tailed macaques, Nilgiri tahrs and exceptional biodiversity.",
     image: anamalaiImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Anamalai_Tiger_Reserve",
   },
   {
     title: "Gulf of Mannar Marine National Park",
@@ -34,6 +36,7 @@ export const items = [
       "Part of India's first Marine Biosphere Reserve, celebrated for its coral reefs, dugongs, dolphins, sea turtles and rich marine life.",
     image: gulfOfMannarImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Gulf_of_Mannar_Marine_National_Park",
   },
   {
     title: "Vedanthangal Bird Sanctuary",
@@ -42,6 +45,7 @@ export const items = [
       "One of India's oldest protected bird sanctuaries, welcoming thousands of migratory birds to its tranquil wetlands each year.",
     image: vedanthangalImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Vedanthangal_Bird_Sanctuary",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "The apex predator of Tamil Nadu's forests, thriving across Mudumalai, Anamalai and Sathyamangalam Tiger Reserves.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Bengal_tiger",
   },
   {
     src: asianElephantImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "Large herds roam Tamil Nadu's forests, playing a vital role in maintaining the ecological balance of the Western Ghats.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Asian_elephant",
   },
   {
     src: nilgiriTahrImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "An endangered mountain ungulate found only in the high grasslands of the Western Ghats.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Nilgiri_tahr",
   },
   {
     src: lionTailedMacaqueImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "One of the world's rarest primates, endemic to the rainforests of the Western Ghats.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Lion-tailed_macaque",
   },
   {
     src: dugongImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "The gentle 'sea cow' of the Gulf of Mannar, sustained by extensive seagrass meadows in Tamil Nadu's coastal waters.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Dugong",
   },
   {
     src: greaterFlamingoImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "Thousands of Greater Flamingos winter in Tamil Nadu's coastal wetlands, particularly around Pulicat Lake and Point Calimere.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Greater_flamingo",
   },
 ];
