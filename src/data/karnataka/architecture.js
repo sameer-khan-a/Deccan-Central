@@ -18,6 +18,7 @@ export const items = [
       "The magnificent capital of the Vijayanagara Empire, spread along the Tungabhadra River and celebrated for its temples, bazaars and royal monuments.",
     image: hampiImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Hampi",
   },
   {
     title: "Chennakesava Temple",
@@ -26,6 +27,7 @@ export const items = [
       "A Hoysala masterpiece commissioned by King Vishnuvardhana, renowned for its intricate sculptures, star-shaped platform and exceptional stone craftsmanship.",
     image: belurImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Chennakeshava_Temple,_Belur",
   },
   {
     title: "Badami Cave Temples",
@@ -34,6 +36,7 @@ export const items = [
       "Spectacular cave temples carved into sandstone cliffs by the Early Chalukyas during the 6th century, showcasing remarkable Hindu and Jain art.",
     image: badamiImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Badami_cave_temples",
   },
   {
     title: "Mysore Palace",
@@ -42,6 +45,7 @@ export const items = [
       "The grand seat of the Wadiyar dynasty, admired for its magnificent Indo-Saracenic architecture and royal splendour.",
     image: mysoreImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Mysore_Palace",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "Known as the cradle of Indian temple architecture, Aihole preserves more than 120 experimental temples spanning several architectural styles.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Aihole",
   },
   {
     src: pattadakalImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "The ceremonial capital of the Chalukyas where Nagara and Dravida traditions merged to shape the distinctive Vesara style.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Pattadakal",
   },
   {
     src: halebiduImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "Located in the former Hoysala capital, this masterpiece is celebrated for its astonishing sculptures and extraordinary craftsmanship.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Hoysaleswara_Temple",
   },
   {
     src: somnathpurImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "A UNESCO World Heritage Site and one of the finest surviving Hoysala temples, renowned for its symmetry and intricate stone carvings.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Chennakesava_Temple,_Somanathapura",
   },
   {
     src: shravanabelagolaImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "Home to the towering monolithic statue of Bahubali (Gommateshwara), one of the world's most revered Jain pilgrimage sites.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Shravanabelagola",
   },
   {
     src: ittagiImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "Often called the 'Emperor among Temples', this magnificent monument represents the pinnacle of Western Chalukya architecture.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Mahadeva_Temple,_Itagi",
   },
 ];
