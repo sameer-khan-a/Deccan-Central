@@ -221,6 +221,10 @@
         min-height:380px;
         height:auto;
     }
+    .gallery-card:hover img{
+    transform:scale(1.08);
+    filter:brightness(.6) saturate(.9);
+}
 
     .gallery-overlay{
         justify-content:flex-end;
@@ -251,7 +255,10 @@
     .gallery-card{
         min-height:340px;
     }
-
+    .gallery-card:hover img{
+    transform:scale(1.08);
+    filter:brightness(.6) saturate(.9);
+}
     .gallery-overlay{
         padding:1.2rem;
     }
@@ -272,6 +279,10 @@
     .gallery-card{
         min-height:320px;
     }
+    .gallery-card:hover img{
+    transform:scale(1.08);
+    filter:brightness(.6) saturate(.9);
+}
 
     .gallery-overlay{
         padding:1rem;
