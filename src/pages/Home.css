@@ -293,6 +293,10 @@ body {
    Responsive
 ========================== */
 
+/* ==========================
+   Responsive
+========================== */
+
 @media (max-width: 1200px) {
 
   .regions-section,
@@ -331,6 +335,20 @@ body {
 
   .highlights-grid {
     min-height: 1220px;
+  }
+
+  /* Always show card details on mobile */
+  .card-state {
+    transform: translateY(-6px);
+  }
+
+  .card-tagline {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .card-content::after {
+    width: 70px;
   }
 
 }
