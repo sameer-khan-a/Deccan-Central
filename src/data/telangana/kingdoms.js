@@ -19,7 +19,8 @@ export const items = [
     subtitle: "Early Deccan Empire",
     description:
       "One of the earliest great Deccan empires, the Satavahanas fostered long-distance trade, patronised Buddhism and laid enduring foundations for regional governance.",
-    image: satavahanaImg
+    image: satavahanaImg,
+    link: "https://en.wikipedia.org/wiki/Satavahana_dynasty",
   },
   {
     state: "Telangana",
@@ -27,7 +28,8 @@ export const items = [
     subtitle: "The Warangal Kingdom",
     description:
       "The Kakatiyas established Warangal as a powerful medieval capital, renowned for its temples, forts, irrigation tanks and promotion of Telugu culture.",
-    image: kakatiyaImg
+    image: kakatiyaImg,
+    link: "https://en.wikipedia.org/wiki/Kakatiya_dynasty",
   },
   {
     state: "Telangana",
@@ -35,7 +37,8 @@ export const items = [
     subtitle: "Founders of Hyderabad",
     description:
       "After ruling from Golconda, the Qutb Shahis founded Hyderabad in 1591 and shaped the region's distinctive Indo-Persian architectural and cultural legacy.",
-    image: qutbShahiImg
+    image: qutbShahiImg,
+    link: "https://en.wikipedia.org/wiki/Qutb_Shahi_dynasty",
   },
   {
     state: "Telangana",
@@ -43,7 +46,8 @@ export const items = [
     subtitle: "The Nizams of Hyderabad",
     description:
       "For more than two centuries, the Nizams transformed Hyderabad into one of India's foremost centres of education, culture, commerce and architecture.",
-    image: asafJahiImg
+    image: asafJahiImg,
+    link: "https://en.wikipedia.org/wiki/Asaf_Jahi_dynasty",
   }
 ];
 
@@ -54,7 +58,8 @@ export const gallery = [
     tag: "Early Kingdom",
     title: "Vishnukundins",
     description:
-      "A powerful early medieval dynasty that ruled much of the eastern Deccan and patronised Hindu temple architecture."
+      "A powerful early medieval dynasty that ruled much of the eastern Deccan and patronised Hindu temple architecture.",
+    link: "https://en.wikipedia.org/wiki/Vishnukundina",
   },
   {
     state: "Telangana",
@@ -62,7 +67,8 @@ export const gallery = [
     tag: "Chalukya Dynasty",
     title: "Vemulawada Chalukyas",
     description:
-      "Regional Chalukya rulers who made Vemulawada an important centre of Shaivism, literature and temple patronage."
+      "Regional Chalukya rulers who made Vemulawada an important centre of Shaivism, literature and temple patronage.",
+    link: "https://en.wikipedia.org/wiki/Vemulawada_Chalukyas",
   },
   {
     state: "Telangana",
@@ -70,7 +76,8 @@ export const gallery = [
     tag: "Imperial Power",
     title: "Rashtrakutas",
     description:
-      "A dominant Deccan empire whose administration and cultural influence extended across large parts of present-day Telangana."
+      "A dominant Deccan empire whose administration and cultural influence extended across large parts of present-day Telangana.",
+    link: "https://en.wikipedia.org/wiki/Rashtrakuta_dynasty",
   },
   {
     state: "Telangana",
@@ -78,7 +85,8 @@ export const gallery = [
     tag: "Warrior Chiefs",
     title: "Musunuri Nayakas",
     description:
-      "Telugu warrior chiefs remembered for resisting the Delhi Sultanate and briefly restoring indigenous rule after the fall of the Kakatiyas."
+      "Telugu warrior chiefs remembered for resisting the Delhi Sultanate and briefly restoring indigenous rule after the fall of the Kakatiyas.",
+    link: "https://en.wikipedia.org/wiki/Musunuri_Nayakas",
   },
   {
     state: "Telangana",
@@ -86,7 +94,8 @@ export const gallery = [
     tag: "Deccan Sultanate",
     title: "Bahmani Sultanate",
     description:
-      "The first independent Deccan sultanate, whose political and architectural legacy profoundly influenced medieval Telangana."
+      "The first independent Deccan sultanate, whose political and architectural legacy profoundly influenced medieval Telangana.",
+    link: "https://en.wikipedia.org/wiki/Bahmani_Sultanate",
   },
   {
     state: "Telangana",
@@ -94,6 +103,7 @@ export const gallery = [
     tag: "Imperial Era",
     title: "Mughal Deccan",
     description:
-      "Mughal annexation of Golconda in 1687 reshaped the region before the emergence of the autonomous Asaf Jahi dynasty."
+      "Mughal annexation of Golconda in 1687 reshaped the region before the emergence of the autonomous Asaf Jahi dynasty.",
+    link: "https://en.wikipedia.org/wiki/Deccan_campaigns",
   }
 ];
