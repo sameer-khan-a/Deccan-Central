@@ -168,7 +168,7 @@
 @media (max-width:992px){
 
     .category-hero{
-        min-height:85vh;
+        min-height:100vh;
         height:auto;
 
         padding:6rem 5% 5rem;
@@ -200,7 +200,7 @@
 @media (max-width:768px){
 
     .category-hero{
-        min-height:100svh;
+        min-height:100vh;
         height:auto;
 
         padding:6rem 1.5rem 4rem;
@@ -241,6 +241,7 @@
 
     .category-hero{
         padding:5.5rem 1.25rem 3rem;
+        min-height:100vh;
     }
 
     .category-content h1{
