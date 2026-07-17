@@ -19,7 +19,8 @@ export const items = [
     subtitle: "City of Pearls",
     description:
       "A historic metropolis where Charminar, Golconda Fort, royal palaces and celebrated cuisine coexist with a thriving modern skyline.",
-    image: hyderabadImg
+    image: hyderabadImg,
+    link: "https://en.wikipedia.org/wiki/Hyderabad",
   },
   {
     state: "Telangana",
@@ -27,7 +28,8 @@ export const items = [
     subtitle: "Kakatiya Capital",
     description:
       "The former Kakatiya capital, renowned for its monumental fort, ancient temples and proximity to the UNESCO-listed Ramappa Temple.",
-    image: warangalImg
+    image: warangalImg,
+    link: "https://en.wikipedia.org/wiki/Warangal",
   },
   {
     state: "Telangana",
@@ -35,7 +37,8 @@ export const items = [
     subtitle: "Niagara of Telangana",
     description:
       "A broad seasonal waterfall surrounded by forests in Mulugu district, at its most spectacular during the monsoon.",
-    image: bogathaImg
+    image: bogathaImg,
+    link: "https://en.wikipedia.org/wiki/Bogatha_Waterfall",
   },
   {
     state: "Telangana",
@@ -43,7 +46,8 @@ export const items = [
     subtitle: "Reservoir & Heritage",
     description:
       "A vast reservoir on the Krishna River, home to one of India's largest masonry dams and the Buddhist heritage of Nagarjunakonda.",
-    image: nagarjunaSagarImg
+    image: nagarjunaSagarImg,
+    link: "https://en.wikipedia.org/wiki/Nagarjuna_Sagar_Dam",
   }
 ];
 
@@ -54,7 +58,8 @@ export const gallery = [
     tag: "Pilgrimage",
     title: "Yadadri",
     description:
-      "A major hill shrine dedicated to Sri Lakshmi Narasimha Swamy and one of Telangana's foremost pilgrimage destinations."
+      "A major hill shrine dedicated to Sri Lakshmi Narasimha Swamy and one of Telangana's foremost pilgrimage destinations.",
+    link: "https://en.wikipedia.org/wiki/Yadadri_Temple",
   },
   {
     state: "Telangana",
@@ -62,7 +67,8 @@ export const gallery = [
     tag: "Fort",
     title: "Bhongir Fort",
     description:
-      "A striking hilltop fortress built on a massive granite monolith, offering commanding views of the surrounding landscape."
+      "A striking hilltop fortress built on a massive granite monolith, offering commanding views of the surrounding landscape.",
+    link: "https://en.wikipedia.org/wiki/Bhongir_Fort",
   },
   {
     state: "Telangana",
@@ -70,7 +76,8 @@ export const gallery = [
     tag: "Hill Station",
     title: "Ananthagiri Hills",
     description:
-      "A scenic forested retreat known for trekking trails, coffee plantations and the origins of the Musi River."
+      "A scenic forested retreat known for trekking trails, coffee plantations and the origins of the Musi River.",
+    link: "https://en.wikipedia.org/wiki/Ananthagiri_Hills",
   },
   {
     state: "Telangana",
@@ -78,7 +85,8 @@ export const gallery = [
     tag: "Lake",
     title: "Laknavaram Lake",
     description:
-      "A picturesque lake fringed by forested islands and linked by an iconic suspension bridge."
+      "A picturesque lake fringed by forested islands and linked by an iconic suspension bridge.",
+    link: "https://en.wikipedia.org/wiki/Laknavaram_Lake",
   },
   {
     state: "Telangana",
@@ -86,7 +94,8 @@ export const gallery = [
     tag: "Architecture",
     title: "Medak Cathedral",
     description:
-      "One of India's largest churches, celebrated for its Gothic Revival architecture and magnificent stained-glass windows."
+      "One of India's largest churches, celebrated for its Gothic Revival architecture and magnificent stained-glass windows.",
+    link: "https://en.wikipedia.org/wiki/Medak_Cathedral",
   },
   {
     state: "Telangana",
@@ -94,6 +103,7 @@ export const gallery = [
     tag: "Pilgrimage",
     title: "Basar",
     description:
-      "Home to the revered Gnana Saraswati Temple, one of the few major temples in India dedicated to the goddess of learning."
+      "Home to the revered Gnana Saraswati Temple, one of the few major temples in India dedicated to the goddess of learning.",
+    link: "https://en.wikipedia.org/wiki/Basar,_Telangana",
   }
 ];
