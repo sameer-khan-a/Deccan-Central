@@ -54,21 +54,43 @@
     box-shadow .45s ease,
     background .45s ease;
 }
+@media (hover:hover){
 
-.category-card:hover{
-  transform:translateY(-10px);
+    .category-card:hover{
+        transform:translateY(-10px);
 
-  border-color:var(--accent);
+        border-color:var(--accent);
 
-  background:
-    linear-gradient(
-      145deg,
-      rgba(var(--glow), .18),
-      var(--surface-light)
-    );
+        background:
+            linear-gradient(
+                145deg,
+                rgba(var(--glow), .18),
+                var(--surface-light)
+            );
 
-  box-shadow:
-    0 28px 60px rgba(var(--glow), .24);
+        box-shadow:
+            0 28px 60px rgba(var(--glow), .24);
+    }
+
+    .category-card:hover .category-image{
+        opacity:0;
+        transform:scale(1.05);
+    }
+
+    .category-card:hover .category-overlay::before{
+        transform:scale(1.12);
+        filter:blur(4px);
+    }
+
+    .category-card:hover .category-overlay::after{
+        opacity:1;
+    }
+
+    .category-card:hover .overlay-content{
+        opacity:1;
+        transform:scale(1);
+    }
+
 }
 
 /* ==========================
@@ -92,11 +114,6 @@
     transform .45s ease;
 }
 
-.category-card:hover .category-image{
-  opacity:0;
-  transform:scale(1.05);
-}
-
 .category-overlay{
   background-size:cover;
   background-position:center;
@@ -117,10 +134,6 @@
     filter .5s ease;
 }
 
-.category-card:hover .category-overlay::before{
-  transform:scale(1.12);
-  filter:blur(4px);
-}
 
 /* ==========================
    Overlay
@@ -143,9 +156,7 @@
   transition:opacity .4s ease;
 }
 
-.category-card:hover .category-overlay::after{
-  opacity:1;
-}
+
 
 /* ==========================
    Overlay Content
@@ -173,10 +184,7 @@
     transform .35s ease;
 }
 
-.category-card:hover .overlay-content{
-  opacity:1;
-  transform:scale(1);
-}
+
 
 .overlay-content h3{
   background:
