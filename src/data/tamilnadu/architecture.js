@@ -18,6 +18,7 @@ export const items = [
       "Built by Raja Raja Chola I, this UNESCO World Heritage monument is one of the greatest achievements of Dravidian architecture and medieval engineering.",
     image: brihadeeswaraImg,
     state: "Tamil Nadu",
+    link: "https://whc.unesco.org/en/list/250/",
   },
   {
     title: "Meenakshi Amman Temple",
@@ -26,6 +27,7 @@ export const items = [
       "Famed for its colourful gopurams, intricate sculptures and vast sacred complex, this architectural masterpiece reached its present grandeur under the Nayak rulers.",
     image: meenakshiImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Meenakshi_Temple",
   },
   {
     title: "Shore Temple",
@@ -34,6 +36,7 @@ export const items = [
       "A Pallava masterpiece overlooking the Bay of Bengal and part of the UNESCO-listed Group of Monuments at Mahabalipuram.",
     image: mahabalipuramImg,
     state: "Tamil Nadu",
+    link: "https://whc.unesco.org/en/list/249/",
   },
   {
     title: "Vellore Fort",
@@ -42,6 +45,7 @@ export const items = [
       "An exceptionally preserved granite fortress built during the Vijayanagara period, renowned for its massive ramparts and broad moat.",
     image: velloreImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Vellore_Fort",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "A UNESCO Great Living Chola Temple celebrated for its exquisite stone carvings, elegant proportions and masterful craftsmanship.",
     state: "Tamil Nadu",
+    link: "https://whc.unesco.org/en/list/250/",
   },
   {
     src: gangaikondaImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "The magnificent temple and imperial capital established by Rajendra Chola I to commemorate his victorious northern campaigns.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Gangaikonda_Cholapuram",
   },
   {
     src: rockFortImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "A spectacular hilltop fortress built upon one of the world's oldest rock formations, offering sweeping views of the Kaveri plains.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Rockfort,_Tiruchirappalli",
   },
   {
     src: chidambaramImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "One of Hinduism's holiest Shiva temples, revered for the cosmic dance of Nataraja and its remarkable Dravidian architecture.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Thillai_Nataraja_Temple,_Chidambaram",
   },
   {
     src: rameswaramImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "Home to the world's longest temple corridor and one of the sacred Char Dham pilgrimage sites of Hinduism.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Ramanathaswamy_Temple",
   },
   {
     src: padmanabhapuramImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "An exquisite wooden palace located in Tamil Nadu and maintained by the Government of Kerala, admired for its traditional architecture and intricate craftsmanship.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Padmanabhapuram_Palace",
   },
 ];
