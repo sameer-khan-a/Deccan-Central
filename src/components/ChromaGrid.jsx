@@ -16,7 +16,10 @@ function ChromaCard({
 
     const observer = new IntersectionObserver(
       ([entry]) => {
-        setActive(entry.isIntersecting);
+    if (entry.isIntersecting) {
+  setActive(true);
+  observer.unobserve(entry.target);
+}
       },
       {
         threshold: 0.35,
