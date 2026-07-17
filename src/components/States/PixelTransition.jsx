@@ -10,6 +10,7 @@ function PixelTransition({
   style = {}
 }) {
   const [active, setActive] = useState(false);
+  const [showTitle, setShowTitle] = useState(false);
   const cardRef = useRef(null);
 
   const isTouchDevice =
@@ -22,7 +23,7 @@ function PixelTransition({
 
     const observer = new IntersectionObserver(
       ([entry]) => {
-        setActive(entry.isIntersecting);
+        setShowTitle(entry.isIntersecting);
       },
       {
         threshold: 0.3,
@@ -37,10 +38,16 @@ function PixelTransition({
   return (
     <div
       ref={cardRef}
-      className={`pixelated-image-card ${className} ${active ? "active" : ""}`}
+      className={`pixelated-image-card ${className} ${
+        !isTouchDevice && active ? "active" : ""
+      }`}
       style={style}
-      onMouseEnter={!isTouchDevice ? () => setActive(true) : undefined}
-      onMouseLeave={!isTouchDevice ? () => setActive(false) : undefined}
+      onMouseEnter={
+        !isTouchDevice ? () => setActive(true) : undefined
+      }
+      onMouseLeave={
+        !isTouchDevice ? () => setActive(false) : undefined
+      }
     >
       <div style={{ paddingTop: aspectRatio }} />
 
@@ -48,12 +55,18 @@ function PixelTransition({
         {firstContent}
       </div>
 
-      <div className="pixelated-image-card__active">
-        {secondContent}
-      </div>
+      {!isTouchDevice && (
+        <div className="pixelated-image-card__active">
+          {secondContent}
+        </div>
+      )}
 
       {isTouchDevice && mobileOverlay && (
-        <div className={`pixelated-image-card__mobile-title ${active ? "active" : ""}`}>
+        <div
+          className={`pixelated-image-card__mobile-title ${
+            showTitle ? "active" : ""
+          }`}
+        >
           {mobileOverlay}
         </div>
       )}
