@@ -85,8 +85,8 @@ const ChromaGrid = ({
       {items.map((item, index) => (
         <article
           key={`${item.title}-${index}`}
-          className="chroma-card"
-          onMouseMove={handleCardMove}
+          className={`chroma-card ${isTouchDevice ? "active" : ""}`}
+          onMouseMove={!isTouchDevice ? handleCardMove : undefined}
           onClick={() =>
             item.url &&
             item.url !== "#" &&
