@@ -18,6 +18,7 @@ export const items = [
       "One of India's eight classical dance forms, originating in Andhra Pradesh and celebrated for its graceful storytelling, expressive movements and rich theatrical tradition.",
     image: kuchipudiImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Kuchipudi",
   },
   {
     title: "Telugu Language",
@@ -26,6 +27,7 @@ export const items = [
       "One of India's oldest and most celebrated classical languages, forming the cultural heart of Andhra Pradesh through its rich literary, artistic and historical legacy.",
     image: teluguImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Telugu_language",
   },
   {
     title: "Ugadi",
@@ -34,6 +36,7 @@ export const items = [
       "The traditional New Year festival celebrated with family gatherings, festive cuisine, colourful decorations and the symbolic Ugadi Pachadi.",
     image: ugadiImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Ugadi",
   },
   {
     title: "Kondapalli Toys",
@@ -42,6 +45,7 @@ export const items = [
       "Handcrafted softwood toys carved and painted by skilled artisans, representing one of Andhra Pradesh's most iconic craft traditions.",
     image: kondapalliImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Kondapalli_Toys",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "Exquisite hand-painted and block-printed textiles, particularly from Srikalahasti, renowned for mythological motifs and natural dyes.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Kalamkari",
   },
   {
     src: burraKathaImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "A traditional folk storytelling performance blending narration, music and drama to preserve Andhra Pradesh's oral heritage.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Burrakatha",
   },
   {
     src: harikathaImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "A devotional storytelling tradition combining philosophy, music and sacred narratives into engaging performances.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Harikatha",
   },
   {
     src: veenaImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "A timeless classical music tradition enriched by generations of legendary composers and musicians from Andhra Pradesh.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Carnatic_music",
   },
   {
     src: etikoppakaImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "Beautiful lacquered wooden toys crafted with natural dyes, showcasing centuries of sustainable artisan craftsmanship.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Etikoppaka_toys",
   },
   {
     src: tirupatiLadduImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "The world-renowned temple prasadam of Tirumala, symbolizing one of India's most cherished religious and cultural traditions.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Tirupati_Laddu",
   },
 ];
