@@ -19,7 +19,8 @@ export const items = [
     subtitle: "Nallamala Forests",
     description:
       "India's largest tiger reserve by core area, protecting vast Nallamala forests that support tigers, leopards, dholes, sloth bears and rich biodiversity.",
-    image: amrabadImg
+    image: amrabadImg,
+    link: "https://en.wikipedia.org/wiki/Amrabad_Tiger_Reserve",
   },
   {
     state: "Telangana",
@@ -27,16 +28,17 @@ export const items = [
     subtitle: "Northern Telangana",
     description:
       "A protected landscape of teak and mixed deciduous forests that serves as an important tiger habitat and wildlife corridor in the Deccan.",
-    image: kawalImg
+    image: kawalImg,
+    link: "https://en.wikipedia.org/wiki/Kawal_Tiger_Reserve",
   },
   {
     state: "Telangana",
     title: "Eturnagaram Wildlife Sanctuary",
     subtitle: "Godavari Basin",
     description:
-      "One of Telangana's oldest wildlife sanctuaries, preserving dry deciduous forests, riverine habitats and diverse native fauna."
-    ,
-    image: eturnagaramImg
+      "One of Telangana's oldest wildlife sanctuaries, preserving dry deciduous forests, riverine habitats and diverse native fauna.",
+    image: eturnagaramImg,
+    link: "https://en.wikipedia.org/wiki/Eturnagaram_Wildlife_Sanctuary",
   },
   {
     state: "Telangana",
@@ -44,7 +46,8 @@ export const items = [
     subtitle: "Wetlands & Birds",
     description:
       "A protected sanctuary of forests and reservoir wetlands, attracting migratory birds alongside mammals such as blackbuck, wild boar and jackals.",
-    image: pocharamImg
+    image: pocharamImg,
+    link: "https://en.wikipedia.org/wiki/Pocharam_Wildlife_Sanctuary",
   }
 ];
 
@@ -55,7 +58,8 @@ export const gallery = [
     tag: "Big Cat",
     title: "Bengal Tiger",
     description:
-      "The flagship predator of Telangana's forests, found primarily within the Amrabad and Kawal landscapes."
+      "The flagship predator of Telangana's forests, found primarily within the Amrabad and Kawal landscapes.",
+    link: "https://en.wikipedia.org/wiki/Bengal_tiger",
   },
   {
     state: "Telangana",
@@ -63,7 +67,8 @@ export const gallery = [
     tag: "Predator",
     title: "Indian Leopard",
     description:
-      "A highly adaptable big cat inhabiting forests, rocky hills and scrublands across Telangana."
+      "A highly adaptable big cat inhabiting forests, rocky hills and scrublands across Telangana.",
+    link: "https://en.wikipedia.org/wiki/Indian_leopard",
   },
   {
     state: "Telangana",
@@ -71,7 +76,8 @@ export const gallery = [
     tag: "Mammal",
     title: "Sloth Bear",
     description:
-      "An insect-eating bear recognised by its shaggy coat and powerful claws, common in the state's deciduous forests."
+      "An insect-eating bear recognised by its shaggy coat and powerful claws, common in the state's deciduous forests.",
+    link: "https://en.wikipedia.org/wiki/Sloth_bear",
   },
   {
     state: "Telangana",
@@ -79,7 +85,8 @@ export const gallery = [
     tag: "Deer",
     title: "Chital",
     description:
-      "India's most widespread spotted deer and an important prey species in Telangana's protected forests."
+      "India's most widespread spotted deer and an important prey species in Telangana's protected forests.",
+    link: "https://en.wikipedia.org/wiki/Chital",
   },
   {
     state: "Telangana",
@@ -87,7 +94,8 @@ export const gallery = [
     tag: "Antelope",
     title: "Blackbuck",
     description:
-      "A graceful antelope distinguished by its spiral horns and remarkable speed across open grasslands."
+      "A graceful antelope distinguished by its spiral horns and remarkable speed across open grasslands.",
+    link: "https://en.wikipedia.org/wiki/Blackbuck",
   },
   {
     state: "Telangana",
@@ -95,6 +103,7 @@ export const gallery = [
     tag: "Carnivore",
     title: "Indian Wolf",
     description:
-      "A rare canid adapted to the dry grasslands and scrub ecosystems of the Deccan Plateau."
+      "A rare canid adapted to the dry grasslands and scrub ecosystems of the Deccan Plateau.",
+    link: "https://en.wikipedia.org/wiki/Indian_wolf",
   }
 ];
