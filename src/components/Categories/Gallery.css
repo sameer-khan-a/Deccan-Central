@@ -177,7 +177,29 @@
             transparent 100%
         );
 }
+.gallery-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:.4rem;
+    margin-top:1rem;
+    padding:.7rem 1.2rem;
 
+    background:rgba(255,255,255,.12);
+    border:1px solid rgba(255,255,255,.25);
+    border-radius:999px;
+
+    color:#fff;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+    backdrop-filter:blur(10px);
+}
+
+.gallery-btn:hover{
+    background:var(--accent);
+    border-color:var(--accent);
+    transform:translateY(-2px);
+}
 .gallery-card:hover .gallery-overlay p{
     max-height:180px;
     opacity:1;
