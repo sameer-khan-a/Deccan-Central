@@ -18,6 +18,7 @@ export const items = [
       "Rolling tea estates, eucalyptus forests and the UNESCO-listed Nilgiri Mountain Railway make Ooty one of South India's most beloved hill stations.",
     image: ootyImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Ooty",
   },
   {
     title: "Kanyakumari",
@@ -26,6 +27,7 @@ export const items = [
       "Where the Arabian Sea, Bay of Bengal and Indian Ocean meet, Kanyakumari is renowned for spectacular sunrises, sunsets and the iconic Vivekananda Rock Memorial.",
     image: kanyakumariImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Kanyakumari",
   },
   {
     title: "Mahabalipuram",
@@ -34,6 +36,7 @@ export const items = [
       "Home to the UNESCO-listed Group of Monuments, this historic Pallava port is celebrated for its Shore Temple and remarkable rock-cut sculptures.",
     image: mahabalipuramImg,
     state: "Tamil Nadu",
+    link: "https://whc.unesco.org/en/list/249/",
   },
   {
     title: "Kodaikanal",
@@ -42,6 +45,7 @@ export const items = [
       "Surrounded by forests, waterfalls and scenic valleys, Kodaikanal is famed for its tranquil lake and cool climate in the Palani Hills.",
     image: kodaikanalImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Kodaikanal",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "A sacred island town renowned for the Ramanathaswamy Temple, the Pamban Bridge and its profound spiritual significance.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Rameswaram",
   },
   {
     src: hogenakkalImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "A spectacular cascade on the Kaveri River, famed for its coracle rides and dramatic gorge through ancient rocks.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Hogenakkal_Falls",
   },
   {
     src: mudumalaiImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "Part of the Nilgiri Biosphere Reserve, this celebrated wilderness shelters elephants, tigers, leopards and rich birdlife.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Mudumalai_National_Park",
   },
   {
     src: yercaudImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "A peaceful retreat in the Shevaroy Hills known for coffee plantations, orange groves and panoramic viewpoints.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Yercaud",
   },
   {
     src: yelagiriImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "A serene hill destination offering orchards, trekking trails, scenic viewpoints and a relaxed mountain atmosphere.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Yelagiri",
   },
   {
     src: pichavaramImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "One of the world's largest mangrove ecosystems, where winding waterways create a remarkable coastal wilderness.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Pichavaram",
   },
 ];
