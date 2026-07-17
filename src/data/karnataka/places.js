@@ -18,6 +18,7 @@ export const items = [
       "The magnificent capital of the Vijayanagara Empire, spread along the Tungabhadra River and renowned for its temples, royal monuments and surreal granite landscape.",
     image: hampiImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Hampi",
   },
   {
     title: "Jog Falls",
@@ -26,6 +27,7 @@ export const items = [
       "One of India's tallest plunge waterfalls, where the Sharavathi River descends in four spectacular cascades through the Western Ghats.",
     image: jogFallsImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Jog_Falls",
   },
   {
     title: "Coorg (Kodagu)",
@@ -34,6 +36,7 @@ export const items = [
       "Rolling coffee estates, mist-covered forests and vibrant Kodava heritage make Kodagu one of South India's most cherished mountain retreats.",
     image: coorgImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Kodagu_district",
   },
   {
     title: "Gokarna",
@@ -42,6 +45,7 @@ export const items = [
       "A sacred coastal town famed for the Mahabaleshwar Temple, crescent-shaped beaches and dramatic Arabian Sea cliffs.",
     image: gokarnaImg,
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Gokarna,_Karnataka",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "Ancient sandstone cliffs shelter remarkable rock-cut cave temples created by the Early Chalukyas.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Badami",
   },
   {
     src: pattadakalImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "A UNESCO World Heritage Site where northern and southern temple traditions merged into the distinctive Vesara style.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Pattadakal",
   },
   {
     src: shravanabelagolaImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "One of Jainism's holiest pilgrimage centres, home to the towering monolithic statue of Bahubali (Gommateshwara).",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Shravanabelagola",
   },
   {
     src: dandeliImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "A thrilling wilderness destination known for white-water rafting on the Kali River, dense forests and abundant wildlife.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Dandeli",
   },
   {
     src: chikmagalurImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "The birthplace of Indian coffee, nestled in the Western Ghats amid lush plantations and misty mountain peaks.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Chikkamagaluru",
   },
   {
     src: murudeshwarImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "A spectacular Arabian Sea temple town crowned by one of the world's tallest statues of Lord Shiva.",
     state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Murudeshwara",
   },
 ];
