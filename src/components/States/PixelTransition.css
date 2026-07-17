@@ -52,3 +52,59 @@
     height: 100%;
     object-fit: cover;
 }
+/* ==========================
+   Mobile Category Title
+========================== */
+
+.pixelated-image-card__mobile-title{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+
+    z-index:3;
+
+    padding:1.25rem;
+
+    color:#fff;
+
+    background:linear-gradient(
+        to top,
+        rgba(0,0,0,.75),
+        transparent
+    );
+
+    opacity:0;
+    transform:translateY(20px);
+
+    transition:
+        opacity .45s ease,
+        transform .45s ease;
+
+    pointer-events:none;
+
+    display:none;
+}
+
+.pixelated-image-card__mobile-title h3{
+    margin:0;
+
+    font-size:1.6rem;
+    font-weight:700;
+
+    text-shadow:0 4px 16px rgba(0,0,0,.45);
+}
+
+@media (hover:none){
+
+    .pixelated-image-card__mobile-title{
+        display:block;
+    }
+
+    .pixelated-image-card.active
+    .pixelated-image-card__mobile-title{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
