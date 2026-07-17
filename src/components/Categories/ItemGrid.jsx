@@ -7,9 +7,7 @@ function ItemGrid({
 }) {
   return (
     <section className="item-grid-section">
-
       <div className="section-header">
-
         <p className="section-tag">
           EXPLORE
         </p>
@@ -17,25 +15,20 @@ function ItemGrid({
         <h2>
           {title}
         </h2>
-
       </div>
 
       <div className="item-grid">
-
         {items.map((item, index) => (
-
           <ItemCard
             key={index}
             title={item.title}
             subtitle={item.subtitle}
             description={item.description}
             image={item.image}
+            link={item.link}
           />
-
         ))}
-
       </div>
-
     </section>
   );
 }
