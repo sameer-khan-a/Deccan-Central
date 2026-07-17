@@ -1,6 +1,84 @@
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import { gsap } from "gsap";
 import "./ChromaGrid.css";
+
+function ChromaCard({
+  item,
+  index,
+  isTouchDevice,
+  handleCardMove,
+}) {
+  const cardRef = useRef(null);
+  const [active, setActive] = useState(false);
+
+  useEffect(() => {
+    if (!isTouchDevice || !cardRef.current) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setActive(entry.isIntersecting);
+      },
+      {
+        threshold: 0.35,
+      }
+    );
+
+    observer.observe(cardRef.current);
+
+    return () => observer.disconnect();
+  }, [isTouchDevice]);
+
+  return (
+    <article
+      ref={cardRef}
+      className={`chroma-card ${
+        isTouchDevice && active ? "active" : ""
+      }`}
+      onMouseMove={!isTouchDevice ? handleCardMove : undefined}
+      onClick={() =>
+        item.url &&
+        item.url !== "#" &&
+        window.open(item.url, "_blank", "noopener,noreferrer")
+      }
+      style={{
+        "--card-border": item.borderColor || "#d4a017",
+        cursor:
+          item.url && item.url !== "#"
+            ? "pointer"
+            : "default",
+      }}
+    >
+      <div className="chroma-img-wrapper">
+        <img
+          src={item.image}
+          alt={item.title}
+          loading="lazy"
+        />
+        <div className="chroma-spotlight" />
+      </div>
+
+      <footer className="chroma-info">
+        <h3 className="name">{item.title}</h3>
+
+        {item.state && (
+          <span className="state">{item.state}</span>
+        )}
+
+        {item.handle && (
+          <span className="handle">{item.handle}</span>
+        )}
+
+        {item.subtitle && (
+          <p className="role">{item.subtitle}</p>
+        )}
+
+        {item.location && (
+          <span className="location">{item.location}</span>
+        )}
+      </footer>
+    </article>
+  );
+}
 
 const ChromaGrid = ({
   items = [],
@@ -83,52 +161,13 @@ const ChromaGrid = ({
       }}
     >
       {items.map((item, index) => (
-        <article
+        <ChromaCard
           key={`${item.title}-${index}`}
-          className={`chroma-card ${isTouchDevice ? "active" : ""}`}
-          onMouseMove={!isTouchDevice ? handleCardMove : undefined}
-          onClick={() =>
-            item.url &&
-            item.url !== "#" &&
-            window.open(item.url, "_blank", "noopener,noreferrer")
-          }
-          style={{
-            "--card-border": item.borderColor || "#d4a017",
-            cursor:
-              item.url && item.url !== "#"
-                ? "pointer"
-                : "default",
-          }}
-        >
-          <div className="chroma-img-wrapper">
-            <img
-              src={item.image}
-              alt={item.title}
-              loading="lazy"
-            />
-            <div className="chroma-spotlight" />
-          </div>
-
-          <footer className="chroma-info">
-            <h3 className="name">{item.title}</h3>
-
-            {item.state && (
-              <span className="state">{item.state}</span>
-            )}
-
-            {item.handle && (
-              <span className="handle">{item.handle}</span>
-            )}
-
-            {item.subtitle && (
-              <p className="role">{item.subtitle}</p>
-            )}
-
-            {item.location && (
-              <span className="location">{item.location}</span>
-            )}
-          </footer>
-        </article>
+          item={item}
+          index={index}
+          isTouchDevice={isTouchDevice}
+          handleCardMove={handleCardMove}
+        />
       ))}
     </section>
   );
