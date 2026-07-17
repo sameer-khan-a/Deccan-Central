@@ -35,19 +35,30 @@ function Gallery({
                 />
               </div>
 
-              <div className="gallery-overlay">
-                {image.category && (
-                  <span className="gallery-category">
-                    {image.category}
-                  </span>
-                )}
+           <div className="gallery-overlay">
+  {image.category && (
+    <span className="gallery-category">
+      {image.category}
+    </span>
+  )}
 
-                <h3>{image.title}</h3>
+  <h3>{image.title}</h3>
 
-                {image.description && (
-                  <p>{image.description}</p>
-                )}
-              </div>
+  {image.description && (
+    <p>{image.description}</p>
+  )}
+
+  {image.link && (
+    <a
+      href={image.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="gallery-btn"
+    >
+      Learn More →
+    </a>
+  )}
+</div>
             </article>
           ))}
         </div>
