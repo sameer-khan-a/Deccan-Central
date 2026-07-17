@@ -351,3 +351,11 @@
   }
 
 }
+@media (hover: none) {
+
+  .category-image {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+}
