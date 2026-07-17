@@ -14,7 +14,8 @@
   transition: all 0.35s ease;
 }
 
-.item-card:hover {
+.item-card:hover,
+.item-card.active  {
   transform: translateY(-8px);
   border-color: rgba(212, 160, 23, 0.35);
   box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
@@ -34,7 +35,8 @@
   transition: transform 0.5s ease;
 }
 
-.item-card:hover .item-image img {
+.item-card:hover .item-image img,
+.item-card.active .item-image img  {
   transform: scale(1.08);
 }
 
