@@ -14,17 +14,14 @@ function ChromaCard({
   useEffect(() => {
     if (!isTouchDevice || !cardRef.current) return;
 
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-    if (entry.isIntersecting) {
-  setActive(true);
-  observer.unobserve(entry.target);
-}
-      },
-      {
-        threshold: 0.35,
-      }
-    );
+  const observer = new IntersectionObserver(
+  ([entry]) => {
+    setActive(entry.isIntersecting);
+  },
+  {
+    threshold: 0.35,
+  }
+);
 
     observer.observe(cardRef.current);
 
