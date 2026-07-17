@@ -6,6 +6,7 @@ function ItemCard({
   subtitle,
   description,
   image,
+  link,
 }) {
   const [active, setActive] = useState(false);
   const cardRef = useRef(null);
@@ -62,12 +63,16 @@ function ItemCard({
           </p>
         )}
 
-        <button
-          type="button"
-          className="item-button"
-        >
-          Learn More
-        </button>
+        {link && (
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="item-button"
+          >
+            Learn More
+          </a>
+        )}
       </div>
     </article>
   );
