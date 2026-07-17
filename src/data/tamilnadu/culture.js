@@ -18,6 +18,7 @@ export const items = [
       "One of India's eight classical dance forms, originating in Tamil Nadu's temples and celebrated for expressive storytelling, graceful movements and spiritual devotion.",
     image: bharatanatyamImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Bharatanatyam",
   },
   {
     title: "Jallikattu",
@@ -26,6 +27,7 @@ export const items = [
       "A centuries-old bull-taming tradition held during Mattu Pongal, reflecting Tamil Nadu's deep agricultural heritage and rural identity.",
     image: jallikattuImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Jallikattu",
   },
   {
     title: "Pongal",
@@ -34,6 +36,7 @@ export const items = [
       "Tamil Nadu's four-day harvest festival celebrating gratitude to the Sun God with family gatherings, colourful kolams and traditional feasts.",
     image: pongalImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Pongal_(festival)",
   },
   {
     title: "Nadaswaram & Tavil",
@@ -42,6 +45,7 @@ export const items = [
       "The powerful combination of the nadaswaram and tavil forms the heart of Tamil temple ceremonies, weddings and religious festivals.",
     image: tavilImg,
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Nadaswaram",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "One of the world's richest classical music traditions, celebrated annually during Chennai's renowned Margazhi Music Season.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Carnatic_music",
   },
   {
     src: kolamImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "Intricate geometric designs traditionally created with rice flour outside homes as symbols of prosperity, harmony and welcome.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Kolam",
   },
   {
     src: kanchipuramImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "Luxurious sarees handwoven from pure mulberry silk with rich zari work, treasured for their elegance and centuries-old craftsmanship.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Kanchipuram_silk_saree",
   },
   {
     src: therukoothuImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "A vibrant open-air theatrical tradition blending music, dance and storytelling, often drawing from the Mahabharata and other epics.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Therukoothu",
   },
   {
     src: tamilLiteratureImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "One of the world's oldest continuously living literary traditions, spanning more than two millennia from Sangam poetry to modern classics.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Tamil_literature",
   },
   {
     src: thanjavurDollImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "Traditional handcrafted rocking dolls with a distinctive weighted base, representing one of Tamil Nadu's most beloved artistic traditions.",
     state: "Tamil Nadu",
+    link: "https://en.wikipedia.org/wiki/Thanjavur_doll",
   },
 ];
