@@ -1,20 +1,21 @@
 .category-hero{
-    position:relative;
+    position: relative;
 
-    min-height:100vh;
-    
+    min-height: 100vh;
+    min-height: 100svh; /* fallback for mobile */
+    min-height: 100dvh; /* modern browsers */
 
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
 
-    padding:0 8%;
+    padding: 0 8%;
 
-    overflow:hidden;
-    isolation:isolate;
+    overflow: hidden;
+    isolation: isolate;
 
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .category-hero::before{
