@@ -25,21 +25,7 @@ export default function TiltedCard({
 }) {
   const ref = useRef(null);
 
-  const x = useMotionValue(0);
-  const y = useMotionValue(0);
-
-  const rotateX = useSpring(useMotionValue(0), springValues);
-  const rotateY = useSpring(useMotionValue(0), springValues);
-
-  const scale = useSpring(1, springValues);
-  const opacity = useSpring(0);
-
-  const rotateFigcaption = useSpring(0, {
-    stiffness: 350,
-    damping: 30,
-    mass: 1,
-  });
-
+  const [active, setActive] = useState(false);
   const [lastY, setLastY] = useState(0);
 
   const isTouchDevice =
@@ -47,17 +33,31 @@ export default function TiltedCard({
     navigator.maxTouchPoints > 0 ||
     window.matchMedia("(pointer: coarse)").matches;
 
+  const x = useMotionValue(0);
+  const y = useMotionValue(0);
+
+  const rotateX = useSpring(useMotionValue(0), springValues);
+  const rotateY = useSpring(useMotionValue(0), springValues);
+
+  const scale = useSpring(1, springValues);
+
+  const rotateFigcaption = useSpring(0, {
+    stiffness: 350,
+    damping: 30,
+    mass: 1,
+  });
+
   useEffect(() => {
     if (!isTouchDevice || !ref.current) return;
 
     const observer = new IntersectionObserver(
       ([entry]) => {
+        setActive(entry.isIntersecting);
+
         if (entry.isIntersecting) {
           scale.set(scaleOnHover);
-          opacity.set(1);
         } else {
           scale.set(1);
-          opacity.set(0);
         }
       },
       {
@@ -68,7 +68,7 @@ export default function TiltedCard({
     observer.observe(ref.current);
 
     return () => observer.disconnect();
-  }, [isTouchDevice, scale, opacity, scaleOnHover]);
+  }, [isTouchDevice, scale, scaleOnHover]);
 
   function handleMouse(e) {
     if (isTouchDevice || !ref.current) return;
@@ -78,13 +78,13 @@ export default function TiltedCard({
     const offsetX = e.clientX - rect.left - rect.width / 2;
     const offsetY = e.clientY - rect.top - rect.height / 2;
 
-    const rotationX =
-      (offsetY / (rect.height / 2)) * -rotateAmplitude;
-    const rotationY =
-      (offsetX / (rect.width / 2)) * rotateAmplitude;
+    rotateX.set(
+      (offsetY / (rect.height / 2)) * -rotateAmplitude
+    );
 
-    rotateX.set(rotationX);
-    rotateY.set(rotationY);
+    rotateY.set(
+      (offsetX / (rect.width / 2)) * rotateAmplitude
+    );
 
     x.set(e.clientX - rect.left);
     y.set(e.clientY - rect.top);
@@ -98,13 +98,11 @@ export default function TiltedCard({
     if (isTouchDevice) return;
 
     scale.set(scaleOnHover);
-    opacity.set(1);
   }
 
   function handleMouseLeave() {
     if (isTouchDevice) return;
 
-    opacity.set(0);
     scale.set(1);
     rotateX.set(0);
     rotateY.set(0);
@@ -159,11 +157,27 @@ export default function TiltedCard({
       {showTooltip && (
         <motion.figcaption
           className="tilted-card-caption"
-          style={{
-            x,
-            y,
-            opacity,
-            rotate: rotateFigcaption,
+          style={
+            isTouchDevice
+              ? undefined
+              : {
+                  x,
+                  y,
+                  rotate: rotateFigcaption,
+                }
+          }
+          animate={
+            isTouchDevice
+              ? {
+                  opacity: active ? 1 : 0,
+                  y: active ? 0 : 20,
+                }
+              : {
+                  opacity: scale.get() > 1 ? 1 : 0,
+                }
+          }
+          transition={{
+            duration: 0.35,
           }}
         >
           {captionText}
