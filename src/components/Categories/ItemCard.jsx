@@ -1,3 +1,4 @@
+import { useState, useEffect, useRef } from "react";
 import "./ItemCard.css";
 
 function ItemCard({
@@ -6,8 +7,38 @@ function ItemCard({
   description,
   image,
 }) {
+  const [active, setActive] = useState(false);
+  const cardRef = useRef(null);
+
+  const isTouchDevice =
+    "ontouchstart" in window ||
+    navigator.maxTouchPoints > 0 ||
+    window.matchMedia("(pointer: coarse)").matches;
+
+  useEffect(() => {
+    if (!isTouchDevice || !cardRef.current) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setActive(entry.isIntersecting);
+      },
+      {
+        threshold: 0.3,
+      }
+    );
+
+    observer.observe(cardRef.current);
+
+    return () => observer.disconnect();
+  }, [isTouchDevice]);
+
   return (
-    <article className="item-card">
+    <article
+      ref={cardRef}
+      className={`item-card ${active ? "active" : ""}`}
+      onMouseEnter={!isTouchDevice ? () => setActive(true) : undefined}
+      onMouseLeave={!isTouchDevice ? () => setActive(false) : undefined}
+    >
       <div className="item-image">
         <img
           src={image}
