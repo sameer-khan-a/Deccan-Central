@@ -85,12 +85,15 @@
   font-weight: 700;
   cursor: pointer;
 
+  text-decoration: none; /* Add this */
+
   transition: all 0.3s ease;
 }
 
 .item-button:hover {
   background: #e6b325;
   transform: translateY(-2px);
+  text-decoration: none; /* Optional but keeps it off on hover too */
 }
 
 /* ==========================
