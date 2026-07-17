@@ -342,10 +342,7 @@ body {
     transform: translateY(-6px);
   }
 
-  .card-tagline {
-    opacity: 1;
-    transform: translateY(0);
-  }
+
 
   .card-content::after {
     width: 70px;
