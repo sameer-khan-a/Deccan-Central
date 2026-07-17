@@ -50,38 +50,44 @@ function CategoryGrid({
             to={category.link}
             className="category-link"
           >
-            <PixelTransition
-              className="category-card"
-              aspectRatio="135%"
-              gridSize={16}
-              animationStepDuration={0.22}
-              pixelColor="var(--accent)"
-              firstContent={
-                <img
-                  src={category.image}
-                  alt={category.title}
-                  className="category-image"
-                />
-              }
-              secondContent={
-                <div
-                  className="category-overlay"
-                  style={{
-                    backgroundImage: `url(${category.image})`,
-                  }}
-                >
-                  <div className="overlay-dark" />
+ <PixelTransition
+  className="category-card"
+  aspectRatio="135%"
+  gridSize={16}
+  animationStepDuration={0.22}
+  pixelColor="var(--accent)"
 
-                  <div className="overlay-content">
-                    <span>{category.count}</span>
+  mobileOverlay={
+    <h3>{category.title}</h3>
+  }
 
-                    <h3>{category.title}</h3>
+  firstContent={
+    <img
+      src={category.image}
+      alt={category.title}
+      className="category-image"
+    />
+  }
 
-                    <p>{category.description}</p>
-                  </div>
-                </div>
-              }
-            />
+  secondContent={
+    <div
+      className="category-overlay"
+      style={{
+        backgroundImage: `url(${category.image})`,
+      }}
+    >
+      <div className="overlay-dark" />
+
+      <div className="overlay-content">
+        <span>{category.count}</span>
+
+        <h3>{category.title}</h3>
+
+        <p>{category.description}</p>
+      </div>
+    </div>
+  }
+/>
           </Link>
         ))}
       </div>
