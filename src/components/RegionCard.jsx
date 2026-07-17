@@ -5,27 +5,22 @@ function RegionCard({ title, description, image }) {
   const [active, setActive] = useState(false);
   const cardRef = useRef(null);
 
-  const isTouchDevice =
-    "ontouchstart" in window ||
-    navigator.maxTouchPoints > 0 ||
-    window.matchMedia("(pointer: coarse)").matches;
-
   useEffect(() => {
-    if (!isTouchDevice || !cardRef.current) return;
+    if (!cardRef.current) return;
 
     const observer = new IntersectionObserver(
       ([entry]) => {
         setActive(entry.isIntersecting);
       },
       {
-        threshold: 0.3,
+        threshold: 0.15,
       }
     );
 
     observer.observe(cardRef.current);
 
     return () => observer.disconnect();
-  }, [isTouchDevice]);
+  }, []);
 
   return (
     <div
@@ -34,8 +29,8 @@ function RegionCard({ title, description, image }) {
       style={{
         backgroundImage: `url(${image})`,
       }}
-      onMouseEnter={!isTouchDevice ? () => setActive(true) : undefined}
-      onMouseLeave={!isTouchDevice ? () => setActive(false) : undefined}
+      onMouseEnter={() => setActive(true)}
+      onMouseLeave={() => setActive(false)}
     >
       <div className="region-overlay">
 
