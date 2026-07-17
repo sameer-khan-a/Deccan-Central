@@ -210,6 +210,7 @@
   .contact-hero {
     justify-content: center;
     text-align: center;
+     min-height: 100vh;
 
     background-position: center;
   }
@@ -235,7 +236,7 @@
 @media (max-width: 768px) {
 
   .contact-hero {
-    min-height: auto;
+    min-height: 100vh;
     padding: 7rem 0 5rem;
   }
 
@@ -277,6 +278,7 @@
 @media (max-width: 480px) {
 
   .contact-hero {
+     min-height: 100vh;
     padding: 6rem 0 4rem;
   }
 
