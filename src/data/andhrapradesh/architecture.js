@@ -18,6 +18,7 @@ export const items = [
       "Famed for its hanging pillar, breathtaking frescoes and extraordinary stone carvings, Lepakshi represents one of the finest achievements of Vijayanagara architecture.",
     image: lepakshiImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Lepakshi",
   },
   {
     title: "Amaravati Stupa",
@@ -26,6 +27,7 @@ export const items = [
       "One of India's greatest Buddhist monuments, celebrated for its exquisite limestone reliefs and its central role in the flourishing of early Buddhism.",
     image: amaravatiImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Amaravati_Stupa",
   },
   {
     title: "Gandikota Fort",
@@ -34,6 +36,7 @@ export const items = [
       "A spectacular hill fort overlooking the dramatic Pennar Gorge, blending medieval military architecture with one of South India's most breathtaking landscapes.",
     image: gandikotaImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Gandikota",
   },
   {
     title: "Simhachalam Temple",
@@ -42,6 +45,7 @@ export const items = [
       "One of Andhra Pradesh's most revered temples, renowned for its harmonious blend of Kalinga and Vijayanagara architectural traditions.",
     image: simhachalamImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Simhachalam_Temple",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "One of India's most sacred Shiva temples, renowned for its towering gopuram and magnificent Dravidian architecture.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Srikalahasti_Temple",
   },
   {
     src: undavalliImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "Ancient rock-cut cave complexes, originally associated with Buddhism before later Hindu occupation, showcasing remarkable monolithic craftsmanship.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Undavalli_Caves",
   },
   {
     src: belumImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "India's second-longest natural cave system, famous for its vast underground passages, striking stalactite formations and cathedral-like chambers.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Belum_Caves",
   },
   {
     src: kondapalliImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "A commanding medieval hill fortress offering sweeping views while preserving centuries of Andhra's military heritage.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Kondapalli_Fort",
   },
   {
     src: chandragiriImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "The later capital of the Vijayanagara Empire, distinguished by its elegant palaces, royal architecture and formidable defensive walls.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Chandragiri_Fort,_Andhra_Pradesh",
   },
   {
     src: draksharamamImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "A magnificent Pancharama temple celebrated for its soaring gateways, intricate sculptures and enduring spiritual significance.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Draksharama",
   },
 ];
