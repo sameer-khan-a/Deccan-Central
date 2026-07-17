@@ -18,6 +18,7 @@ export const items = [
       "North Kerala's spectacular ritual tradition where performers are believed to embody local deities and ancestral spirits through elaborate costumes, dance and devotion.",
     image: theyyamImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Theyyam",
   },
   {
     title: "Kathakali",
@@ -26,6 +27,7 @@ export const items = [
       "A globally celebrated dance-drama renowned for expressive storytelling, elaborate makeup and epic narratives drawn from the Ramayana, Mahabharata and Puranas.",
     image: kathakaliImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Kathakali",
   },
   {
     title: "Mohiniyattam",
@@ -34,6 +36,7 @@ export const items = [
       "One of India's eight classical dance forms, celebrated for its graceful movements, subtle expressions and lyrical storytelling.",
     image: mohiniyattamImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Mohiniyattam",
   },
   {
     title: "Onam",
@@ -42,6 +45,7 @@ export const items = [
       "Kerala's grandest festival celebrating the legendary homecoming of King Mahabali with Sadya feasts, floral carpets, games and vibrant cultural performances.",
     image: onamImg,
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Onam",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "The world's oldest surviving Sanskrit theatre tradition, inscribed by UNESCO as an Intangible Cultural Heritage of Humanity.",
     state: "Kerala",
+    link: "https://ich.unesco.org/en/RL/koodiyattam-sanskrit-theatre-00010",
   },
   {
     src: vallamkaliImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "Kerala's iconic snake boat races featuring magnificent Chundan Vallams, celebrated for teamwork, rhythm and festive spirit.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Vallam_Kali",
   },
   {
     src: kalaripayattuImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "One of the world's oldest martial arts, blending combat techniques, discipline, agility and traditional healing practices.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Kalaripayattu",
   },
   {
     src: chakyarImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "A traditional solo storytelling performance staged in temple Koothambalams, combining Sanskrit literature, satire and expressive acting.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Chakyar_koothu",
   },
   {
     src: thrissurPooramImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "Kerala's most spectacular temple festival, renowned for caparisoned elephants, the colourful Kudamattam display and powerful percussion ensembles.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Thrissur_Pooram",
   },
   {
     src: muralImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "A vibrant painting tradition adorning temples and palaces with mythological scenes using natural mineral and vegetable pigments.",
     state: "Kerala",
+    link: "https://en.wikipedia.org/wiki/Kerala_mural_painting",
   },
 ];
