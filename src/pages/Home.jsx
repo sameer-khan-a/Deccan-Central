@@ -91,7 +91,7 @@ const states = [
               <TiltedCard
                 imageSrc={state.image}
                 altText={state.title}
-                captionText={state.title}
+                captionText={state.tagline}
                 containerHeight={
                   index === states.length - 1
                     ? "380px"
@@ -107,7 +107,7 @@ const states = [
                 rotateAmplitude={12}
                 scaleOnHover={1.04}
                 showMobileWarning={false}
-                showTooltip={false}
+                showTooltip={true}
                 displayOverlayContent
 overlayContent={
   <div className="card-content">
