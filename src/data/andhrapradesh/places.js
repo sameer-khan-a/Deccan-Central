@@ -18,6 +18,7 @@ export const items = [
       "A breathtaking hill station renowned for its coffee plantations, tribal heritage, waterfalls and scenic railway journey through the Eastern Ghats.",
     image: arakuImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Araku_Valley",
   },
   {
     title: "Gandikota",
@@ -26,6 +27,7 @@ export const items = [
       "A magnificent medieval hill fort overlooking the dramatic Pennar Gorge, often celebrated as the 'Grand Canyon of India.'",
     image: gandikotaImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Gandikota",
   },
   {
     title: "Srisailam",
@@ -34,6 +36,7 @@ export const items = [
       "Home to one of the twelve Jyotirlingas, this revered pilgrimage town is nestled amid the Nallamala Hills overlooking the Krishna River.",
     image: srisailamImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Srisailam",
   },
   {
     title: "Rushikonda Beach",
@@ -42,6 +45,7 @@ export const items = [
       "A picturesque Blue Flag beach known for its golden sands, clear waters and scenic coastline along the Bay of Bengal.",
     image: rushikondaImg,
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Rushikonda_Beach",
   },
 ];
 
@@ -53,6 +57,7 @@ export const gallery = [
     description:
       "A historic temple village renowned for its hanging pillar, colossal Nandi and exquisite Vijayanagara architecture.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Lepakshi",
   },
   {
     src: lambasingiImg,
@@ -61,6 +66,7 @@ export const gallery = [
     description:
       "A tranquil hill station famed for mist-covered valleys, coffee plantations and some of the coolest winter temperatures in South India.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Lambasingi",
   },
   {
     src: belamImg,
@@ -69,6 +75,7 @@ export const gallery = [
     description:
       "India's second-longest natural cave system, celebrated for its spectacular underground passages and limestone formations.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Belum_Caves",
   },
   {
     src: horsleyImg,
@@ -77,6 +84,7 @@ export const gallery = [
     description:
       "A peaceful hill retreat offering cool breezes, forest viewpoints and panoramic landscapes of southern Andhra Pradesh.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Horsley_Hills",
   },
   {
     src: borraImg,
@@ -85,6 +93,7 @@ export const gallery = [
     description:
       "Ancient limestone caves in the Eastern Ghats, renowned for spectacular stalactites, stalagmites and dramatic natural chambers.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Borra_Caves",
   },
   {
     src: pulicatImg,
@@ -93,5 +102,6 @@ export const gallery = [
     description:
       "India's second-largest brackish lagoon, shared with Tamil Nadu and renowned for its migratory flamingos and diverse birdlife.",
     state: "Andhra Pradesh",
+    link: "https://en.wikipedia.org/wiki/Pulicat_Lake",
   },
 ];
