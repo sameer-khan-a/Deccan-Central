@@ -105,18 +105,18 @@
 }
 
 .gallery-overlay p{
-    opacity:0;
-    margin-top:0;
+    margin-top:.8rem;
     color:#edf2fa;
     line-height:1.65;
     font-size:.94rem;
-    transform:translateY(10px);
     display:-webkit-box;
-    -webkit-box-orient:vertical;
     -webkit-line-clamp:4;
+    -webkit-box-orient:vertical;
     overflow:hidden;
-    max-height:0;
-    transition:opacity .3s ease,transform .3s ease,max-height .3s ease,margin-top .3s ease;
+    opacity:0;
+    transform:translateY(16px);
+    transition:opacity .45s ease,transform .45s cubic-bezier(.22,.61,.36,1);
+    will-change:opacity,transform;
 }
 
 .gallery-btn{
