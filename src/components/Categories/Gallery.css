@@ -71,7 +71,7 @@
     position:absolute;
     inset:0;
     display:flex;
-    margin-top: 2rem;
+    margin-top: 3rem;
     flex-direction:column;
     padding:1.5rem;
     overflow:hidden;
