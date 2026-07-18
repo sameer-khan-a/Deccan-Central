@@ -74,7 +74,7 @@ export const gallery = [
     tag: "Traditional Bread",
     title: "Jonna Rotte",
     description: "A wholesome sorghum flatbread that has been a staple of Telangana's agrarian communities for generations.",
-    link: "https://en.wikipedia.org/wiki/Jowar_roti",
+    link: "https://en.wikipedia.org/wiki/Jolada_rotti",
   },
   {
     state: "Telangana",
