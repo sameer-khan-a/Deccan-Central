@@ -75,7 +75,7 @@ link: "https://en.wikipedia.org/wiki/Airavatesvara_Temple",
     description:
       "A spectacular hilltop fortress built upon one of the world's oldest rock formations, offering sweeping views of the Kaveri plains.",
     state: "Tamil Nadu",
-    link: "https://en.wikipedia.org/wiki/Rockfort,_Tiruchirappalli",
+    link: "https://en.wikipedia.org/wiki/Tiruchirappalli_Rock_Fort",
   },
   {
     src: chidambaramImg,
