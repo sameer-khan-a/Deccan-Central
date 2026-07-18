@@ -75,7 +75,7 @@ export const gallery = [
     description:
       "Luxurious sarees handwoven from pure mulberry silk with rich zari work, treasured for their elegance and centuries-old craftsmanship.",
     state: "Tamil Nadu",
-    link: "https://en.wikipedia.org/wiki/Kanchipuram_silk_saree",
+    link: "https://en.wikipedia.org/wiki/Kanchipuram_silk_sari",
   },
   {
     src: therukoothuImg,
