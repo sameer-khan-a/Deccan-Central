@@ -16,7 +16,6 @@ import wildlifeImg from "../assets/categories/telangana/wildlife.jpg";
 import placesImg from "../assets/categories/telangana/places.webp";
 
 function Telangana() {
-
   const theme = themes.telangana;
 
   const categories = [
@@ -30,7 +29,7 @@ function Telangana() {
     },
     {
       title: "Structures",
-      count: "170+ Heritage Sites",
+      count: "170+ Historic Monuments",
       description:
         "Explore magnificent forts, temples, mosques, stepwells and royal palaces spanning centuries.",
       image: monumentsImg,
@@ -40,7 +39,7 @@ function Telangana() {
       title: "Culture",
       count: "30 Living Traditions",
       description:
-        "Experience Perini, Bonalu, Bathukamma and the vibrant cultural legacy of Telangana.",
+        "Experience Perini, Oggu Katha, Bonalu, Bathukamma and Telangana's vibrant cultural legacy.",
       image: cultureImg,
       link: "/telangana/culture",
     },
@@ -56,7 +55,7 @@ function Telangana() {
       title: "Wildlife",
       count: "3 National Parks",
       description:
-        "Tiger reserves, dry deciduous forests, wetlands and remarkable Deccan biodiversity.",
+        "Amrabad Tiger Reserve, dry deciduous forests, wetlands and remarkable Deccan biodiversity.",
       image: wildlifeImg,
       link: "/telangana/wildlife",
     },
@@ -64,7 +63,7 @@ function Telangana() {
       title: "Places",
       count: "180+ Destinations",
       description:
-        "UNESCO monuments, ancient forts, temple towns, waterfalls and timeless Deccan landscapes.",
+        "Historic forts, temple towns, waterfalls and timeless Deccan landscapes.",
       image: placesImg,
       link: "/telangana/places",
     },
@@ -86,7 +85,7 @@ function Telangana() {
         {...theme}
         heading="The Crossroads of the Deccan"
         text1="For over two thousand years, Telangana has stood at the crossroads of the Deccan's history. The Satavahanas, Kakatiyas, Bahmanis, Qutb Shahis and the Asaf Jahi Nizams transformed the region into a centre of political power, architecture, commerce and culture. Their legacy lives on through majestic forts, intricately carved temples, grand mosques, royal palaces and one of India's richest urban traditions."
-        text2="Beyond Hyderabad lies a landscape of tiger reserves, dense forests, waterfalls, reservoirs and sacred temple towns. From the UNESCO World Heritage-listed Ramappa Temple and the imposing Warangal Fort to the forests of Amrabad and the mighty Godavari River, every corner of Telangana reveals another chapter in the enduring story of the Deccan."
+        text2="Beyond Hyderabad lies a landscape of tiger reserves, dense forests, waterfalls, reservoirs and sacred temple towns. From the UNESCO World Heritage Site Ramappa Temple and the imposing Warangal Fort to the forests of Amrabad and the mighty Godavari River, every corner of Telangana reveals another chapter in the enduring story of the Deccan."
         stats={[
           {
             value: 33,
