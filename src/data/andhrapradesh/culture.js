@@ -93,7 +93,7 @@ export const gallery = [
     description:
       "Beautiful lacquered wooden toys crafted with natural dyes, showcasing centuries of sustainable artisan craftsmanship.",
     state: "Andhra Pradesh",
-    link: "https://en.wikipedia.org/wiki/Etikoppaka_toys",
+    link: "https://en.wikipedia.org/wiki/Etikoppaka",
   },
   {
     src: tirupatiLadduImg,
