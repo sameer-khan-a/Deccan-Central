@@ -68,7 +68,7 @@ export const gallery = [
     title: "Vemulawada Chalukyas",
     description:
       "Regional Chalukya rulers who made Vemulawada an important centre of Shaivism, literature and temple patronage.",
-    link: "https://en.wikipedia.org/wiki/Vemulawada_Chalukyas",
+    link: "https://en.wikipedia.org/wiki/Chalukyas_of_Vemulavada",
   },
   {
     state: "Telangana",
