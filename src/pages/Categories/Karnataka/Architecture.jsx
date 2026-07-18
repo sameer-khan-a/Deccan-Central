@@ -11,7 +11,7 @@ import heroImg from "../../../assets/states/karnataka/categories/architecture/he
 import kadambaImg from "../../../assets/states/karnataka/categories/architecture/kadamba.JPG";
 import chalukyaImg from "../../../assets/states/karnataka/categories/architecture/aihole.jpg";
 import rashtrakutaImg from "../../../assets/states/karnataka/categories/kingdoms/kailasa.webp";
-import westernChalukyaImg from "../../../assets/states/karnataka/categories/architecture/itagi.jpg";
+import westernChalukyaImg from "../../../assets/states/karnataka/categories/architecture/lakkundi.jpg";
 import hoysalaImg from "../../../assets/states/karnataka/categories/kingdoms/hoysala.jpg";
 import vijayanagaraImg from "../../../assets/states/karnataka/categories/architecture/Hampi.jpeg";
 import wadiyarImg from "../../../assets/states/karnataka/categories/architecture/mysore.jpg";
