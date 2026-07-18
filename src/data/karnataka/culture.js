@@ -1,7 +1,7 @@
 import yakshaganaImg from "../../assets/states/karnataka/categories/culture/yakshagana.jpg";
 import kannadaImg from "../../assets/states/karnataka/categories/culture/kannada-literature.jpg";
 import mysoreDasaraImg from "../../assets/states/karnataka/categories/culture/mysore-dasara.jpg";
-import sandalwoodImg from "../../assets/states/karnataka/categories/culture/sandalwood.jpg";
+import sandalwoodImg from "../../assets/states/karnataka/categories/culture/sandalwood.avif";
 
 import dolluKunithaImg from "../../assets/states/karnataka/categories/culture/dollu-kunitha.jpg";
 import veeragaseImg from "../../assets/states/karnataka/categories/culture/veeragase.webp";
