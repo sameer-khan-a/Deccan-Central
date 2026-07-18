@@ -20,7 +20,7 @@ export const items = [
     description:
       "India's largest tiger reserve by core area, protecting vast Nallamala forests that support tigers, leopards, dholes, sloth bears and rich biodiversity.",
     image: amrabadImg,
-    link: "https://en.wikipedia.org/wiki/Amrabad_Tiger_Reserve",
+    link: "https://amrabadtigerreserve.com/",
   },
   {
     state: "Telangana",
