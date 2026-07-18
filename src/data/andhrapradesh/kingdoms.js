@@ -84,7 +84,7 @@ export const gallery = [
     description:
       "Medieval rulers of coastal Andhra remembered for strengthening regional governance and supporting temple patronage.",
     state: "Andhra Pradesh",
-    link: "https://en.wikipedia.org/wiki/Kota_chiefs",
+    link: "https://en.wikipedia.org/wiki/Kota_Vamsa",
   },
   {
     src: reddyImg,
