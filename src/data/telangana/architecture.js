@@ -20,7 +20,7 @@ export const items = [
     description:
       "A Kakatiya masterpiece renowned for its intricate sculptures, star-shaped platform and lightweight porous bricks used in its superstructure.",
     image: ramappaImg,
-    link: "https://whc.unesco.org/en/list/1570/",
+    link: "https://en.wikipedia.org/wiki/Ramappa_Temple"
   },
   {
     state: "Telangana",
