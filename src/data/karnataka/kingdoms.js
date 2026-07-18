@@ -94,7 +94,7 @@ export const gallery = [
     description:
       "The Nayakas built the mighty Chitradurga Fort and are remembered for military ingenuity and the heroism of Onake Obavva.",
     state: "Karnataka",
-    link: "https://en.wikipedia.org/wiki/Chitradurga_Nayakas",
+    link: "https://en.wikipedia.org/wiki/Nayakas_of_Chitradurga",
   },
   {
     src: nolambaImg,
