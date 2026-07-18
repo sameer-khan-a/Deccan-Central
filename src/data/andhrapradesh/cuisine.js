@@ -66,7 +66,7 @@ export const gallery = [
     description:
       "A spicy tamarind fish curry that reflects the rich culinary heritage of Andhra Pradesh's coastal communities.",
     state: "Andhra Pradesh",
-    link: "https://en.wikipedia.org/wiki/Fish_curry",
+    link: "https://www.lekhafoods.com/en/south-indian-recipes/andhra-recipes/andhra-non-veg-curry-recipes/chepala-pulusu/",
   },
   {
     src: ulavacharuImg,
