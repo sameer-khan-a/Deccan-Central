@@ -59,7 +59,7 @@ export const gallery = [
     title: "Yadadri",
     description:
       "A major hill shrine dedicated to Sri Lakshmi Narasimha Swamy and one of Telangana's foremost pilgrimage destinations.",
-    link: "https://en.wikipedia.org/wiki/Yadadri_Temple",
+    link: "https://en.wikipedia.org/wiki/Lakshmi_Narasimha_Temple,_Yadadri",
   },
   {
     state: "Telangana",
