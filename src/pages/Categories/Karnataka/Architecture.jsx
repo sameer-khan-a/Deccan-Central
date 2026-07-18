@@ -48,7 +48,7 @@ function Architecture() {
       year: "973-1189 CE",
       title: "The Western Chalukyas",
       description:
-        "Also known as the Kalyani Chalukyas, they ushered in a new era of temple architecture across the Deccan. Magnificent monuments at Lakkundi, Itagi and Gadag blended the legacy of the Badami Chalukyas with fresh artistic innovations, creating the architectural style that later inspired the Hoysalas. Under Vikramaditya VI, this flourishing of art and architecture reached its peak.",
+        "Also known as the Kalyani Chalukyas, they ushered in a new era of temple architecture across the Deccan. Magnificent monuments at Lakkundi, Itagi and Gadag blended the legacy of the Badami Chalukyas with fresh artistic innovations, creating the architectural style that later inspired the Hoysalas.",
       image: westernChalukyaImg,
       location: "Kalyani • Lakkundi • Itagi • Gadag",
     },
