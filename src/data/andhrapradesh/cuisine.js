@@ -57,7 +57,7 @@ export const gallery = [
     description:
       "A lavish banana leaf feast featuring rice, curries, dal, pickles, chutneys, papad and traditional desserts.",
     state: "Andhra Pradesh",
-    link: "https://en.wikipedia.org/wiki/Telugu_cuisine",
+    link: "https://nandhini.com/andhra-thali-complete-menu-guide/",
   },
   {
     src: chepalaPulusuImg,
