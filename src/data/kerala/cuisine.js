@@ -27,7 +27,7 @@ export const items = [
       "Pearl spot fish marinated in aromatic spices, wrapped in banana leaves and slow-roasted into one of Kerala's finest seafood delicacies.",
     image: karimeenImg,
     state: "Kerala",
-    link: "https://en.wikipedia.org/wiki/Karimeen_pollichathu",
+    link: "https://www.yummytummyaarthi.com/meen-pollichathu-karimeen-pollichathu/",
   },
   {
     title: "Appam & Stew",
@@ -36,7 +36,7 @@ export const items = [
       "Soft fermented rice pancakes paired with fragrant coconut milk stew prepared with vegetables, chicken or mutton.",
     image: appamImg,
     state: "Kerala",
-    link: "https://en.wikipedia.org/wiki/Appam",
+    link: "https://hebbarskitchen.com/appam-recipe-yeast-appam-batter-recipe/",
   },
   {
     title: "Malabar Biryani",
@@ -57,7 +57,7 @@ export const gallery = [
     description:
       "Steamed cylinders of layered rice flour and coconut served with black chickpea curry, one of Kerala's most beloved breakfasts.",
     state: "Kerala",
-    link: "https://en.wikipedia.org/wiki/Puttu",
+    link: "https://www.chefspencil.com/puttu-kadala/",
   },
   {
     src: pathiriImg,
@@ -84,7 +84,7 @@ export const gallery = [
     description:
       "Spiced green mussels from the Malabar Coast, prized for their rich flavour and coastal culinary heritage.",
     state: "Kerala",
-    link: "https://en.wikipedia.org/wiki/Mussel",
+    link: "https://alittlebitofspice.com/kerala-style-mussels-fry-kallumakkaya-varattiyathu-recipe",
   },
   {
     src: unniyappamImg,
