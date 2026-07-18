@@ -4,7 +4,6 @@ import "./ChromaGrid.css";
 
 function ChromaCard({
   item,
-  index,
   isTouchDevice,
   handleCardMove,
 }) {
@@ -14,19 +13,21 @@ function ChromaCard({
   useEffect(() => {
     if (!isTouchDevice || !cardRef.current) return;
 
-  const observer = new IntersectionObserver(
-  ([entry]) => {
-    setActive(entry.isIntersecting);
-  },
-  {
-    threshold: 0.35,
-  }
-);
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setActive(entry.isIntersecting);
+      },
+      {
+        threshold: 0.35,
+      }
+    );
 
     observer.observe(cardRef.current);
 
     return () => observer.disconnect();
   }, [isTouchDevice]);
+
+  const isClickable = item.link && item.link !== "#";
 
   return (
     <article
@@ -35,17 +36,14 @@ function ChromaCard({
         isTouchDevice && active ? "active" : ""
       }`}
       onMouseMove={!isTouchDevice ? handleCardMove : undefined}
-      onClick={() =>
-        item.url &&
-        item.url !== "#" &&
-        window.open(item.url, "_blank", "noopener,noreferrer")
-      }
+      onClick={() => {
+        if (isClickable) {
+          window.open(item.link, "_blank", "noopener,noreferrer");
+        }
+      }}
       style={{
         "--card-border": item.borderColor || "#d4a017",
-        cursor:
-          item.url && item.url !== "#"
-            ? "pointer"
-            : "default",
+        cursor: isClickable ? "pointer" : "default",
       }}
     >
       <div className="chroma-img-wrapper">
@@ -164,7 +162,6 @@ const ChromaGrid = ({
         <ChromaCard
           key={`${item.title}-${index}`}
           item={item}
-          index={index}
           isTouchDevice={isTouchDevice}
           handleCardMove={handleCardMove}
         />
