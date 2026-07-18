@@ -11,6 +11,7 @@ import heroImg from "../../../assets/states/karnataka/categories/kingdoms/hero.j
 import kadambaImg from "../../../assets/states/karnataka/categories/kingdoms/kadamba.JPG";
 import chalukyaImg from "../../../assets/states/karnataka/categories/kingdoms/chalukya.jpg";
 import rashtrakutaImg from "../../../assets/states/karnataka/categories/kingdoms/rashtrakuta.jpg";
+import westernChalukyaImg from "../../../assets/states/karnataka/categories/kingdoms/western-chalukya.jpg";
 import hoysalaImg from "../../../assets/states/karnataka/categories/kingdoms/hoysala.jpg";
 import vijayanagaraImg from "../../../assets/states/karnataka/categories/kingdoms/vijayanagara.webp";
 
@@ -43,6 +44,14 @@ function Kingdoms() {
       location: "Manyakheta",
     },
     {
+      year: "973 CE",
+      title: "Western Chalukyas",
+      description:
+        "Also known as the Kalyani Chalukyas, they revived Chalukya power after the Rashtrakutas and ruled much of the Deccan from Kalyani. Under Vikramaditya VI, their greatest ruler, the kingdom reached a golden age of political stability, literature, administration and architecture, laying the foundations for the artistic achievements of the Hoysalas.",
+      image: westernChalukyaImg,
+      location: "Kalyani (Basavakalyan)",
+    },
+    {
       year: "1000 CE",
       title: "Hoysala Empire",
       description:
@@ -67,14 +76,14 @@ function Kingdoms() {
       <CategoryHero
         title="Kingdoms of Karnataka"
         subtitle="Empires That Shaped the Deccan"
-        description="From the pioneering Kadambas to the mighty Vijayanagara Empire, Karnataka has been home to some of India's most influential kingdoms, leaving behind a legacy of power, culture, architecture and innovation."
+        description="From the pioneering Kadambas and the great Chalukya empires to the mighty Vijayanagara Empire, Karnataka has been home to some of India's most influential kingdoms, leaving behind a legacy of power, culture, architecture and innovation."
         image={heroImg}
       />
 
       <CategoryOverview
         heading="The Rise of Karnataka's Great Dynasties"
         text1="For over fifteen centuries, Karnataka stood at the heart of the Deccan, where powerful kingdoms built prosperous capitals, expanded trade, encouraged literature and transformed the region into a center of political and cultural influence."
-        text2="Successive dynasties including the Kadambas, Chalukyas, Rashtrakutas, Hoysalas and Vijayanagara rulers shaped the state's identity through their achievements in governance, architecture, art, religion and the Kannada language."
+        text2="Successive dynasties including the Kadambas, Badami Chalukyas, Rashtrakutas, Western Chalukyas (Kalyani Chalukyas), Hoysalas and Vijayanagara rulers shaped Karnataka's identity through their achievements in governance, architecture, literature, religion and the Kannada language."
       />
 
       <CategoryTimeline
