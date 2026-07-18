@@ -102,6 +102,6 @@ export const gallery = [
     description:
       "The rulers of Ramanathapuram, celebrated as guardians of the Ramanathaswamy Temple and protectors of the sacred pilgrimage route to Rameswaram.",
     state: "Tamil Nadu",
-    link: "https://en.wikipedia.org/wiki/Sethupathy",
+    link: "https://en.wikipedia.org/wiki/Sethupathi",
   },
 ];
