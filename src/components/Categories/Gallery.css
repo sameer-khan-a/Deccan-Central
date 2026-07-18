@@ -86,13 +86,16 @@
     line-height:1.65;
     font-size:.94rem;
     margin:0;
+    padding-bottom:.35rem;
     display:-webkit-box;
     -webkit-line-clamp:4;
     -webkit-box-orient:vertical;
     overflow:hidden;
     opacity:0;
-    transform:translateY(-20px);
-    transition:.4s;
+    transform:translateY(-10px);
+    transition:
+        opacity .4s ease,
+        transform .4s ease;
 }
 
 /* PUSH REMAINING CONTENT TO BOTTOM */
