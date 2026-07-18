@@ -75,7 +75,7 @@ export const gallery = [
     description:
       "A slow-cooked horse gram soup renowned for its deep earthy flavour and comforting richness.",
     state: "Andhra Pradesh",
-    link: "https://en.wikipedia.org/wiki/Ulavacharu",
+    link: "https://www.indiraafoods.com/",
   },
   {
     src: avakayaImg,
