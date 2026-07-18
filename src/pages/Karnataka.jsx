@@ -16,7 +16,6 @@ import wildlifeImg from "../assets/categories/karnataka/wildlife.webp";
 import placesImg from "../assets/categories/karnataka/places.jpg";
 
 function Karnataka() {
-
   const theme = themes.karnataka;
 
   const categories = [
@@ -30,7 +29,7 @@ function Karnataka() {
     },
     {
       title: "Structures",
-      count: "180+ Heritage Sites",
+      count: "180+ Architectural Wonders",
       description:
         "UNESCO monuments, temples, forts and magnificent royal palaces.",
       image: monumentsImg,
@@ -40,7 +39,7 @@ function Karnataka() {
       title: "Culture",
       count: "35 Living Traditions",
       description:
-        "Yakshagana, literature, festivals and Karnataka's enduring folk heritage.",
+        "Yakshagana, literature, festivals and Karnataka's enduring folk traditions.",
       image: cultureImg,
       link: "/karnataka/culture",
     },
@@ -48,7 +47,7 @@ function Karnataka() {
       title: "Cuisine",
       count: "80+ Signature Dishes",
       description:
-        "From Bisi Bele Bath to the rich flavours of the Karavali coast.",
+        "From Bisi Bele Bath to the rich seafood traditions of the Karavali coast.",
       image: foodImg,
       link: "/karnataka/cuisine",
     },
@@ -56,7 +55,7 @@ function Karnataka() {
       title: "Wildlife",
       count: "6 National Parks",
       description:
-        "Western Ghats, tigers, elephants and extraordinary biodiversity.",
+        "Tiger reserves, elephant corridors and extraordinary biodiversity.",
       image: wildlifeImg,
       link: "/karnataka/wildlife",
     },
@@ -64,7 +63,7 @@ function Karnataka() {
       title: "Places",
       count: "250+ Destinations",
       description:
-        "Ancient capitals, waterfalls, beaches and breathtaking hill stations.",
+        "Ancient capitals, majestic waterfalls, beaches and hill stations.",
       image: placesImg,
       link: "/karnataka/places",
     },
@@ -86,10 +85,10 @@ function Karnataka() {
         {...theme}
         heading="The Heart of the Deccan"
         text1="For more than two thousand years, Karnataka has stood at the center of South India's history. The Kadambas, Chalukyas, Rashtrakutas, Hoysalas and Vijayanagara rulers transformed the region into a powerhouse of architecture, commerce, literature and political influence, leaving behind monuments admired across the world."
-        text2="Today, Karnataka blends this extraordinary heritage with thriving cities, biodiverse forests, pristine coastlines and living traditions. From UNESCO World Heritage Sites and sacred temple towns to the wildlife-rich Western Ghats, every region reveals a different chapter in the story of the Deccan."
+        text2="Today, Karnataka blends this extraordinary heritage with thriving cities, biodiverse forests, pristine coastlines and living traditions. From UNESCO World Heritage Sites and sacred temple towns to the wildlife-rich Western Ghats and Arabian Sea coast, every region reveals a different chapter in the story of the Deccan."
         stats={[
           { value: 31, label: "Districts" },
-          { value: 2, label: "UNESCO Sites" },
+          { value: 4, label: "UNESCO Sites" },
           { value: 6, label: "National Parks" },
           { value: 300, suffix: "+", label: "Major Heritage Sites" },
         ]}
