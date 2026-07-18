@@ -18,7 +18,7 @@ export const items = [
       "A crisp crepe made from fermented rice and urad dal batter, traditionally served with sambar and chutneys and celebrated around the world.",
     image: dosaImg,
     state: "Tamil Nadu",
-    link: "https://en.wikipedia.org/wiki/Dosa",
+    link: "https://en.wikipedia.org/wiki/Dosa_(food)#Kari_dosai",
   },
   {
     title: "Chettinad Chicken",
@@ -45,7 +45,7 @@ export const items = [
       "A refreshing dessert drink originating in Madurai, made with milk, almond gum, nannari syrup and ice cream.",
     image: jigarthandaImg,
     state: "Tamil Nadu",
-    link: "https://en.wikipedia.org/wiki/Jigarthanda",
+    link: "https://en.wikipedia.org/wiki/Jigarthanda_(drink)",
   },
 ];
 
@@ -93,7 +93,7 @@ export const gallery = [
     description:
       "A deeply flavoured village-style chicken curry prepared with freshly ground spices and slow-cooked to perfection.",
     state: "Tamil Nadu",
-    link: "https://en.wikipedia.org/wiki/Tamil_cuisine",
+    link: "https://www.yummytummyaarthi.com/nattu-kozhi-kulambu-authentic-country/",
   },
   {
     src: adhirasamImg,
