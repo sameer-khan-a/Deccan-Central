@@ -18,7 +18,7 @@ export const items = [
       "Built by Raja Raja Chola I, this UNESCO World Heritage monument is one of the greatest achievements of Dravidian architecture and medieval engineering.",
     image: brihadeeswaraImg,
     state: "Tamil Nadu",
-    link: "https://whc.unesco.org/en/list/250/",
+ link: "https://en.wikipedia.org/wiki/Brihadisvara_Temple,_Thanjavur",
   },
   {
     title: "Meenakshi Amman Temple",
@@ -36,7 +36,7 @@ export const items = [
       "A Pallava masterpiece overlooking the Bay of Bengal and part of the UNESCO-listed Group of Monuments at Mahabalipuram.",
     image: mahabalipuramImg,
     state: "Tamil Nadu",
-    link: "https://whc.unesco.org/en/list/249/",
+link: "https://en.wikipedia.org/wiki/Shore_Temple",
   },
   {
     title: "Vellore Fort",
@@ -57,7 +57,7 @@ export const gallery = [
     description:
       "A UNESCO Great Living Chola Temple celebrated for its exquisite stone carvings, elegant proportions and masterful craftsmanship.",
     state: "Tamil Nadu",
-    link: "https://whc.unesco.org/en/list/250/",
+link: "https://en.wikipedia.org/wiki/Airavatesvara_Temple",
   },
   {
     src: gangaikondaImg,
