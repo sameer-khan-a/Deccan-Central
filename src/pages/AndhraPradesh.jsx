@@ -16,7 +16,6 @@ import wildlifeImg from "../assets/categories/andhrapradesh/wildlife.webp";
 import placesImg from "../assets/categories/andhrapradesh/places.jpg";
 
 function AndhraPradesh() {
-
   const theme = themes.andhra;
 
   const categories = [
@@ -24,13 +23,13 @@ function AndhraPradesh() {
       title: "Kingdoms",
       count: "11 Great Dynasties",
       description:
-        "Journey through the Satavahanas, Eastern Chalukyas, Kakatiyas, Vijayanagara and the rulers who shaped Telugu history.",
+        "Journey through the Satavahanas, Eastern Chalukyas, Reddy Kingdom and Vijayanagara dynasties that shaped Telugu history.",
       image: kingdomsImg,
       link: "/andhra-pradesh/kingdoms",
     },
     {
       title: "Structures",
-      count: "200+ Heritage Sites",
+      count: "200+ Historic Monuments",
       description:
         "Explore ancient temples, Buddhist monuments, forts, cave complexes and remarkable stone architecture.",
       image: monumentsImg,
@@ -56,7 +55,7 @@ function AndhraPradesh() {
       title: "Wildlife",
       count: "3 National Parks",
       description:
-        "Eastern Ghats, mangrove forests, tiger reserves and extraordinary biodiversity.",
+        "Eastern Ghats, Coringa mangroves, tiger reserves and rich biodiversity.",
       image: wildlifeImg,
       link: "/andhra-pradesh/wildlife",
     },
@@ -85,15 +84,15 @@ function AndhraPradesh() {
       <InfoSection
         {...theme}
         heading="The Cradle of Telugu Civilization"
-        text1="For more than two thousand years, Andhra Pradesh has stood at the heart of South India's history. The Satavahanas, Eastern Chalukyas, Kakatiyas and Vijayanagara rulers transformed the region into a centre of trade, architecture, literature and religious learning. Their legacy lives on through magnificent temples, ancient Buddhist monuments, prosperous ports and one of India's richest literary traditions."
-        text2="Stretching from the Bay of Bengal to the Eastern Ghats, Andhra Pradesh blends sacred pilgrimage sites, fertile river deltas, pristine beaches, lush valleys and remarkable wildlife into one extraordinary landscape. From Amaravati, Nagarjunakonda and Lepakshi to Araku Valley, Gandikota and the mangrove forests of Coringa, every region reveals another chapter in the remarkable story of the Telugu heartland."
+        text1="For more than two thousand years, Andhra Pradesh has stood at the heart of South India's history. The Satavahanas, Eastern Chalukyas, Reddy rulers and Vijayanagara Empire transformed the region into a centre of trade, architecture, literature and religious learning. Their legacy lives on through magnificent temples, ancient Buddhist monuments, prosperous ports and one of India's richest literary traditions."
+        text2="Stretching from the Bay of Bengal to the Eastern Ghats, Andhra Pradesh blends sacred pilgrimage sites, fertile river deltas, pristine beaches, lush valleys and remarkable wildlife into one extraordinary landscape. From Amaravati, Nagarjunakonda and Lepakshi to Araku Valley, Gandikota and the mangrove forests of Coringa, every region reveals another chapter in the story of the Telugu heartland."
         stats={[
           {
             value: 26,
             label: "Districts",
           },
           {
-            value: 975,
+            value: 1053,
             suffix: " km",
             label: "Coastline",
           },
