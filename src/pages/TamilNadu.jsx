@@ -16,7 +16,6 @@ import wildlifeImg from "../assets/categories/tamilnadu/wildlife.jpg";
 import placesImg from "../assets/categories/tamilnadu/places.jpg";
 
 function TamilNadu() {
-
   const theme = themes.tamilNadu;
 
   const categories = [
@@ -30,7 +29,7 @@ function TamilNadu() {
     },
     {
       title: "Structures",
-      count: "300+ Heritage Sites",
+      count: "300+ Historic Monuments",
       description:
         "Towering temples, rock-cut monuments, royal capitals and UNESCO World Heritage masterpieces.",
       image: monumentsImg,
@@ -56,7 +55,7 @@ function TamilNadu() {
       title: "Wildlife",
       count: "5 National Parks",
       description:
-        "Tiger reserves, mangrove forests, the Western Ghats and extraordinary biodiversity.",
+        "Western Ghats, tiger reserves, mangrove forests and extraordinary biodiversity.",
       image: wildlifeImg,
       link: "/tamil-nadu/wildlife",
     },
