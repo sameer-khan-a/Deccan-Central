@@ -3,7 +3,7 @@
 import bonaluImg from "../../assets/states/telangana/categories/culture/bonalu.jpg";
 import bathukammaImg from "../../assets/states/telangana/categories/culture/bathukamma.jpg";
 import periniImg from "../../assets/states/telangana/categories/culture/perini-shivatandavam.jpeg";
-import bidriImg from "../../assets/states/telangana/categories/culture/bidri-art.jpg";
+import pembarthiImg from "../../assets/states/telangana/categories/culture/pembarthi-brassware.jpg";
 
 import sammakkaImg from "../../assets/states/telangana/categories/culture/samakka-saralamma.jpg";
 import ogguImg from "../../assets/states/telangana/categories/culture/oggu-katha.avif";
@@ -48,7 +48,7 @@ export const items = [
       "A traditional narrative scroll painting style that preserves Telangana's folklore through vivid hand-painted storytelling.",
     image: cheriyalImg,
     link: "https://en.wikipedia.org/wiki/Cheriyal_scroll_painting",
-  }
+  },
 ];
 
 export const gallery = [
@@ -81,12 +81,12 @@ export const gallery = [
   },
   {
     state: "Telangana",
-    src: bidriImg,
+    src: pembarthiImg,
     tag: "Metal Craft",
-    title: "Bidriware",
+    title: "Pembarthi Brassware",
     description:
-      "An elegant silver-inlaid metal craft with enduring cultural ties to the Deccan, also practiced in Hyderabad.",
-    link: "https://en.wikipedia.org/wiki/Bidriware",
+      "A celebrated brass metal craft from Pembarthi village, renowned for its intricate repoussé work, temple art and ornamental craftsmanship dating back to the Kakatiya period.",
+    link: "https://en.wikipedia.org/wiki/Pembarthi_Metal_Craft",
   },
   {
     state: "Telangana",
@@ -105,5 +105,5 @@ export const gallery = [
     description:
       "A vibrant tribal dance of the Gond community, performed during the Dandari festival with elaborate traditional attire.",
     link: "https://en.wikipedia.org/wiki/Gussadi",
-  }
+  },
 ];
