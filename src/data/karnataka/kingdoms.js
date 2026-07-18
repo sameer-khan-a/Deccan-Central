@@ -1,7 +1,7 @@
 import kadambaImg from "../../assets/states/karnataka/categories/kingdoms/kadamba.JPG";
 import chalukyaImg from "../../assets/states/karnataka/categories/kingdoms/chalukya.jpg";
 import rashtrakutaImg from "../../assets/states/karnataka/categories/kingdoms/rashtrakuta.jpg";
-import westernChalukyaImg from "../../assets/states/karnataka/categories/kingdoms/western-chalukya.jpg";
+import westernChalukyaImg from "../../assets/states/karnataka/categories/architecture/lakkundi.jpg";
 import hoysalaImg from "../../assets/states/karnataka/categories/kingdoms/hoysala.webp";
 import vijayanagaraImg from "../../assets/states/karnataka/categories/kingdoms/vijayanagara.webp";
 
