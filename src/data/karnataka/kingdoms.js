@@ -68,14 +68,13 @@ export const items = [
     link: "https://en.wikipedia.org/wiki/Vijayanagara_Empire",
   },
 ];
-
 export const gallery = [
   {
     src: gangaImg,
     category: "Early Kingdom",
     title: "Western Ganga Dynasty",
     description:
-      "One of Karnataka's oldest and longest-ruling dynasties, the Western Gangas patronised Jainism and commissioned the iconic Gommateshwara statue at Shravanabelagola.",
+      "One of Karnataka's oldest dynasties, the Western Gangas patronised Jainism and built the iconic Gommateshwara statue at Shravanabelagola.",
     state: "Karnataka",
     link: "https://en.wikipedia.org/wiki/Western_Ganga_dynasty",
   },
@@ -84,7 +83,7 @@ export const gallery = [
     category: "Coastal Kingdom",
     title: "Alupa Dynasty",
     description:
-      "The Alupas ruled the Tulu Nadu coast for over a thousand years, fostering maritime trade and shaping the distinct cultural heritage of coastal Karnataka.",
+      "The Alupas ruled Tulu Nadu for over a thousand years, fostering maritime trade and shaping coastal Karnataka's cultural heritage.",
     state: "Karnataka",
     link: "https://en.wikipedia.org/wiki/Alupa_dynasty",
   },
@@ -93,7 +92,7 @@ export const gallery = [
     category: "Fort Kingdom",
     title: "Chitradurga Nayakas",
     description:
-      "The Nayakas transformed Chitradurga into one of India's greatest hill forts, leaving behind a legacy of military ingenuity and the legendary heroism of Onake Obavva.",
+      "The Nayakas built the mighty Chitradurga Fort and are remembered for military ingenuity and the heroism of Onake Obavva.",
     state: "Karnataka",
     link: "https://en.wikipedia.org/wiki/Chitradurga_Nayakas",
   },
@@ -102,7 +101,7 @@ export const gallery = [
     category: "Temple Builders",
     title: "Nolamba Dynasty",
     description:
-      "Ruling parts of southern Karnataka between the 8th and 11th centuries, the Nolambas left behind elegant temples such as the Nolambeshwara Temple at Hemavati, blending Pallava, Chalukya and Dravidian architectural traditions.",
+      "The Nolambas ruled southern Karnataka and built elegant temples like Nolambeshwara at Hemavati, blending Pallava and Chalukya styles.",
     state: "Karnataka",
     link: "https://en.wikipedia.org/wiki/Nolamba_Dynasty",
   },
@@ -111,7 +110,7 @@ export const gallery = [
     category: "Coastal Kingdom",
     title: "Keladi Nayakas",
     description:
-      "After the fall of Vijayanagara, the Keladi Nayakas ruled the Malnad and Kanara regions, strengthening coastal forts such as Bekal while defending trade routes and preserving Karnataka's independence.",
+      "The Keladi Nayakas ruled Malnad and Kanara, defended trade routes and preserved Karnataka's independence after Vijayanagara's fall.",
     state: "Karnataka",
     link: "https://en.wikipedia.org/wiki/Keladi_Nayaka",
   },
@@ -120,7 +119,7 @@ export const gallery = [
     category: "Modern Kingdom",
     title: "Kingdom of Mysore",
     description:
-      "Under Hyder Ali, Tipu Sultan and later the Wadiyars, Mysore became one of India's most influential states, renowned for military innovation, progressive administration, education and cultural patronage.",
+      "Under Hyder Ali, Tipu Sultan and the Wadiyars, Mysore became a leading state known for military innovation, education and culture.",
     state: "Karnataka",
     link: "https://en.wikipedia.org/wiki/Kingdom_of_Mysore",
   },
