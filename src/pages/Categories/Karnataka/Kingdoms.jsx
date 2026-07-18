@@ -43,14 +43,14 @@ function Kingdoms() {
       image: rashtrakutaImg,
       location: "Manyakheta",
     },
-    {
-      year: "973 CE",
-      title: "Western Chalukyas",
-      description:
-        "Also known as the Kalyani Chalukyas, they revived Chalukya power after the Rashtrakutas and ruled much of the Deccan from Kalyani. Under Vikramaditya VI, their greatest ruler, the kingdom reached a golden age of political stability, literature, administration and architecture, laying the foundations for the artistic achievements of the Hoysalas.",
-      image: westernChalukyaImg,
-      location: "Kalyani (Basavakalyan)",
-    },
+  {
+  year: "973 CE",
+  title: "Western Chalukyas",
+  description:
+    "Also known as the Kalyani Chalukyas, they restored Chalukya supremacy across the Deccan while advancing literature, governance and the distinctive Vesara style of temple architecture under Vikramaditya VI.",
+  image: westernChalukyaImg,
+  location: "Kalyani (Basavakalyan)",
+},
     {
       year: "1000 CE",
       title: "Hoysala Empire",
