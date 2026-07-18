@@ -7,7 +7,7 @@ import cheriyalImg from "../../assets/states/telangana/categories/culture/cheriy
 
 import sammakkaImg from "../../assets/states/telangana/categories/culture/samakka-saralamma.jpg";
 import ogguImg from "../../assets/states/telangana/categories/culture/oggu-katha.avif";
-import pembarthiImg from "../../assets/states/telangana/categories/culture/pembarthi-brassware.jpg";
+import pembarthiImg from "../../assets/states/telangana/categories/culture/pembarthi-brassware.webp";
 import nirmalImg from "../../assets/states/telangana/categories/culture/nirmal-painting.jpg";
 import deccaniImg from "../../assets/states/telangana/categories/culture/deccani-urdu.webp";
 import gussadiImg from "../../assets/states/telangana/categories/culture/gussadi-dance.webp";
