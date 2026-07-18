@@ -2,6 +2,7 @@ import hampiImg from "../../assets/states/karnataka/categories/architecture/Hamp
 import belurImg from "../../assets/states/karnataka/categories/architecture/Belur.jpg";
 import badamiImg from "../../assets/states/karnataka/categories/architecture/badami.jpg";
 import mysoreImg from "../../assets/states/karnataka/categories/architecture/mysore-palace.jpg";
+import lakkundiImg from "../../assets/states/karnataka/categories/architecture/lakkundi.jpg";
 
 import aiholeImg from "../../assets/states/karnataka/categories/architecture/aihole.jpg";
 import pattadakalImg from "../../assets/states/karnataka/categories/architecture/pattadakal.jpg";
@@ -37,6 +38,15 @@ export const items = [
     image: badamiImg,
     state: "Karnataka",
     link: "https://en.wikipedia.org/wiki/Badami_cave_temples",
+  },
+  {
+    title: "Lakkundi",
+    subtitle: "Western Chalukya Heritage",
+    description:
+      "One of the finest surviving Western Chalukya temple towns, Lakkundi is renowned for its elegant stepped wells, ornate temples and sophisticated Vesara architecture.",
+    image: lakkundiImg,
+    state: "Karnataka",
+    link: "https://en.wikipedia.org/wiki/Lakkundi",
   },
   {
     title: "Mysore Palace",
