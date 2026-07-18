@@ -36,7 +36,7 @@ export const items = [
       "Home to the UNESCO-listed Group of Monuments, this historic Pallava port is celebrated for its Shore Temple and remarkable rock-cut sculptures.",
     image: mahabalipuramImg,
     state: "Tamil Nadu",
-    link: "https://whc.unesco.org/en/list/249/",
+    link: "https://en.wikipedia.org/wiki/Mamallapuram",
   },
   {
     title: "Kodaikanal",
