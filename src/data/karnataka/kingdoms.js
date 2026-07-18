@@ -8,7 +8,7 @@ import vijayanagaraImg from "../../assets/states/karnataka/categories/kingdoms/v
 import gangaImg from "../../assets/states/karnataka/categories/kingdoms/ganga.jpg";
 import alupaImg from "../../assets/states/karnataka/categories/kingdoms/alupa.jpg";
 import chitradurgaImg from "../../assets/states/karnataka/categories/kingdoms/chitradurga.jpg";
-import seunaImg from "../../assets/states/karnataka/categories/kingdoms/seuna.jpg";
+import nolambaImg from "../../assets/states/karnataka/categories/kingdoms/nolamba.jpg";
 import keladiImg from "../../assets/states/karnataka/categories/kingdoms/keladi.jpg";
 import mysoreImg from "../../assets/states/karnataka/categories/kingdoms/mysore.jpg";
 
@@ -98,20 +98,20 @@ export const gallery = [
     link: "https://en.wikipedia.org/wiki/Chitradurga_Nayakas",
   },
   {
-    src: seunaImg,
-    category: "Deccan Empire",
-    title: "Seuna (Yadava) Dynasty",
+    src: nolambaImg,
+    category: "Temple Builders",
+    title: "Nolamba Dynasty",
     description:
-      "Ruling from Devagiri, the Seunas controlled much of northern Karnataka and the Deccan, competing with the Hoysalas and Kakatiyas while promoting trade, literature and temple architecture.",
+      "Ruling parts of southern Karnataka between the 8th and 11th centuries, the Nolambas left behind elegant temples such as the Nolambeshwara Temple at Hemavati, blending Pallava, Chalukya and Dravidian architectural traditions.",
     state: "Karnataka",
-    link: "https://en.wikipedia.org/wiki/Seuna_(Yadava)_dynasty",
+    link: "https://en.wikipedia.org/wiki/Nolamba_Dynasty",
   },
   {
     src: keladiImg,
-    category: "Post-Vijayanagara",
+    category: "Coastal Kingdom",
     title: "Keladi Nayakas",
     description:
-      "Following the fall of Vijayanagara, the Keladi Nayakas emerged as one of Karnataka's strongest regional powers, defending the Malnad and western coast while preserving regional traditions.",
+      "After the fall of Vijayanagara, the Keladi Nayakas ruled the Malnad and Kanara regions, strengthening coastal forts such as Bekal while defending trade routes and preserving Karnataka's independence.",
     state: "Karnataka",
     link: "https://en.wikipedia.org/wiki/Keladi_Nayaka",
   },
