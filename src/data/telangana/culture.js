@@ -104,6 +104,6 @@ export const gallery = [
     title: "Gussadi Dance",
     description:
       "A vibrant tribal dance of the Gond community, performed during the Dandari festival with elaborate traditional attire.",
-    link: "https://en.wikipedia.org/wiki/Gussadi",
+    link: "https://en.wikipedia.org/wiki/Gussadi_dance",
   },
 ];
