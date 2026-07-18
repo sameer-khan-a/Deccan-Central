@@ -16,7 +16,6 @@ import wildlifeImg from "../assets/categories/kerala/wildlife.jpg";
 import placesImg from "../assets/categories/kerala/places.jpg";
 
 function Kerala() {
-
   const theme = themes.kerala;
 
   const categories = [
@@ -30,7 +29,7 @@ function Kerala() {
     },
     {
       title: "Structures",
-      count: "140+ Heritage Sites",
+      count: "140+ Historic Monuments",
       description:
         "Discover ancient temples, royal palaces, synagogues, churches and remarkable colonial landmarks.",
       image: monumentsImg,
@@ -56,7 +55,7 @@ function Kerala() {
       title: "Wildlife",
       count: "6 National Parks",
       description:
-        "Explore the Western Ghats, tropical rainforests and some of India's richest biodiversity.",
+        "Western Ghats, tropical rainforests and some of India's richest biodiversity.",
       image: wildlifeImg,
       link: "/kerala/wildlife",
     },
@@ -101,7 +100,7 @@ function Kerala() {
             label: "Wildlife Sanctuaries",
           },
           {
-            value: 580,
+            value: 590,
             suffix: " km",
             label: "Coastline",
           },
