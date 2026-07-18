@@ -11,6 +11,7 @@ import heroImg from "../../../assets/states/karnataka/categories/architecture/he
 import kadambaImg from "../../../assets/states/karnataka/categories/architecture/kadamba.JPG";
 import chalukyaImg from "../../../assets/states/karnataka/categories/architecture/aihole.jpg";
 import rashtrakutaImg from "../../../assets/states/karnataka/categories/kingdoms/kailasa.webp";
+import westernChalukyaImg from "../../../assets/states/karnataka/categories/architecture/itagi.jpg";
 import hoysalaImg from "../../../assets/states/karnataka/categories/kingdoms/hoysala.jpg";
 import vijayanagaraImg from "../../../assets/states/karnataka/categories/architecture/Hampi.jpeg";
 import wadiyarImg from "../../../assets/states/karnataka/categories/architecture/mysore.jpg";
@@ -42,6 +43,14 @@ function Architecture() {
         "The Rashtrakutas expanded Karnataka's architectural achievements by commissioning monumental temples, rock-cut monuments and Jain sanctuaries. Their patronage celebrated imperial power while elevating artistic craftsmanship throughout the Deccan.",
       image: rashtrakutaImg,
       location: "Manyakheta",
+    },
+    {
+      year: "973-1189 CE",
+      title: "The Western Chalukyas",
+      description:
+        "Also known as the Kalyani Chalukyas, they ushered in a new era of temple architecture across the Deccan. Magnificent monuments at Lakkundi, Itagi and Gadag blended the legacy of the Badami Chalukyas with fresh artistic innovations, creating the architectural style that later inspired the Hoysalas. Under Vikramaditya VI, this flourishing of art and architecture reached its peak.",
+      image: westernChalukyaImg,
+      location: "Kalyani • Lakkundi • Itagi • Gadag",
     },
     {
       year: "1026-1343 CE",
@@ -82,7 +91,7 @@ function Architecture() {
 
       <CategoryOverview
         heading="A Legacy Carved in Stone"
-        text1="For nearly two thousand years, Karnataka has stood at the forefront of Indian architecture. Dynasties including the Kadambas, Chalukyas, Rashtrakutas, Hoysalas, Vijayanagara rulers and the Wadiyars transformed stone into enduring monuments that continue to inspire admiration across the world."
+        text1="For nearly two thousand years, Karnataka has stood at the forefront of Indian architecture. Dynasties including the Kadambas, Badami Chalukyas, Rashtrakutas, Western Chalukyas, Hoysalas, Vijayanagara rulers and the Wadiyars transformed stone into enduring monuments that continue to inspire admiration across the world."
         text2="From cave sanctuaries and intricately carved temples to mighty forts, royal palaces and sacred monuments, every era contributed distinctive styles and innovations, making Karnataka one of India's richest and most diverse architectural landscapes."
       />
 
