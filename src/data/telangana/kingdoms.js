@@ -104,6 +104,6 @@ export const gallery = [
     title: "Mughal Deccan",
     description:
       "Mughal annexation of Golconda in 1687 reshaped the region before the emergence of the autonomous Asaf Jahi dynasty.",
-    link: "https://en.wikipedia.org/wiki/Deccan_wars",
+    link: "https://lotusarise.com/deccan-policy-of-mughals-upsc/",
   }
 ];
