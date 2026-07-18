@@ -54,10 +54,10 @@ export const gallery = [
     src: koodiyattamImg,
     category: "UNESCO Heritage",
     title: "Koodiyattam",
-    description:
-      "The world's oldest surviving Sanskrit theatre tradition, inscribed by UNESCO as an Intangible Cultural Heritage of Humanity.",
+description:
+  "The world's oldest surviving Sanskrit theatre tradition, renowned for its elaborate costumes, stylised gestures and centuries-old temple performance heritage.",
     state: "Kerala",
-    link: "https://ich.unesco.org/en/RL/koodiyattam-sanskrit-theatre-00010",
+    link: "https://en.wikipedia.org/wiki/Koodiyattam",
   },
   {
     src: vallamkaliImg,
