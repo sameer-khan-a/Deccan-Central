@@ -14,7 +14,7 @@ Deccan Central is a cinematic web application built to document and celebrate th
 
 The platform brings together the **history, kingdoms, architecture, monuments, cuisine, wildlife, festivals, traditions, personalities, literature, and living heritage** of **Karnataka, Kerala, Tamil Nadu, Telangana, and Andhra Pradesh** into a single modern web experience.
 
-Designed as a digital knowledge platform, Deccan Central encourages exploration through carefully curated content, interactive navigation, and a visually immersive interface.
+Designed as a modern digital knowledge platform, Deccan Central encourages exploration through carefully curated content, interactive navigation, and a visually immersive interface.
 
 ---
 
@@ -99,6 +99,12 @@ npm run build
 
 ---
 
+## 🌐 Live Demo
+
+**Website:** https://deccan-central-neon.vercel.app/
+
+---
+
 ## 📸 Screenshots
 
 ### 🏠 Home
@@ -140,7 +146,7 @@ npm run build
 - [x] Smart search
 - [x] Responsive design
 - [x] Responsive image galleries
-- [x] State-specific themes
+- [x] State-specific visual themes
 - [x] Live deployment
 - [ ] Interactive heritage maps
 - [ ] Personalized bookmarks
