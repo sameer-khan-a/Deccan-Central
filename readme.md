@@ -141,7 +141,7 @@ npm run build
 - [x] Responsive design
 - [x] Responsive image galleries
 - [x] State-specific themes
-- [ ] Live deployment
+- [x] Live deployment
 - [ ] Interactive heritage maps
 - [ ] Personalized bookmarks
 - [ ] Multilingual support
